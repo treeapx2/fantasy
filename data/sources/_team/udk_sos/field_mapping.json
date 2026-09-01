@@ -1,0 +1,10 @@
+{
+  "source": "udk_sos",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "team_name": "team_name",
+    "position": "position",
+    "sos_rank": "sos_rank",
+    "weeks": "weeks"
+  }
+}

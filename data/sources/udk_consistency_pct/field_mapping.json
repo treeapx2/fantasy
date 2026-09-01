@@ -1,0 +1,25 @@
+{
+  "source": "udk_consistency_pct",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "GP": "sample_gp",
+    "Top 12": "floor_pct",
+    "Top 24": "floor_pct",
+    "QB 1-6": "ceiling_pct",
+    "RB1": "ceiling_pct",
+    "WR1": "ceiling_pct",
+    "TE 1-6": "ceiling_pct",
+    "QB 7-12": "tier2_pct",
+    "RB2": "tier2_pct",
+    "WR2": "tier2_pct",
+    "TE 7-12": "tier2_pct",
+    "QB2": "tier3_pct",
+    "RB3": "tier3_pct",
+    "WR3": "tier3_pct",
+    "TE2": "tier3_pct",
+    "QB3+": "bust_pct",
+    "RB4+": "bust_pct",
+    "WR4+": "bust_pct",
+    "TE3+": "bust_pct"
+  }
+}

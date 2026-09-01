@@ -1,0 +1,18 @@
+{
+  "source": "udk_consistency_charts",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "report_rank": "cons_charts_rank",
+    "total_points_3yr": "cons_total_points",
+    "finish_2016": "finish_2016",
+    "finish_2017": "finish_2017",
+    "finish_2018": "finish_2018",
+    "finish_2019": "finish_2019",
+    "finish_2020": "finish_2020",
+    "finish_2021": "finish_2021",
+    "finish_2022": "finish_2022",
+    "finish_2023": "finish_2023",
+    "finish_2024": "finish_2024",
+    "finish_2025": "finish_2025"
+  }
+}

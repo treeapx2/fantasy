@@ -1,0 +1,10 @@
+{
+  "source": "udk_value_scout",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "true_value": "true_value",
+    "avg_adp": "avg_adp",
+    "diff_raw": "adp_diff_raw",
+    "diff_picks": "adp_diff_picks"
+  }
+}

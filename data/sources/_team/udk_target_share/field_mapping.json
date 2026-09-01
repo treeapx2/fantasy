@@ -1,0 +1,13 @@
+{
+  "source": "udk_target_share",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "team_name": "team_name",
+    "wr_tgt_pct": "wr_tgt_pct",
+    "wr_cmp_pct": "wr_cmp_pct",
+    "rb_tgt_pct": "rb_tgt_pct",
+    "rb_cmp_pct": "rb_cmp_pct",
+    "te_tgt_pct": "te_tgt_pct",
+    "te_cmp_pct": "te_cmp_pct"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "udk_market_share",
+  "_comment": "Maps this source's raw field names to canonical field names. Any raw field NOT listed here is left unmapped: build_canonical.py reports it and it will not reach the canonical dataset until deliberately added below.",
+  "mapping": {
+    "games_played": "ms_games_played",
+    "pos_pts_pct": "pos_pts_share",
+    "ATT%_rush": "att_share_rush",
+    "YD%_rush": "yd_share_rush",
+    "TD%_rush": "td_share_rush",
+    "TGT%_rec": "tgt_share",
+    "REC%_rec": "rec_share",
+    "YD%_rec": "yd_share_rec",
+    "TD%_rec": "td_share_rec"
+  }
+}
