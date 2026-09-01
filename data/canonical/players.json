@@ -1,0 +1,6956 @@
+{
+  "player_count": 312,
+  "sources_included": [
+    "udk"
+  ],
+  "players": [
+    {
+      "player_id": "josh-allen-buf-qb",
+      "name": "Josh Allen",
+      "team": "BUF",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 1,
+          "tier": 1,
+          "age": 30.3,
+          "exp": 9,
+          "bye": 7,
+          "adp_positional": "2.10",
+          "risk": 2.6,
+          "upside": 9.7,
+          "proj_pts": 367.2,
+          "games_2025": 17,
+          "finish_2025": 1,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "lamar-jackson-bal-qb",
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 2,
+          "tier": 2,
+          "age": 29.7,
+          "exp": 9,
+          "bye": 13,
+          "adp_positional": "3.07",
+          "risk": 5.5,
+          "upside": 9.0,
+          "proj_pts": 334.0,
+          "games_2025": 13,
+          "finish_2025": 20,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jalen-hurts-phi-qb",
+      "name": "Jalen Hurts",
+      "team": "PHI",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 3,
+          "tier": 3,
+          "age": 28.1,
+          "exp": 7,
+          "bye": 10,
+          "adp_positional": "5.12",
+          "risk": 3.8,
+          "upside": 5.8,
+          "proj_pts": 325.1,
+          "games_2025": 16,
+          "finish_2025": 10,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jayden-daniels-was-qb",
+      "name": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 4,
+          "tier": 3,
+          "age": 25.7,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "6.05",
+          "risk": 4.7,
+          "upside": 6.2,
+          "proj_pts": 324.0,
+          "games_2025": 7,
+          "finish_2025": 34,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "joe-burrow-cin-qb",
+      "name": "Joe Burrow",
+      "team": "CIN",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 5,
+          "tier": 3,
+          "age": 29.7,
+          "exp": 7,
+          "bye": 6,
+          "adp_positional": "5.04",
+          "risk": 5.5,
+          "upside": 8.9,
+          "proj_pts": 323.3,
+          "games_2025": 8,
+          "finish_2025": 28,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "drake-maye-ne-qb",
+      "name": "Drake Maye",
+      "team": "NE",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 6,
+          "tier": 4,
+          "age": 24.0,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": "4.12",
+          "risk": 4.1,
+          "upside": 8.2,
+          "proj_pts": 321.0,
+          "games_2025": 17,
+          "finish_2025": 3,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaxson-dart-nyg-qb",
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 7,
+          "tier": 4,
+          "age": 23.3,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "8.08",
+          "risk": 5.7,
+          "upside": 8.2,
+          "proj_pts": 318.1,
+          "games_2025": 14,
+          "finish_2025": 16,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "caleb-williams-chi-qb",
+      "name": "Caleb Williams",
+      "team": "CHI",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 8,
+          "tier": 4,
+          "age": 24.8,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "6.11",
+          "risk": 5.8,
+          "upside": 7.8,
+          "proj_pts": 315.9,
+          "games_2025": 17,
+          "finish_2025": 7,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "trevor-lawrence-jax-qb",
+      "name": "Trevor Lawrence",
+      "team": "JAX",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 9,
+          "tier": 4,
+          "age": 26.9,
+          "exp": 6,
+          "bye": 7,
+          "adp_positional": "9.06",
+          "risk": 4.9,
+          "upside": 7.7,
+          "proj_pts": 315.1,
+          "games_2025": 17,
+          "finish_2025": 4,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dak-prescott-dal-qb",
+      "name": "Dak Prescott",
+      "team": "DAL",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 10,
+          "tier": 5,
+          "age": 33.1,
+          "exp": 11,
+          "bye": 14,
+          "adp_positional": "7.06",
+          "risk": 4.1,
+          "upside": 7.7,
+          "proj_pts": 310.5,
+          "games_2025": 17,
+          "finish_2025": 5,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "bo-nix-den-qb",
+      "name": "Bo Nix",
+      "team": "DEN",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 11,
+          "tier": 5,
+          "age": 26.5,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "10.12",
+          "risk": 4.6,
+          "upside": 6.8,
+          "proj_pts": 308.1,
+          "games_2025": 17,
+          "finish_2025": 6,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "justin-herbert-lac-qb",
+      "name": "Justin Herbert",
+      "team": "LAC",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 12,
+          "tier": 5,
+          "age": 28.5,
+          "exp": 7,
+          "bye": 7,
+          "adp_positional": "7.10",
+          "risk": 4.8,
+          "upside": 7.8,
+          "proj_pts": 307.8,
+          "games_2025": 16,
+          "finish_2025": 9,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brock-purdy-sf-qb",
+      "name": "Brock Purdy",
+      "team": "SF",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 13,
+          "tier": 6,
+          "age": 26.7,
+          "exp": 5,
+          "bye": 8,
+          "adp_positional": "11.03",
+          "risk": 4.2,
+          "upside": 7.5,
+          "proj_pts": 303.4,
+          "games_2025": 9,
+          "finish_2025": 24,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jared-goff-det-qb",
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 14,
+          "tier": 6,
+          "age": 31.9,
+          "exp": 11,
+          "bye": 6,
+          "adp_positional": "12.03",
+          "risk": 2.8,
+          "upside": 7.2,
+          "proj_pts": 302.2,
+          "games_2025": 17,
+          "finish_2025": 8,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "matthew-stafford-lar-qb",
+      "name": "Matthew Stafford",
+      "team": "LAR",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 15,
+          "tier": 6,
+          "age": 38.6,
+          "exp": 18,
+          "bye": 11,
+          "adp_positional": "8.12",
+          "risk": 4.4,
+          "upside": 5.1,
+          "proj_pts": 299.5,
+          "games_2025": 17,
+          "finish_2025": 2,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tyler-shough-no-qb",
+      "name": "Tyler Shough",
+      "team": "NO",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 16,
+          "tier": 6,
+          "age": 26.9,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "16.09",
+          "risk": 4.3,
+          "upside": 7.3,
+          "proj_pts": 299.1,
+          "games_2025": 11,
+          "finish_2025": 26,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kyler-murray-min-qb",
+      "name": "Kyler Murray",
+      "team": "MIN",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 17,
+          "tier": 6,
+          "age": 29.1,
+          "exp": 8,
+          "bye": 6,
+          "adp_positional": "14.02",
+          "risk": 7.5,
+          "upside": 7.5,
+          "proj_pts": 298.9,
+          "games_2025": 5,
+          "finish_2025": 39,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "baker-mayfield-tb-qb",
+      "name": "Baker Mayfield",
+      "team": "TB",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 18,
+          "tier": 7,
+          "age": 31.4,
+          "exp": 9,
+          "bye": 10,
+          "adp_positional": "12.12",
+          "risk": 4.1,
+          "upside": 6.8,
+          "proj_pts": 296.5,
+          "games_2025": 17,
+          "finish_2025": 12,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "patrick-mahomes-kc-qb",
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 19,
+          "tier": 7,
+          "age": 31.0,
+          "exp": 10,
+          "bye": 5,
+          "adp_positional": "10.01",
+          "risk": 5.3,
+          "upside": 8.2,
+          "proj_pts": 295.5,
+          "games_2025": 14,
+          "finish_2025": 11,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "malik-willis-mia-qb",
+      "name": "Malik Willis",
+      "team": "MIA",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 20,
+          "tier": 7,
+          "age": 27.3,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": "17.03",
+          "risk": 5.3,
+          "upside": 8.0,
+          "proj_pts": 282.0,
+          "games_2025": 4,
+          "finish_2025": 45,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordan-love-gb-qb",
+      "name": "Jordan Love",
+      "team": "GB",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 21,
+          "tier": 7,
+          "age": 27.8,
+          "exp": 7,
+          "bye": 11,
+          "adp_positional": "13.06",
+          "risk": 3.3,
+          "upside": 5.2,
+          "proj_pts": 274.6,
+          "games_2025": 15,
+          "finish_2025": 15,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cam-ward-ten-qb",
+      "name": "Cam Ward",
+      "team": "TEN",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 22,
+          "tier": 8,
+          "age": 24.3,
+          "exp": 2,
+          "bye": 9,
+          "adp_positional": "20.01",
+          "risk": 4.6,
+          "upside": 6.0,
+          "proj_pts": 260.2,
+          "games_2025": 17,
+          "finish_2025": 23,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "c-j-stroud-hou-qb",
+      "name": "C.J. Stroud",
+      "team": "HOU",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 23,
+          "tier": 8,
+          "age": 24.9,
+          "exp": 4,
+          "bye": 8,
+          "adp_positional": "18.02",
+          "risk": 4.2,
+          "upside": 6.1,
+          "proj_pts": 259.3,
+          "games_2025": 14,
+          "finish_2025": 21,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "sam-darnold-sea-qb",
+      "name": "Sam Darnold",
+      "team": "SEA",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 24,
+          "tier": 8,
+          "age": 29.3,
+          "exp": 9,
+          "bye": 11,
+          "adp_positional": "14.04",
+          "risk": 4.0,
+          "upside": 6.2,
+          "proj_pts": 253.8,
+          "games_2025": 17,
+          "finish_2025": 13,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "daniel-jones-ind-qb",
+      "name": "Daniel Jones",
+      "team": "IND",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 25,
+          "tier": 8,
+          "age": 29.3,
+          "exp": 8,
+          "bye": 13,
+          "adp_positional": "17.11",
+          "risk": 7.5,
+          "upside": 6.3,
+          "proj_pts": 248.8,
+          "games_2025": 13,
+          "finish_2025": 17,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "bryce-young-car-qb",
+      "name": "Bryce Young",
+      "team": "CAR",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 26,
+          "tier": 8,
+          "age": 25.1,
+          "exp": 4,
+          "bye": 5,
+          "adp_positional": "19.12",
+          "risk": 4.0,
+          "upside": 5.4,
+          "proj_pts": 235.2,
+          "games_2025": 16,
+          "finish_2025": 18,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "aaron-rodgers-pit-qb",
+      "name": "Aaron Rodgers",
+      "team": "PIT",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 27,
+          "tier": 8,
+          "age": 42.8,
+          "exp": 22,
+          "bye": 9,
+          "adp_positional": "20.01",
+          "risk": 7.0,
+          "upside": 3.8,
+          "proj_pts": 234.1,
+          "games_2025": 16,
+          "finish_2025": 19,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "geno-smith-nyj-qb",
+      "name": "Geno Smith",
+      "team": "NYJ",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 28,
+          "tier": 8,
+          "age": 35.9,
+          "exp": 14,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 4.9,
+          "upside": 3.9,
+          "proj_pts": 225.0,
+          "games_2025": 15,
+          "finish_2025": 22,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jacoby-brissett-ari-qb",
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 29,
+          "tier": 9,
+          "age": 33.7,
+          "exp": 11,
+          "bye": 14,
+          "adp_positional": "21.03",
+          "risk": 4.7,
+          "upside": 6.0,
+          "proj_pts": 199.7,
+          "games_2025": 14,
+          "finish_2025": 14,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tua-tagovailoa-atl-qb",
+      "name": "Tua Tagovailoa",
+      "team": "ATL",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 30,
+          "tier": 9,
+          "age": 28.5,
+          "exp": 7,
+          "bye": 11,
+          "adp_positional": "20.09",
+          "risk": 5.5,
+          "upside": 4.3,
+          "proj_pts": 165.4,
+          "games_2025": 14,
+          "finish_2025": 25,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "shedeur-sanders-cle-qb",
+      "name": "Shedeur Sanders",
+      "team": "CLE",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 31,
+          "tier": 9,
+          "age": 24.6,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "20.08",
+          "risk": 8.1,
+          "upside": 5.8,
+          "proj_pts": 139.0,
+          "games_2025": 8,
+          "finish_2025": 37,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "fernando-mendoza-lv-qb",
+      "name": "Fernando Mendoza",
+      "team": "LV",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 32,
+          "tier": 9,
+          "age": 22.9,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "16.03",
+          "risk": 8.8,
+          "upside": 6.7,
+          "proj_pts": 118.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "michael-penix-jr-atl-qb",
+      "name": "Michael Penix Jr.",
+      "team": "ATL",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 33,
+          "tier": 9,
+          "age": 26.3,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": "19.12",
+          "risk": 5.3,
+          "upside": 4.7,
+          "proj_pts": 108.0,
+          "games_2025": 9,
+          "finish_2025": 33,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kirk-cousins-lv-qb",
+      "name": "Kirk Cousins",
+      "team": "LV",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 34,
+          "tier": 9,
+          "age": 38.1,
+          "exp": 15,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 8.1,
+          "upside": 4.8,
+          "proj_pts": 100.0,
+          "games_2025": 11,
+          "finish_2025": 35,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "deshaun-watson-cle-qb",
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 35,
+          "tier": 9,
+          "age": 31.0,
+          "exp": 10,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 9.3,
+          "upside": 4.3,
+          "proj_pts": 90.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "carson-beck-ari-qb",
+      "name": "Carson Beck",
+      "team": "ARI",
+      "position": "QB",
+      "sources": {
+        "udk": {
+          "rank": 36,
+          "tier": 9,
+          "age": 24.8,
+          "exp": 0,
+          "bye": 14,
+          "adp_positional": null,
+          "risk": 8.5,
+          "upside": 5.8,
+          "proj_pts": 73.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jahmyr-gibbs-det-rb",
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 1,
+          "tier": 1,
+          "age": 24.5,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": "1.02",
+          "risk": 2.0,
+          "upside": 9.8,
+          "proj_pts": 378.1,
+          "games_2025": 17,
+          "finish_2025": 4,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "bijan-robinson-atl-rb",
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 2,
+          "tier": 1,
+          "age": 24.6,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "1.02",
+          "risk": 1.3,
+          "upside": 10.0,
+          "proj_pts": 365.7,
+          "games_2025": 17,
+          "finish_2025": 3,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "christian-mccaffrey-sf-rb",
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 3,
+          "tier": 2,
+          "age": 30.3,
+          "exp": 10,
+          "bye": 8,
+          "adp_positional": "1.05",
+          "risk": 5.6,
+          "upside": 9.3,
+          "proj_pts": 344.4,
+          "games_2025": 17,
+          "finish_2025": 1,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jonathan-taylor-ind-rb",
+      "name": "Jonathan Taylor",
+      "team": "IND",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 4,
+          "tier": 3,
+          "age": 27.6,
+          "exp": 7,
+          "bye": 13,
+          "adp_positional": "1.07",
+          "risk": 3.9,
+          "upside": 9.0,
+          "proj_pts": 293.5,
+          "games_2025": 17,
+          "finish_2025": 2,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "james-cook-iii-buf-rb",
+      "name": "James Cook III",
+      "team": "BUF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 5,
+          "tier": 3,
+          "age": 26.9,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": "1.10",
+          "risk": 2.5,
+          "upside": 8.4,
+          "proj_pts": 292.1,
+          "games_2025": 17,
+          "finish_2025": 5,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "de-von-achane-mia-rb",
+      "name": "De'Von Achane",
+      "team": "MIA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 6,
+          "tier": 4,
+          "age": 24.9,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": "2.01",
+          "risk": 3.8,
+          "upside": 9.1,
+          "proj_pts": 282.2,
+          "games_2025": 16,
+          "finish_2025": 6,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kenneth-walker-kc-rb",
+      "name": "Kenneth Walker",
+      "team": "KC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 7,
+          "tier": 4,
+          "age": 25.9,
+          "exp": 5,
+          "bye": 5,
+          "adp_positional": "2.07",
+          "risk": 5.0,
+          "upside": 8.2,
+          "proj_pts": 265.1,
+          "games_2025": 17,
+          "finish_2025": 22,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chase-brown-cin-rb",
+      "name": "Chase Brown",
+      "team": "CIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 8,
+          "tier": 4,
+          "age": 26.5,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": "2.03",
+          "risk": 4.8,
+          "upside": 8.4,
+          "proj_pts": 264.9,
+          "games_2025": 17,
+          "finish_2025": 8,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "omarion-hampton-lac-rb",
+      "name": "Omarion Hampton",
+      "team": "LAC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 9,
+          "tier": 5,
+          "age": 23.5,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "2.04",
+          "risk": 4.7,
+          "upside": 8.7,
+          "proj_pts": 252.0,
+          "games_2025": 9,
+          "finish_2025": 36,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ashton-jeanty-lv-rb",
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 10,
+          "tier": 5,
+          "age": 22.8,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": "2.03",
+          "risk": 10.0,
+          "upside": 8.7,
+          "proj_pts": 249.9,
+          "games_2025": 17,
+          "finish_2025": 12,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "saquon-barkley-phi-rb",
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 11,
+          "tier": 5,
+          "age": 29.6,
+          "exp": 9,
+          "bye": 10,
+          "adp_positional": "2.02",
+          "risk": 4.9,
+          "upside": 8.3,
+          "proj_pts": 244.1,
+          "games_2025": 16,
+          "finish_2025": 13,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "derrick-henry-bal-rb",
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 12,
+          "tier": 6,
+          "age": 32.7,
+          "exp": 11,
+          "bye": 13,
+          "adp_positional": "2.08",
+          "risk": 5.3,
+          "upside": 8.6,
+          "proj_pts": 239.7,
+          "games_2025": 17,
+          "finish_2025": 7,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jeremiyah-love-ari-rb",
+      "name": "Jeremiyah Love",
+      "team": "ARI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 13,
+          "tier": 6,
+          "age": 21.3,
+          "exp": 0,
+          "bye": 14,
+          "adp_positional": "3.02",
+          "risk": 5.3,
+          "upside": 8.5,
+          "proj_pts": 233.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "kyren-williams-lar-rb",
+      "name": "Kyren Williams",
+      "team": "LAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 14,
+          "tier": 6,
+          "age": 26.0,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "3.06",
+          "risk": 5.5,
+          "upside": 8.0,
+          "proj_pts": 232.5,
+          "games_2025": 17,
+          "finish_2025": 9,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "breece-hall-nyj-rb",
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 15,
+          "tier": 6,
+          "age": 25.3,
+          "exp": 5,
+          "bye": 13,
+          "adp_positional": "3.10",
+          "risk": 5.3,
+          "upside": 8.1,
+          "proj_pts": 228.8,
+          "games_2025": 16,
+          "finish_2025": 18,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "d-andre-swift-chi-rb",
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 16,
+          "tier": 6,
+          "age": 27.6,
+          "exp": 7,
+          "bye": 10,
+          "adp_positional": "5.04",
+          "risk": 5.3,
+          "upside": 6.8,
+          "proj_pts": 228.4,
+          "games_2025": 16,
+          "finish_2025": 14,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "javonte-williams-dal-rb",
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 17,
+          "tier": 6,
+          "age": 26.4,
+          "exp": 6,
+          "bye": 14,
+          "adp_positional": "3.12",
+          "risk": 4.3,
+          "upside": 7.7,
+          "proj_pts": 222.8,
+          "games_2025": 16,
+          "finish_2025": 11,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cam-skattebo-nyg-rb",
+      "name": "Cam Skattebo",
+      "team": "NYG",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 18,
+          "tier": 6,
+          "age": 24.6,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "4.07",
+          "risk": 6.5,
+          "upside": 7.2,
+          "proj_pts": 218.2,
+          "games_2025": 8,
+          "finish_2025": 41,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "bucky-irving-tb-rb",
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 19,
+          "tier": 6,
+          "age": 24.0,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "4.06",
+          "risk": 5.8,
+          "upside": 7.7,
+          "proj_pts": 217.7,
+          "games_2025": 10,
+          "finish_2025": 33,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "travis-etienne-jr-no-rb",
+      "name": "Travis Etienne Jr.",
+      "team": "NO",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 20,
+          "tier": 7,
+          "age": 27.6,
+          "exp": 6,
+          "bye": 8,
+          "adp_positional": "4.09",
+          "risk": 4.6,
+          "upside": 7.6,
+          "proj_pts": 214.8,
+          "games_2025": 17,
+          "finish_2025": 10,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "bhayshul-tuten-jax-rb",
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 21,
+          "tier": 7,
+          "age": 24.6,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "6.03",
+          "risk": 6.4,
+          "upside": 7.7,
+          "proj_pts": 210.9,
+          "games_2025": 15,
+          "finish_2025": 51,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "quinshon-judkins-cle-rb",
+      "name": "Quinshon Judkins",
+      "team": "CLE",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 22,
+          "tier": 7,
+          "age": 22.9,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "5.05",
+          "risk": 5.0,
+          "upside": 7.6,
+          "proj_pts": 200.9,
+          "games_2025": 14,
+          "finish_2025": 26,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "treveyon-henderson-ne-rb",
+      "name": "TreVeyon Henderson",
+      "team": "NE",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 23,
+          "tier": 7,
+          "age": 23.9,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "5.08",
+          "risk": 5.1,
+          "upside": 8.2,
+          "proj_pts": 195.7,
+          "games_2025": 17,
+          "finish_2025": 19,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "david-montgomery-hou-rb",
+      "name": "David Montgomery",
+      "team": "HOU",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 24,
+          "tier": 7,
+          "age": 29.3,
+          "exp": 8,
+          "bye": 8,
+          "adp_positional": "5.01",
+          "risk": 4.1,
+          "upside": 6.8,
+          "proj_pts": 194.3,
+          "games_2025": 17,
+          "finish_2025": 27,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jadarian-price-sea-rb",
+      "name": "Jadarian Price",
+      "team": "SEA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 25,
+          "tier": 7,
+          "age": 22.9,
+          "exp": 0,
+          "bye": 11,
+          "adp_positional": "6.08",
+          "risk": 5.5,
+          "upside": 7.2,
+          "proj_pts": 193.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "rhamondre-stevenson-ne-rb",
+      "name": "Rhamondre Stevenson",
+      "team": "NE",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 26,
+          "tier": 8,
+          "age": 28.5,
+          "exp": 6,
+          "bye": 11,
+          "adp_positional": "7.10",
+          "risk": 4.8,
+          "upside": 5.6,
+          "proj_pts": 189.0,
+          "games_2025": 14,
+          "finish_2025": 25,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rico-dowdle-pit-rb",
+      "name": "Rico Dowdle",
+      "team": "PIT",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 27,
+          "tier": 8,
+          "age": 28.2,
+          "exp": 7,
+          "bye": 9,
+          "adp_positional": "8.01",
+          "risk": 4.5,
+          "upside": 4.0,
+          "proj_pts": 183.2,
+          "games_2025": 17,
+          "finish_2025": 16,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "josh-jacobs-gb-rb",
+      "name": "Josh Jacobs",
+      "team": "GB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 28,
+          "tier": 8,
+          "age": 28.6,
+          "exp": 8,
+          "bye": 11,
+          "adp_positional": "3.07",
+          "risk": 9.3,
+          "upside": 5.8,
+          "proj_pts": 180.6,
+          "games_2025": 15,
+          "finish_2025": 15,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jacory-croskey-merritt-was-rb",
+      "name": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 29,
+          "tier": 8,
+          "age": 25.4,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "10.08",
+          "risk": 6.3,
+          "upside": 5.9,
+          "proj_pts": 174.6,
+          "games_2025": 17,
+          "finish_2025": 30,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kenny-gainwell-tb-rb",
+      "name": "Kenny Gainwell",
+      "team": "TB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 30,
+          "tier": 8,
+          "age": 27.5,
+          "exp": 6,
+          "bye": 10,
+          "adp_positional": "10.03",
+          "risk": 4.4,
+          "upside": 5.6,
+          "proj_pts": 173.5,
+          "games_2025": 17,
+          "finish_2025": 20,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaylen-warren-pit-rb",
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 31,
+          "tier": 8,
+          "age": 27.8,
+          "exp": 5,
+          "bye": 9,
+          "adp_positional": "6.12",
+          "risk": 4.4,
+          "upside": 6.2,
+          "proj_pts": 173.3,
+          "games_2025": 16,
+          "finish_2025": 17,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chuba-hubbard-car-rb",
+      "name": "Chuba Hubbard",
+      "team": "CAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 32,
+          "tier": 8,
+          "age": 27.2,
+          "exp": 6,
+          "bye": 5,
+          "adp_positional": "7.07",
+          "risk": 6.7,
+          "upside": 5.2,
+          "proj_pts": 164.1,
+          "games_2025": 15,
+          "finish_2025": 42,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tony-pollard-ten-rb",
+      "name": "Tony Pollard",
+      "team": "TEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 33,
+          "tier": 8,
+          "age": 29.4,
+          "exp": 8,
+          "bye": 9,
+          "adp_positional": "8.01",
+          "risk": 5.6,
+          "upside": 5.9,
+          "proj_pts": 163.8,
+          "games_2025": 17,
+          "finish_2025": 23,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "j-k-dobbins-den-rb",
+      "name": "J.K. Dobbins",
+      "team": "DEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 34,
+          "tier": 8,
+          "age": 27.7,
+          "exp": 7,
+          "bye": 10,
+          "adp_positional": "8.11",
+          "risk": 7.5,
+          "upside": 6.2,
+          "proj_pts": 163.4,
+          "games_2025": 10,
+          "finish_2025": 39,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jonathon-brooks-car-rb",
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 35,
+          "tier": 8,
+          "age": 23.1,
+          "exp": 3,
+          "bye": 5,
+          "adp_positional": "9.10",
+          "risk": 7.2,
+          "upside": 6.0,
+          "proj_pts": 162.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kyle-monangai-chi-rb",
+      "name": "Kyle Monangai",
+      "team": "CHI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 36,
+          "tier": 8,
+          "age": 24.5,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "9.05",
+          "risk": 5.8,
+          "upside": 5.7,
+          "proj_pts": 156.6,
+          "games_2025": 17,
+          "finish_2025": 29,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordan-mason-min-rb",
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 37,
+          "tier": 8,
+          "age": 27.3,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": "10.06",
+          "risk": 4.0,
+          "upside": 6.4,
+          "proj_pts": 153.2,
+          "games_2025": 16,
+          "finish_2025": 34,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rachaad-white-was-rb",
+      "name": "Rachaad White",
+      "team": "WAS",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 38,
+          "tier": 8,
+          "age": 27.7,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": "11.12",
+          "risk": 4.6,
+          "upside": 5.6,
+          "proj_pts": 150.5,
+          "games_2025": 17,
+          "finish_2025": 35,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "blake-corum-lar-rb",
+      "name": "Blake Corum",
+      "team": "LAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 39,
+          "tier": 8,
+          "age": 25.8,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": "9.07",
+          "risk": 4.6,
+          "upside": 6.8,
+          "proj_pts": 146.8,
+          "games_2025": 17,
+          "finish_2025": 37,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rj-harvey-den-rb",
+      "name": "RJ Harvey",
+      "team": "DEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 40,
+          "tier": 9,
+          "age": 25.6,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "7.07",
+          "risk": 6.2,
+          "upside": 5.5,
+          "proj_pts": 145.8,
+          "games_2025": 17,
+          "finish_2025": 21,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "marshawn-lloyd-gb-rb",
+      "name": "MarShawn Lloyd",
+      "team": "GB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 41,
+          "tier": 9,
+          "age": 25.7,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": "15.06",
+          "risk": 7.7,
+          "upside": 6.0,
+          "proj_pts": 138.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "aaron-jones-sr-min-rb",
+      "name": "Aaron Jones Sr.",
+      "team": "MIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 42,
+          "tier": 9,
+          "age": 31.8,
+          "exp": 10,
+          "bye": 6,
+          "adp_positional": "11.05",
+          "risk": 4.3,
+          "upside": 5.3,
+          "proj_pts": 138.1,
+          "games_2025": 12,
+          "finish_2025": 43,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tyjae-spears-ten-rb",
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 43,
+          "tier": 9,
+          "age": 25.2,
+          "exp": 4,
+          "bye": 9,
+          "adp_positional": "14.06",
+          "risk": 4.6,
+          "upside": 4.7,
+          "proj_pts": 133.9,
+          "games_2025": 13,
+          "finish_2025": 48,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "woody-marks-hou-rb",
+      "name": "Woody Marks",
+      "team": "HOU",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 44,
+          "tier": 9,
+          "age": 25.7,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "14.03",
+          "risk": 4.3,
+          "upside": 5.4,
+          "proj_pts": 118.9,
+          "games_2025": 16,
+          "finish_2025": 32,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-rodriguez-jr-jax-rb",
+      "name": "Chris Rodriguez Jr.",
+      "team": "JAX",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 45,
+          "tier": 9,
+          "age": 25.9,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "12.10",
+          "risk": 5.1,
+          "upside": 5.2,
+          "proj_pts": 114.9,
+          "games_2025": 13,
+          "finish_2025": 45,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "isiah-pacheco-det-rb",
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 46,
+          "tier": 9,
+          "age": 27.5,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": "16.07",
+          "risk": 5.0,
+          "upside": 5.2,
+          "proj_pts": 112.2,
+          "games_2025": 13,
+          "finish_2025": 55,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "keaton-mitchell-lac-rb",
+      "name": "Keaton Mitchell",
+      "team": "LAC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 47,
+          "tier": 10,
+          "age": 24.6,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "16.05",
+          "risk": 4.7,
+          "upside": 4.9,
+          "proj_pts": 109.0,
+          "games_2025": 13,
+          "finish_2025": 66,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "zach-charbonnet-sea-rb",
+      "name": "Zach Charbonnet",
+      "team": "SEA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 48,
+          "tier": 10,
+          "age": 25.7,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "13.05",
+          "risk": 7.0,
+          "upside": 5.2,
+          "proj_pts": 107.3,
+          "games_2025": 16,
+          "finish_2025": 24,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tyler-allgeier-ari-rb",
+      "name": "Tyler Allgeier",
+      "team": "ARI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 49,
+          "tier": 10,
+          "age": 26.4,
+          "exp": 5,
+          "bye": 14,
+          "adp_positional": "13.01",
+          "risk": 4.0,
+          "upside": 3.5,
+          "proj_pts": 106.4,
+          "games_2025": 17,
+          "finish_2025": 40,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dylan-sampson-cle-rb",
+      "name": "Dylan Sampson",
+      "team": "CLE",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 50,
+          "tier": 10,
+          "age": 22.0,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "16.11",
+          "risk": 3.7,
+          "upside": 4.9,
+          "proj_pts": 106.3,
+          "games_2025": 15,
+          "finish_2025": 56,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jonah-coleman-den-rb",
+      "name": "Jonah Coleman",
+      "team": "DEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 51,
+          "tier": 10,
+          "age": 23.0,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": "15.03",
+          "risk": 5.3,
+          "upside": 5.8,
+          "proj_pts": 104.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "mike-washington-jr-lv-rb",
+      "name": "Mike Washington Jr.",
+      "team": "LV",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 52,
+          "tier": 10,
+          "age": 23.3,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "13.12",
+          "risk": 5.8,
+          "upside": 6.2,
+          "proj_pts": 103.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "tyrone-tracy-jr-nyg-rb",
+      "name": "Tyrone Tracy Jr.",
+      "team": "NYG",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 53,
+          "tier": 10,
+          "age": 26.8,
+          "exp": 3,
+          "bye": 8,
+          "adp_positional": "14.12",
+          "risk": 5.9,
+          "upside": 5.0,
+          "proj_pts": 102.5,
+          "games_2025": 15,
+          "finish_2025": 28,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tank-bigsby-phi-rb",
+      "name": "Tank Bigsby",
+      "team": "PHI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 54,
+          "tier": 10,
+          "age": 25.0,
+          "exp": 4,
+          "bye": 10,
+          "adp_positional": "15.11",
+          "risk": 4.6,
+          "upside": 6.0,
+          "proj_pts": 99.0,
+          "games_2025": 17,
+          "finish_2025": 62,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "alvin-kamara-no-rb",
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 55,
+          "tier": 10,
+          "age": 31.1,
+          "exp": 10,
+          "bye": 8,
+          "adp_positional": "14.05",
+          "risk": 6.5,
+          "upside": 4.2,
+          "proj_pts": 98.2,
+          "games_2025": 11,
+          "finish_2025": 50,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brian-robinson-atl-rb",
+      "name": "Brian Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 56,
+          "tier": 10,
+          "age": 27.5,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "14.10",
+          "risk": 3.7,
+          "upside": 4.3,
+          "proj_pts": 91.4,
+          "games_2025": 17,
+          "finish_2025": 61,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordan-james-sf-rb",
+      "name": "Jordan James",
+      "team": "SF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 57,
+          "tier": 10,
+          "age": 22.4,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 4.8,
+          "upside": 4.2,
+          "proj_pts": 84.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kimani-vidal-lac-rb",
+      "name": "Kimani Vidal",
+      "team": "LAC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 58,
+          "tier": 10,
+          "age": 25.0,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "20.10",
+          "risk": 4.4,
+          "upside": 3.9,
+          "proj_pts": 84.3,
+          "games_2025": 13,
+          "finish_2025": 38,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "justice-hill-bal-rb",
+      "name": "Justice Hill",
+      "team": "BAL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 59,
+          "tier": 10,
+          "age": 28.8,
+          "exp": 8,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 3.7,
+          "upside": 4.0,
+          "proj_pts": 83.6,
+          "games_2025": 10,
+          "finish_2025": 63,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "samaje-perine-cin-rb",
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 60,
+          "tier": 10,
+          "age": 31.0,
+          "exp": 10,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 4.1,
+          "upside": 3.1,
+          "proj_pts": 80.0,
+          "games_2025": 15,
+          "finish_2025": 57,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "emmett-johnson-kc-rb",
+      "name": "Emmett Johnson",
+      "team": "KC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 61,
+          "tier": 10,
+          "age": 22.9,
+          "exp": 0,
+          "bye": 5,
+          "adp_positional": "18.05",
+          "risk": 4.8,
+          "upside": 4.5,
+          "proj_pts": 79.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "nicholas-singleton-ten-rb",
+      "name": "Nicholas Singleton",
+      "team": "TEN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 62,
+          "tier": 10,
+          "age": 22.7,
+          "exp": 0,
+          "bye": 9,
+          "adp_positional": "18.07",
+          "risk": 5.4,
+          "upside": 5.7,
+          "proj_pts": 76.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "ty-johnson-buf-rb",
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 63,
+          "tier": 10,
+          "age": 29.0,
+          "exp": 8,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 3.5,
+          "upside": 3.8,
+          "proj_pts": 74.5,
+          "games_2025": 17,
+          "finish_2025": 49,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "lequint-allen-jr-jax-rb",
+      "name": "LeQuint Allen Jr.",
+      "team": "JAX",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 64,
+          "tier": 10,
+          "age": 22.1,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 4.9,
+          "upside": 3.2,
+          "proj_pts": 73.2,
+          "games_2025": 17,
+          "finish_2025": 91,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-brooks-gb-rb",
+      "name": "Chris Brooks",
+      "team": "GB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 65,
+          "tier": 10,
+          "age": 26.7,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.6,
+          "upside": 2.7,
+          "proj_pts": 68.5,
+          "games_2025": 17,
+          "finish_2025": 82,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "james-conner-ari-rb",
+      "name": "James Conner",
+      "team": "ARI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 66,
+          "tier": 10,
+          "age": 31.3,
+          "exp": 10,
+          "bye": 14,
+          "adp_positional": "20.07",
+          "risk": 4.3,
+          "upside": 3.3,
+          "proj_pts": 67.0,
+          "games_2025": 3,
+          "finish_2025": 78,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "braelon-allen-nyj-rb",
+      "name": "Braelon Allen",
+      "team": "NYJ",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 67,
+          "tier": 10,
+          "age": 22.6,
+          "exp": 3,
+          "bye": 13,
+          "adp_positional": "18.01",
+          "risk": 5.0,
+          "upside": 5.1,
+          "proj_pts": 63.8,
+          "games_2025": 4,
+          "finish_2025": 97,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "george-holani-sea-rb",
+      "name": "George Holani",
+      "team": "SEA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 68,
+          "tier": 10,
+          "age": 26.7,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.5,
+          "upside": 2.0,
+          "proj_pts": 63.6,
+          "games_2025": 11,
+          "finish_2025": 90,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "isaiah-davis-nyj-rb",
+      "name": "Isaiah Davis",
+      "team": "NYJ",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 69,
+          "tier": 10,
+          "age": 24.5,
+          "exp": 3,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 5.2,
+          "upside": 3.3,
+          "proj_pts": 62.6,
+          "games_2025": 16,
+          "finish_2025": 59,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dj-giddens-ind-rb",
+      "name": "DJ Giddens",
+      "team": "IND",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 70,
+          "tier": 10,
+          "age": 23.0,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 5.1,
+          "upside": 3.8,
+          "proj_pts": 61.9,
+          "games_2025": 10,
+          "finish_2025": 108,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kaelon-black-sf-rb",
+      "name": "Kaelon Black",
+      "team": "SF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 71,
+          "tier": 10,
+          "age": 24.9,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": "18.10",
+          "risk": 5.7,
+          "upside": 4.9,
+          "proj_pts": 60.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "devin-neal-no-rb",
+      "name": "Devin Neal",
+      "team": "NO",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 72,
+          "tier": 10,
+          "age": 23.1,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "18.08",
+          "risk": 4.8,
+          "upside": 2.7,
+          "proj_pts": 59.0,
+          "games_2025": 11,
+          "finish_2025": 65,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jerome-ford-fa-rb",
+      "name": "Jerome Ford",
+      "team": "FA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 73,
+          "tier": 10,
+          "age": 27.0,
+          "exp": 5,
+          "bye": null,
+          "adp_positional": null,
+          "risk": 4.8,
+          "upside": 2.3,
+          "proj_pts": 58.2,
+          "games_2025": 13,
+          "finish_2025": 75,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brashard-smith-kc-rb",
+      "name": "Brashard Smith",
+      "team": "KC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 74,
+          "tier": 10,
+          "age": 23.4,
+          "exp": 2,
+          "bye": 5,
+          "adp_positional": "19.10",
+          "risk": 4.8,
+          "upside": 3.0,
+          "proj_pts": 57.3,
+          "games_2025": 17,
+          "finish_2025": 67,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ray-davis-buf-rb",
+      "name": "Ray Davis",
+      "team": "BUF",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 75,
+          "tier": 10,
+          "age": 26.8,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "19.08",
+          "risk": 3.8,
+          "upside": 4.7,
+          "proj_pts": 54.6,
+          "games_2025": 17,
+          "finish_2025": 58,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaydon-blue-dal-rb",
+      "name": "Jaydon Blue",
+      "team": "DAL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 76,
+          "tier": 10,
+          "age": 22.7,
+          "exp": 2,
+          "bye": 14,
+          "adp_positional": "20.01",
+          "risk": 5.0,
+          "upside": 4.1,
+          "proj_pts": 49.4,
+          "games_2025": 5,
+          "finish_2025": 89,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "emanuel-wilson-sea-rb",
+      "name": "Emanuel Wilson",
+      "team": "SEA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 77,
+          "tier": 10,
+          "age": 27.3,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "21.10",
+          "risk": 4.9,
+          "upside": 3.2,
+          "proj_pts": 48.1,
+          "games_2025": 17,
+          "finish_2025": 47,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaylen-wright-mia-rb",
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 78,
+          "tier": 10,
+          "age": 23.4,
+          "exp": 3,
+          "bye": 6,
+          "adp_positional": "21.08",
+          "risk": 5.0,
+          "upside": 4.8,
+          "proj_pts": 46.3,
+          "games_2025": 10,
+          "finish_2025": 69,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kaytron-allen-was-rb",
+      "name": "Kaytron Allen",
+      "team": "WAS",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 79,
+          "tier": 10,
+          "age": 23.7,
+          "exp": 0,
+          "bye": 7,
+          "adp_positional": "20.11",
+          "risk": 5.3,
+          "upside": 3.5,
+          "proj_pts": 45.4,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "emari-demercado-kc-rb",
+      "name": "Emari Demercado",
+      "team": "KC",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 80,
+          "tier": 10,
+          "age": 27.6,
+          "exp": 4,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 5.3,
+          "upside": 2.0,
+          "proj_pts": 45.3,
+          "games_2025": 13,
+          "finish_2025": 64,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "devin-singletary-nyg-rb",
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 81,
+          "tier": 10,
+          "age": 29.0,
+          "exp": 8,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 4.9,
+          "upside": 2.9,
+          "proj_pts": 44.9,
+          "games_2025": 17,
+          "finish_2025": 44,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "sean-tucker-tb-rb",
+      "name": "Sean Tucker",
+      "team": "TB",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 82,
+          "tier": 10,
+          "age": 24.9,
+          "exp": 4,
+          "bye": 10,
+          "adp_positional": "21.04",
+          "risk": 4.8,
+          "upside": 3.2,
+          "proj_pts": 42.6,
+          "games_2025": 17,
+          "finish_2025": 46,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "demond-claiborne-min-rb",
+      "name": "Demond Claiborne",
+      "team": "MIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 83,
+          "tier": 10,
+          "age": 22.9,
+          "exp": 0,
+          "bye": 6,
+          "adp_positional": "21.02",
+          "risk": 5.3,
+          "upside": 4.8,
+          "proj_pts": 42.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "trevor-etienne-car-rb",
+      "name": "Trevor Etienne",
+      "team": "CAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 84,
+          "tier": 10,
+          "age": 22.2,
+          "exp": 2,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 4.3,
+          "upside": 3.8,
+          "proj_pts": 40.3,
+          "games_2025": 17,
+          "finish_2025": 101,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ollie-gordon-ii-mia-rb",
+      "name": "Ollie Gordon II",
+      "team": "MIA",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 85,
+          "tier": 10,
+          "age": 22.6,
+          "exp": 2,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 5.1,
+          "upside": 2.9,
+          "proj_pts": 38.8,
+          "games_2025": 17,
+          "finish_2025": 68,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "will-shipley-phi-rb",
+      "name": "Will Shipley",
+      "team": "PHI",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 86,
+          "tier": 10,
+          "age": 24.0,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 4.6,
+          "upside": 2.0,
+          "proj_pts": 33.3,
+          "games_2025": 15,
+          "finish_2025": 99,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "aj-dillon-car-rb",
+      "name": "AJ Dillon",
+      "team": "CAR",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 87,
+          "tier": 10,
+          "age": 28.3,
+          "exp": 7,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 3.3,
+          "upside": 2.0,
+          "proj_pts": 32.9,
+          "games_2025": 7,
+          "finish_2025": 114,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "adam-randall-bal-rb",
+      "name": "Adam Randall",
+      "team": "BAL",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 88,
+          "tier": 10,
+          "age": 22.1,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 3.8,
+          "proj_pts": 31.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "kaleb-johnson-pit-rb",
+      "name": "Kaleb Johnson",
+      "team": "PIT",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 89,
+          "tier": 10,
+          "age": 23.1,
+          "exp": 2,
+          "bye": 9,
+          "adp_positional": "19.02",
+          "risk": 5.2,
+          "upside": 3.1,
+          "proj_pts": 30.6,
+          "games_2025": 10,
+          "finish_2025": 111,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tahj-brooks-cin-rb",
+      "name": "Tahj Brooks",
+      "team": "CIN",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 90,
+          "tier": 10,
+          "age": 24.3,
+          "exp": 2,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 4.2,
+          "upside": 3.6,
+          "proj_pts": 27.1,
+          "games_2025": 16,
+          "finish_2025": 120,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "audric-estime-no-rb",
+      "name": "Audric Estime",
+      "team": "NO",
+      "position": "RB",
+      "sources": {
+        "udk": {
+          "rank": 91,
+          "tier": 10,
+          "age": 23.0,
+          "exp": 3,
+          "bye": 8,
+          "adp_positional": "20.09",
+          "risk": 1.0,
+          "upside": 1.0,
+          "proj_pts": 4.7,
+          "games_2025": 7,
+          "finish_2025": 72,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ja-marr-chase-cin-wr",
+      "name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 1,
+          "tier": 1,
+          "age": 26.5,
+          "exp": 6,
+          "bye": 6,
+          "adp_positional": "1.04",
+          "risk": 3.2,
+          "upside": 9.7,
+          "proj_pts": 338.8,
+          "games_2025": 16,
+          "finish_2025": 4,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "puka-nacua-lar-wr",
+      "name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 2,
+          "tier": 1,
+          "age": 25.3,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "1.05",
+          "risk": 6.3,
+          "upside": 9.6,
+          "proj_pts": 328.2,
+          "games_2025": 16,
+          "finish_2025": 1,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaxon-smith-njigba-sea-wr",
+      "name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 3,
+          "tier": 2,
+          "age": 24.6,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "1.07",
+          "risk": 2.0,
+          "upside": 9.7,
+          "proj_pts": 320.8,
+          "games_2025": 17,
+          "finish_2025": 2,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "amon-ra-st-brown-det-wr",
+      "name": "Amon-Ra St. Brown",
+      "team": "DET",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 4,
+          "tier": 2,
+          "age": 26.9,
+          "exp": 6,
+          "bye": 6,
+          "adp_positional": "1.08",
+          "risk": 1.0,
+          "upside": 9.7,
+          "proj_pts": 309.9,
+          "games_2025": 17,
+          "finish_2025": 3,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ceedee-lamb-dal-wr",
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 5,
+          "tier": 2,
+          "age": 27.4,
+          "exp": 7,
+          "bye": 14,
+          "adp_positional": "1.10",
+          "risk": 2.6,
+          "upside": 9.3,
+          "proj_pts": 288.4,
+          "games_2025": 14,
+          "finish_2025": 18,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "justin-jefferson-min-wr",
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 6,
+          "tier": 3,
+          "age": 27.2,
+          "exp": 7,
+          "bye": 6,
+          "adp_positional": "1.11",
+          "risk": 4.7,
+          "upside": 9.5,
+          "proj_pts": 259.8,
+          "games_2025": 17,
+          "finish_2025": 22,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "a-j-brown-ne-wr",
+      "name": "A.J. Brown",
+      "team": "NE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 7,
+          "tier": 3,
+          "age": 29.2,
+          "exp": 8,
+          "bye": 11,
+          "adp_positional": "2.06",
+          "risk": 5.3,
+          "upside": 8.0,
+          "proj_pts": 257.8,
+          "games_2025": 15,
+          "finish_2025": 10,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-olave-no-wr",
+      "name": "Chris Olave",
+      "team": "NO",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 8,
+          "tier": 3,
+          "age": 26.2,
+          "exp": 5,
+          "bye": 8,
+          "adp_positional": "3.06",
+          "risk": 6.2,
+          "upside": 8.8,
+          "proj_pts": 255.8,
+          "games_2025": 16,
+          "finish_2025": 6,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "nico-collins-hou-wr",
+      "name": "Nico Collins",
+      "team": "HOU",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 9,
+          "tier": 3,
+          "age": 27.5,
+          "exp": 6,
+          "bye": 8,
+          "adp_positional": "3.01",
+          "risk": 4.6,
+          "upside": 8.9,
+          "proj_pts": 254.0,
+          "games_2025": 15,
+          "finish_2025": 8,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "garrett-wilson-nyj-wr",
+      "name": "Garrett Wilson",
+      "team": "NYJ",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 10,
+          "tier": 3,
+          "age": 26.1,
+          "exp": 5,
+          "bye": 13,
+          "adp_positional": "4.10",
+          "risk": 4.9,
+          "upside": 8.1,
+          "proj_pts": 253.5,
+          "games_2025": 7,
+          "finish_2025": 63,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "drake-london-atl-wr",
+      "name": "Drake London",
+      "team": "ATL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 11,
+          "tier": 3,
+          "age": 25.1,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "2.06",
+          "risk": 4.0,
+          "upside": 9.1,
+          "proj_pts": 253.2,
+          "games_2025": 12,
+          "finish_2025": 15,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "george-pickens-dal-wr",
+      "name": "George Pickens",
+      "team": "DAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 12,
+          "tier": 3,
+          "age": 25.5,
+          "exp": 5,
+          "bye": 14,
+          "adp_positional": "2.12",
+          "risk": 5.0,
+          "upside": 8.9,
+          "proj_pts": 251.9,
+          "games_2025": 17,
+          "finish_2025": 5,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rashee-rice-kc-wr",
+      "name": "Rashee Rice",
+      "team": "KC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 13,
+          "tier": 3,
+          "age": 26.4,
+          "exp": 4,
+          "bye": 5,
+          "adp_positional": "3.04",
+          "risk": 9.5,
+          "upside": 8.3,
+          "proj_pts": 251.1,
+          "games_2025": 8,
+          "finish_2025": 41,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "malik-nabers-nyg-wr",
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 14,
+          "tier": 4,
+          "age": 23.1,
+          "exp": 3,
+          "bye": 8,
+          "adp_positional": "3.03",
+          "risk": 7.8,
+          "upside": 9.0,
+          "proj_pts": 248.8,
+          "games_2025": 4,
+          "finish_2025": 98,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "zay-flowers-bal-wr",
+      "name": "Zay Flowers",
+      "team": "BAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 15,
+          "tier": 4,
+          "age": 26.0,
+          "exp": 4,
+          "bye": 13,
+          "adp_positional": "4.05",
+          "risk": 4.3,
+          "upside": 7.5,
+          "proj_pts": 244.0,
+          "games_2025": 17,
+          "finish_2025": 7,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "devonta-smith-phi-wr",
+      "name": "DeVonta Smith",
+      "team": "PHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 16,
+          "tier": 4,
+          "age": 27.8,
+          "exp": 6,
+          "bye": 10,
+          "adp_positional": "3.12",
+          "risk": 3.4,
+          "upside": 7.6,
+          "proj_pts": 242.7,
+          "games_2025": 17,
+          "finish_2025": 21,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaylen-waddle-den-wr",
+      "name": "Jaylen Waddle",
+      "team": "DEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 17,
+          "tier": 5,
+          "age": 27.8,
+          "exp": 6,
+          "bye": 10,
+          "adp_positional": "4.10",
+          "risk": 5.0,
+          "upside": 7.7,
+          "proj_pts": 242.0,
+          "games_2025": 16,
+          "finish_2025": 25,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ladd-mcconkey-lac-wr",
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 18,
+          "tier": 5,
+          "age": 24.8,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "4.02",
+          "risk": 4.7,
+          "upside": 6.8,
+          "proj_pts": 240.2,
+          "games_2025": 16,
+          "finish_2025": 28,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "emeka-egbuka-tb-wr",
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 19,
+          "tier": 5,
+          "age": 23.9,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "4.03",
+          "risk": 5.5,
+          "upside": 8.1,
+          "proj_pts": 236.4,
+          "games_2025": 17,
+          "finish_2025": 20,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tetairoa-mcmillan-car-wr",
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 20,
+          "tier": 5,
+          "age": 23.4,
+          "exp": 2,
+          "bye": 5,
+          "adp_positional": "4.02",
+          "risk": 4.0,
+          "upside": 8.2,
+          "proj_pts": 235.4,
+          "games_2025": 17,
+          "finish_2025": 17,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tee-higgins-cin-wr",
+      "name": "Tee Higgins",
+      "team": "CIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 21,
+          "tier": 5,
+          "age": 27.6,
+          "exp": 7,
+          "bye": 6,
+          "adp_positional": "3.10",
+          "risk": 6.1,
+          "upside": 8.3,
+          "proj_pts": 234.0,
+          "games_2025": 15,
+          "finish_2025": 14,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "carnell-tate-ten-wr",
+      "name": "Carnell Tate",
+      "team": "TEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 22,
+          "tier": 5,
+          "age": 21.6,
+          "exp": 0,
+          "bye": 9,
+          "adp_positional": "6.06",
+          "risk": 5.9,
+          "upside": 6.8,
+          "proj_pts": 231.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "luther-burden-iii-chi-wr",
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 23,
+          "tier": 6,
+          "age": 22.7,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "5.07",
+          "risk": 5.5,
+          "upside": 7.8,
+          "proj_pts": 228.5,
+          "games_2025": 15,
+          "finish_2025": 47,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "parker-washington-jax-wr",
+      "name": "Parker Washington",
+      "team": "JAX",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 24,
+          "tier": 6,
+          "age": 24.5,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "7.04",
+          "risk": 4.3,
+          "upside": 6.2,
+          "proj_pts": 224.0,
+          "games_2025": 16,
+          "finish_2025": 27,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "christian-watson-gb-wr",
+      "name": "Christian Watson",
+      "team": "GB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 25,
+          "tier": 6,
+          "age": 27.3,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "6.10",
+          "risk": 6.6,
+          "upside": 8.1,
+          "proj_pts": 223.6,
+          "games_2025": 10,
+          "finish_2025": 43,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "terry-mclaurin-was-wr",
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 26,
+          "tier": 6,
+          "age": 31.0,
+          "exp": 8,
+          "bye": 7,
+          "adp_positional": "5.07",
+          "risk": 4.4,
+          "upside": 6.8,
+          "proj_pts": 221.3,
+          "games_2025": 10,
+          "finish_2025": 55,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jameson-williams-det-wr",
+      "name": "Jameson Williams",
+      "team": "DET",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 27,
+          "tier": 6,
+          "age": 25.4,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": "5.10",
+          "risk": 5.3,
+          "upside": 7.7,
+          "proj_pts": 220.6,
+          "games_2025": 17,
+          "finish_2025": 9,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dj-moore-buf-wr",
+      "name": "DJ Moore",
+      "team": "BUF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 28,
+          "tier": 6,
+          "age": 29.4,
+          "exp": 9,
+          "bye": 7,
+          "adp_positional": "5.10",
+          "risk": 4.2,
+          "upside": 7.1,
+          "proj_pts": 220.4,
+          "games_2025": 17,
+          "finish_2025": 33,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "davante-adams-lar-wr",
+      "name": "Davante Adams",
+      "team": "LAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 29,
+          "tier": 6,
+          "age": 33.7,
+          "exp": 13,
+          "bye": 11,
+          "adp_positional": "5.03",
+          "risk": 5.2,
+          "upside": 7.8,
+          "proj_pts": 217.7,
+          "games_2025": 14,
+          "finish_2025": 11,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "mike-evans-sf-wr",
+      "name": "Mike Evans",
+      "team": "SF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 30,
+          "tier": 7,
+          "age": 33.0,
+          "exp": 13,
+          "bye": 8,
+          "adp_positional": "6.01",
+          "risk": 7.8,
+          "upside": 7.5,
+          "proj_pts": 216.7,
+          "games_2025": 8,
+          "finish_2025": 73,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rome-odunze-chi-wr",
+      "name": "Rome Odunze",
+      "team": "CHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 31,
+          "tier": 7,
+          "age": 24.3,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "6.04",
+          "risk": 3.5,
+          "upside": 7.3,
+          "proj_pts": 215.2,
+          "games_2025": 12,
+          "finish_2025": 40,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "marvin-harrison-jr-ari-wr",
+      "name": "Marvin Harrison Jr.",
+      "team": "ARI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 32,
+          "tier": 7,
+          "age": 24.1,
+          "exp": 3,
+          "bye": 14,
+          "adp_positional": "7.05",
+          "risk": 6.2,
+          "upside": 7.3,
+          "proj_pts": 211.8,
+          "games_2025": 12,
+          "finish_2025": 50,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dk-metcalf-pit-wr",
+      "name": "DK Metcalf",
+      "team": "PIT",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 33,
+          "tier": 7,
+          "age": 28.7,
+          "exp": 8,
+          "bye": 9,
+          "adp_positional": "7.03",
+          "risk": 4.4,
+          "upside": 7.1,
+          "proj_pts": 211.2,
+          "games_2025": 15,
+          "finish_2025": 26,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "alec-pierce-ind-wr",
+      "name": "Alec Pierce",
+      "team": "IND",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 34,
+          "tier": 8,
+          "age": 26.3,
+          "exp": 5,
+          "bye": 13,
+          "adp_positional": "9.03",
+          "risk": 5.8,
+          "upside": 6.9,
+          "proj_pts": 209.3,
+          "games_2025": 15,
+          "finish_2025": 23,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brian-thomas-jr-jax-wr",
+      "name": "Brian Thomas Jr.",
+      "team": "JAX",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 35,
+          "tier": 8,
+          "age": 23.9,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "7.02",
+          "risk": 6.5,
+          "upside": 7.5,
+          "proj_pts": 208.1,
+          "games_2025": 14,
+          "finish_2025": 44,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-godwin-jr-tb-wr",
+      "name": "Chris Godwin Jr.",
+      "team": "TB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 36,
+          "tier": 8,
+          "age": 30.5,
+          "exp": 10,
+          "bye": 10,
+          "adp_positional": "8.12",
+          "risk": 4.5,
+          "upside": 6.4,
+          "proj_pts": 199.8,
+          "games_2025": 9,
+          "finish_2025": 78,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "quentin-johnston-lac-wr",
+      "name": "Quentin Johnston",
+      "team": "LAC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 37,
+          "tier": 8,
+          "age": 25.0,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "10.06",
+          "risk": 6.3,
+          "upside": 6.4,
+          "proj_pts": 194.1,
+          "games_2025": 14,
+          "finish_2025": 30,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "michael-pittman-jr-pit-wr",
+      "name": "Michael Pittman Jr.",
+      "team": "PIT",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 38,
+          "tier": 8,
+          "age": 28.9,
+          "exp": 7,
+          "bye": 9,
+          "adp_positional": "9.08",
+          "risk": 3.5,
+          "upside": 4.9,
+          "proj_pts": 193.1,
+          "games_2025": 17,
+          "finish_2025": 24,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "wan-dale-robinson-ten-wr",
+      "name": "Wan'Dale Robinson",
+      "team": "TEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 39,
+          "tier": 8,
+          "age": 25.7,
+          "exp": 5,
+          "bye": 9,
+          "adp_positional": "10.09",
+          "risk": 4.6,
+          "upside": 4.7,
+          "proj_pts": 188.4,
+          "games_2025": 16,
+          "finish_2025": 19,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "michael-wilson-ari-wr",
+      "name": "Michael Wilson",
+      "team": "ARI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 40,
+          "tier": 9,
+          "age": 26.5,
+          "exp": 4,
+          "bye": 14,
+          "adp_positional": "7.12",
+          "risk": 3.8,
+          "upside": 6.6,
+          "proj_pts": 183.5,
+          "games_2025": 17,
+          "finish_2025": 12,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "stefon-diggs-was-wr",
+      "name": "Stefon Diggs",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 41,
+          "tier": 9,
+          "age": 32.8,
+          "exp": 12,
+          "bye": 7,
+          "adp_positional": "10.02",
+          "risk": 5.3,
+          "upside": 5.0,
+          "proj_pts": 182.1,
+          "games_2025": 17,
+          "finish_2025": 16,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "courtland-sutton-den-wr",
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 42,
+          "tier": 9,
+          "age": 30.9,
+          "exp": 9,
+          "bye": 10,
+          "adp_positional": "7.07",
+          "risk": 5.0,
+          "upside": 6.0,
+          "proj_pts": 180.6,
+          "games_2025": 17,
+          "finish_2025": 13,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordan-addison-min-wr",
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 43,
+          "tier": 9,
+          "age": 24.6,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": "9.08",
+          "risk": 3.7,
+          "upside": 7.2,
+          "proj_pts": 179.1,
+          "games_2025": 14,
+          "finish_2025": 42,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "de-zhaun-stribling-sf-wr",
+      "name": "De'Zhaun Stribling",
+      "team": "SF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 44,
+          "tier": 9,
+          "age": 23.7,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": "12.07",
+          "risk": 5.3,
+          "upside": 5.5,
+          "proj_pts": 176.7,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jayden-reed-gb-wr",
+      "name": "Jayden Reed",
+      "team": "GB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 45,
+          "tier": 9,
+          "age": 26.4,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "10.03",
+          "risk": 4.2,
+          "upside": 4.7,
+          "proj_pts": 173.4,
+          "games_2025": 7,
+          "finish_2025": 117,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "josh-downs-ind-wr",
+      "name": "Josh Downs",
+      "team": "IND",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 46,
+          "tier": 9,
+          "age": 25.1,
+          "exp": 4,
+          "bye": 13,
+          "adp_positional": "10.03",
+          "risk": 4.2,
+          "upside": 7.3,
+          "proj_pts": 168.6,
+          "games_2025": 16,
+          "finish_2025": 49,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jakobi-meyers-jax-wr",
+      "name": "Jakobi Meyers",
+      "team": "JAX",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 47,
+          "tier": 9,
+          "age": 29.8,
+          "exp": 8,
+          "bye": 7,
+          "adp_positional": "10.12",
+          "risk": 2.7,
+          "upside": 5.2,
+          "proj_pts": 165.4,
+          "games_2025": 16,
+          "finish_2025": 35,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "romeo-doubs-ne-wr",
+      "name": "Romeo Doubs",
+      "team": "NE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 48,
+          "tier": 9,
+          "age": 26.4,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "12.01",
+          "risk": 3.9,
+          "upside": 6.0,
+          "proj_pts": 163.7,
+          "games_2025": 16,
+          "finish_2025": 36,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "khalil-shakir-buf-wr",
+      "name": "Khalil Shakir",
+      "team": "BUF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 49,
+          "tier": 9,
+          "age": 26.6,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": "12.12",
+          "risk": 2.8,
+          "upside": 5.1,
+          "proj_pts": 162.4,
+          "games_2025": 16,
+          "finish_2025": 38,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "makai-lemon-phi-wr",
+      "name": "Makai Lemon",
+      "team": "PHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 50,
+          "tier": 10,
+          "age": 22.3,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": "8.05",
+          "risk": 6.6,
+          "upside": 6.9,
+          "proj_pts": 161.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "xavier-worthy-kc-wr",
+      "name": "Xavier Worthy",
+      "team": "KC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 51,
+          "tier": 10,
+          "age": 23.4,
+          "exp": 3,
+          "bye": 5,
+          "adp_positional": "12.09",
+          "risk": 6.2,
+          "upside": 6.0,
+          "proj_pts": 160.3,
+          "games_2025": 14,
+          "finish_2025": 60,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "malik-washington-mia-wr",
+      "name": "Malik Washington",
+      "team": "MIA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 52,
+          "tier": 10,
+          "age": 25.9,
+          "exp": 3,
+          "bye": 6,
+          "adp_positional": "15.07",
+          "risk": 4.6,
+          "upside": 5.1,
+          "proj_pts": 159.3,
+          "games_2025": 17,
+          "finish_2025": 57,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jalen-coker-car-wr",
+      "name": "Jalen Coker",
+      "team": "CAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 53,
+          "tier": 10,
+          "age": 24.9,
+          "exp": 3,
+          "bye": 5,
+          "adp_positional": "13.03",
+          "risk": 3.7,
+          "upside": 5.8,
+          "proj_pts": 157.4,
+          "games_2025": 11,
+          "finish_2025": 71,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rashid-shaheed-sea-wr",
+      "name": "Rashid Shaheed",
+      "team": "SEA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 54,
+          "tier": 10,
+          "age": 28.0,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": "13.03",
+          "risk": 4.4,
+          "upside": 5.3,
+          "proj_pts": 156.6,
+          "games_2025": 18,
+          "finish_2025": 39,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kayshon-boutte-hou-wr",
+      "name": "Kayshon Boutte",
+      "team": "HOU",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 55,
+          "tier": 10,
+          "age": 24.3,
+          "exp": 4,
+          "bye": 8,
+          "adp_positional": "19.05",
+          "risk": 4.4,
+          "upside": 5.8,
+          "proj_pts": 156.6,
+          "games_2025": 14,
+          "finish_2025": 46,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kc-concepcion-cle-wr",
+      "name": "KC Concepcion",
+      "team": "CLE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 56,
+          "tier": 10,
+          "age": 21.9,
+          "exp": 0,
+          "bye": 11,
+          "adp_positional": "11.01",
+          "risk": 5.9,
+          "upside": 6.7,
+          "proj_pts": 156.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "keenan-allen-ind-wr",
+      "name": "Keenan Allen",
+      "team": "IND",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 57,
+          "tier": 10,
+          "age": 34.4,
+          "exp": 14,
+          "bye": 13,
+          "adp_positional": "17.05",
+          "risk": 5.7,
+          "upside": 3.5,
+          "proj_pts": 153.0,
+          "games_2025": 17,
+          "finish_2025": 32,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "matthew-golden-gb-wr",
+      "name": "Matthew Golden",
+      "team": "GB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 58,
+          "tier": 10,
+          "age": 23.1,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "11.08",
+          "risk": 5.2,
+          "upside": 6.8,
+          "proj_pts": 152.4,
+          "games_2025": 14,
+          "finish_2025": 90,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordyn-tyson-no-wr",
+      "name": "Jordyn Tyson",
+      "team": "NO",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 59,
+          "tier": 10,
+          "age": 22.1,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": "8.09",
+          "risk": 7.2,
+          "upside": 7.2,
+          "proj_pts": 146.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "tre-tucker-lv-wr",
+      "name": "Tre Tucker",
+      "team": "LV",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 60,
+          "tier": 10,
+          "age": 25.5,
+          "exp": 4,
+          "bye": 13,
+          "adp_positional": "17.11",
+          "risk": 4.5,
+          "upside": 4.6,
+          "proj_pts": 145.3,
+          "games_2025": 17,
+          "finish_2025": 37,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "omar-cooper-jr-nyj-wr",
+      "name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 61,
+          "tier": 10,
+          "age": 22.7,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "17.03",
+          "risk": 6.7,
+          "upside": 5.9,
+          "proj_pts": 133.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jauan-jennings-min-wr",
+      "name": "Jauan Jennings",
+      "team": "MIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 62,
+          "tier": 10,
+          "age": 29.2,
+          "exp": 6,
+          "bye": 6,
+          "adp_positional": "18.09",
+          "risk": 6.4,
+          "upside": 5.3,
+          "proj_pts": 133.6,
+          "games_2025": 15,
+          "finish_2025": 31,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "deebo-samuel-sr-sf-wr",
+      "name": "Deebo Samuel Sr.",
+      "team": "SF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 63,
+          "tier": 10,
+          "age": 30.6,
+          "exp": 8,
+          "bye": 8,
+          "adp_positional": "11.09",
+          "risk": 6.3,
+          "upside": 3.7,
+          "proj_pts": 133.2,
+          "games_2025": 16,
+          "finish_2025": 29,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "denzel-boston-cle-wr",
+      "name": "Denzel Boston",
+      "team": "CLE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 64,
+          "tier": 10,
+          "age": 22.7,
+          "exp": 0,
+          "bye": 11,
+          "adp_positional": "15.01",
+          "risk": 4.7,
+          "upside": 4.9,
+          "proj_pts": 132.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "dontayvion-wicks-phi-wr",
+      "name": "Dontayvion Wicks",
+      "team": "PHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 65,
+          "tier": 10,
+          "age": 25.2,
+          "exp": 4,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 5.3,
+          "upside": 4.3,
+          "proj_pts": 127.9,
+          "games_2025": 14,
+          "finish_2025": 83,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jalen-nailor-lv-wr",
+      "name": "Jalen Nailor",
+      "team": "LV",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 66,
+          "tier": 10,
+          "age": 27.5,
+          "exp": 5,
+          "bye": 13,
+          "adp_positional": "16.04",
+          "risk": 4.9,
+          "upside": 3.9,
+          "proj_pts": 123.8,
+          "games_2025": 17,
+          "finish_2025": 59,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "travis-hunter-jax-wr",
+      "name": "Travis Hunter",
+      "team": "JAX",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 67,
+          "tier": 11,
+          "age": 23.3,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "14.10",
+          "risk": 8.3,
+          "upside": 6.3,
+          "proj_pts": 119.4,
+          "games_2025": 7,
+          "finish_2025": 96,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cooper-kupp-sea-wr",
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 68,
+          "tier": 11,
+          "age": 33.2,
+          "exp": 10,
+          "bye": 11,
+          "adp_positional": "17.08",
+          "risk": 5.3,
+          "upside": 3.5,
+          "proj_pts": 116.5,
+          "games_2025": 16,
+          "finish_2025": 56,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jerry-jeudy-cle-wr",
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 69,
+          "tier": 11,
+          "age": 27.4,
+          "exp": 7,
+          "bye": 11,
+          "adp_positional": "16.09",
+          "risk": 5.5,
+          "upside": 5.5,
+          "proj_pts": 116.3,
+          "games_2025": 17,
+          "finish_2025": 54,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "pat-bryant-den-wr",
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 70,
+          "tier": 11,
+          "age": 23.7,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "19.11",
+          "risk": 4.0,
+          "upside": 4.7,
+          "proj_pts": 116.3,
+          "games_2025": 15,
+          "finish_2025": 85,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "demario-douglas-ne-wr",
+      "name": "DeMario Douglas",
+      "team": "NE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 71,
+          "tier": 11,
+          "age": 25.7,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.8,
+          "upside": 4.1,
+          "proj_pts": 115.4,
+          "games_2025": 17,
+          "finish_2025": 62,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ja-kobi-lane-bal-wr",
+      "name": "Ja'Kobi Lane",
+      "team": "BAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 72,
+          "tier": 11,
+          "age": 22.1,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "13.12",
+          "risk": 5.3,
+          "upside": 4.8,
+          "proj_pts": 112.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "tank-dell-hou-wr",
+      "name": "Tank Dell",
+      "team": "HOU",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 73,
+          "tier": 11,
+          "age": 26.9,
+          "exp": 4,
+          "bye": 8,
+          "adp_positional": "16.01",
+          "risk": 8.5,
+          "upside": 6.3,
+          "proj_pts": 112.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "adonai-mitchell-nyj-wr",
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 74,
+          "tier": 11,
+          "age": 23.9,
+          "exp": 3,
+          "bye": 13,
+          "adp_positional": "20.03",
+          "risk": 4.6,
+          "upside": 4.5,
+          "proj_pts": 112.0,
+          "games_2025": 16,
+          "finish_2025": 69,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "germie-bernard-pit-wr",
+      "name": "Germie Bernard",
+      "team": "PIT",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 75,
+          "tier": 11,
+          "age": 22.8,
+          "exp": 0,
+          "bye": 9,
+          "adp_positional": "20.02",
+          "risk": 5.4,
+          "upside": 4.1,
+          "proj_pts": 110.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "cyrus-allen-kc-wr",
+      "name": "Cyrus Allen",
+      "team": "KC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 76,
+          "tier": 11,
+          "age": 23.6,
+          "exp": 0,
+          "bye": 5,
+          "adp_positional": "15.06",
+          "risk": 5.3,
+          "upside": 4.7,
+          "proj_pts": 110.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "kyle-williams-ne-wr",
+      "name": "Kyle Williams",
+      "team": "NE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 77,
+          "tier": 11,
+          "age": 23.8,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "19.06",
+          "risk": 5.0,
+          "upside": 5.7,
+          "proj_pts": 108.9,
+          "games_2025": 17,
+          "finish_2025": 107,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "calvin-ridley-ten-wr",
+      "name": "Calvin Ridley",
+      "team": "TEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 78,
+          "tier": 11,
+          "age": 31.7,
+          "exp": 8,
+          "bye": 9,
+          "adp_positional": "22.01",
+          "risk": 5.2,
+          "upside": 4.7,
+          "proj_pts": 108.5,
+          "games_2025": 7,
+          "finish_2025": 110,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tre-harris-lac-wr",
+      "name": "Tre' Harris",
+      "team": "LAC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 79,
+          "tier": 11,
+          "age": 24.5,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "20.03",
+          "risk": 4.3,
+          "upside": 5.1,
+          "proj_pts": 106.9,
+          "games_2025": 17,
+          "finish_2025": 94,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "keon-coleman-buf-wr",
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 80,
+          "tier": 11,
+          "age": 23.3,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": "20.07",
+          "risk": 5.4,
+          "upside": 5.3,
+          "proj_pts": 105.9,
+          "games_2025": 13,
+          "finish_2025": 61,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ryan-flournoy-dal-wr",
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 81,
+          "tier": 11,
+          "age": 26.9,
+          "exp": 3,
+          "bye": 14,
+          "adp_positional": "20.03",
+          "risk": 4.3,
+          "upside": 4.8,
+          "proj_pts": 103.7,
+          "games_2025": 16,
+          "finish_2025": 52,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "zachariah-branch-atl-wr",
+      "name": "Zachariah Branch",
+      "team": "ATL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 82,
+          "tier": 11,
+          "age": 22.4,
+          "exp": 0,
+          "bye": 11,
+          "adp_positional": "18.04",
+          "risk": 4.3,
+          "upside": 5.2,
+          "proj_pts": 103.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "caleb-douglas-mia-wr",
+      "name": "Caleb Douglas",
+      "team": "MIA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 83,
+          "tier": 11,
+          "age": 23.0,
+          "exp": 0,
+          "bye": 6,
+          "adp_positional": "17.06",
+          "risk": 5.3,
+          "upside": 4.4,
+          "proj_pts": 100.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "darius-slayton-nyg-wr",
+      "name": "Darius Slayton",
+      "team": "NYG",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 84,
+          "tier": 11,
+          "age": 29.7,
+          "exp": 8,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 4.9,
+          "upside": 3.9,
+          "proj_pts": 96.1,
+          "games_2025": 14,
+          "finish_2025": 65,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "devaughn-vele-no-wr",
+      "name": "Devaughn Vele",
+      "team": "NO",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 85,
+          "tier": 11,
+          "age": 28.7,
+          "exp": 3,
+          "bye": 8,
+          "adp_positional": "20.12",
+          "risk": 4.8,
+          "upside": 4.3,
+          "proj_pts": 91.7,
+          "games_2025": 13,
+          "finish_2025": 95,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaylin-noel-hou-wr",
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 86,
+          "tier": 11,
+          "age": 24.0,
+          "exp": 2,
+          "bye": 8,
+          "adp_positional": "18.10",
+          "risk": 4.2,
+          "upside": 3.5,
+          "proj_pts": 91.3,
+          "games_2025": 17,
+          "finish_2025": 92,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "xavier-hutchinson-hou-wr",
+      "name": "Xavier Hutchinson",
+      "team": "HOU",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 87,
+          "tier": 11,
+          "age": 26.3,
+          "exp": 4,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 3.5,
+          "upside": 2.0,
+          "proj_pts": 91.0,
+          "games_2025": 17,
+          "finish_2025": 64,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "darnell-mooney-nyg-wr",
+      "name": "Darnell Mooney",
+      "team": "NYG",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 88,
+          "tier": 11,
+          "age": 28.9,
+          "exp": 7,
+          "bye": 8,
+          "adp_positional": "21.09",
+          "risk": 4.8,
+          "upside": 3.8,
+          "proj_pts": 90.1,
+          "games_2025": 15,
+          "finish_2025": 80,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jalen-tolbert-mia-wr",
+      "name": "Jalen Tolbert",
+      "team": "MIA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 89,
+          "tier": 11,
+          "age": 27.5,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 4.4,
+          "upside": 3.1,
+          "proj_pts": 89.8,
+          "games_2025": 13,
+          "finish_2025": 119,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tory-horton-sea-wr",
+      "name": "Tory Horton",
+      "team": "SEA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 90,
+          "tier": 11,
+          "age": 23.8,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "20.01",
+          "risk": 5.1,
+          "upside": 4.0,
+          "proj_pts": 89.7,
+          "games_2025": 8,
+          "finish_2025": 86,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "rashod-bateman-bal-wr",
+      "name": "Rashod Bateman",
+      "team": "BAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 91,
+          "tier": 11,
+          "age": 26.8,
+          "exp": 6,
+          "bye": 13,
+          "adp_positional": "20.05",
+          "risk": 5.2,
+          "upside": 3.8,
+          "proj_pts": 89.5,
+          "games_2025": 13,
+          "finish_2025": 102,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "isaac-teslaa-det-wr",
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 92,
+          "tier": 11,
+          "age": 24.5,
+          "exp": 2,
+          "bye": 6,
+          "adp_positional": "19.11",
+          "risk": 7.8,
+          "upside": 6.3,
+          "proj_pts": 89.2,
+          "games_2025": 17,
+          "finish_2025": 79,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jalen-mcmillan-tb-wr",
+      "name": "Jalen McMillan",
+      "team": "TB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 93,
+          "tier": 11,
+          "age": 24.7,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "18.08",
+          "risk": 3.5,
+          "upside": 4.0,
+          "proj_pts": 89.2,
+          "games_2025": 4,
+          "finish_2025": 132,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "antonio-williams-was-wr",
+      "name": "Antonio Williams",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 94,
+          "tier": 11,
+          "age": 22.1,
+          "exp": 0,
+          "bye": 7,
+          "adp_positional": "20.08",
+          "risk": 5.3,
+          "upside": 5.2,
+          "proj_pts": 88.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jack-bech-lv-wr",
+      "name": "Jack Bech",
+      "team": "LV",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 95,
+          "tier": 11,
+          "age": 23.7,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": "20.10",
+          "risk": 4.6,
+          "upside": 5.2,
+          "proj_pts": 87.1,
+          "games_2025": 16,
+          "finish_2025": 123,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "troy-franklin-den-wr",
+      "name": "Troy Franklin",
+      "team": "DEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 96,
+          "tier": 11,
+          "age": 23.6,
+          "exp": 3,
+          "bye": 10,
+          "adp_positional": "21.02",
+          "risk": 4.0,
+          "upside": 3.7,
+          "proj_pts": 86.2,
+          "games_2025": 17,
+          "finish_2025": 34,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-bell-mia-wr",
+      "name": "Chris Bell",
+      "team": "MIA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 97,
+          "tier": 11,
+          "age": 22.2,
+          "exp": 0,
+          "bye": 6,
+          "adp_positional": "21.01",
+          "risk": 6.3,
+          "upside": 5.6,
+          "proj_pts": 83.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "elic-ayomanor-ten-wr",
+      "name": "Elic Ayomanor",
+      "team": "TEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 98,
+          "tier": 11,
+          "age": 23.3,
+          "exp": 2,
+          "bye": 9,
+          "adp_positional": "21.02",
+          "risk": 4.7,
+          "upside": 4.1,
+          "proj_pts": 81.6,
+          "games_2025": 16,
+          "finish_2025": 53,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "andrei-iosivas-cin-wr",
+      "name": "Andrei Iosivas",
+      "team": "CIN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 99,
+          "tier": 11,
+          "age": 26.9,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 3.7,
+          "upside": 3.9,
+          "proj_pts": 80.6,
+          "games_2025": 17,
+          "finish_2025": 72,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tyquan-thornton-kc-wr",
+      "name": "Tyquan Thornton",
+      "team": "KC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 100,
+          "tier": 11,
+          "age": 26.1,
+          "exp": 5,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 5.8,
+          "upside": 3.7,
+          "proj_pts": 79.5,
+          "games_2025": 14,
+          "finish_2025": 76,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tez-johnson-tb-wr",
+      "name": "Tez Johnson",
+      "team": "TB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 101,
+          "tier": 11,
+          "age": 24.3,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 4.6,
+          "upside": 3.6,
+          "proj_pts": 79.0,
+          "games_2025": 16,
+          "finish_2025": 67,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chimere-dike-ten-wr",
+      "name": "Chimere Dike",
+      "team": "TEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 102,
+          "tier": 11,
+          "age": 24.7,
+          "exp": 2,
+          "bye": 9,
+          "adp_positional": "20.01",
+          "risk": 5.1,
+          "upside": 3.7,
+          "proj_pts": 76.2,
+          "games_2025": 17,
+          "finish_2025": 51,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "malachi-fields-nyg-wr",
+      "name": "Malachi Fields",
+      "team": "NYG",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 103,
+          "tier": 11,
+          "age": 23.0,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": "19.03",
+          "risk": 5.4,
+          "upside": 3.7,
+          "proj_pts": 76.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "ted-hurst-iii-tb-wr",
+      "name": "Ted Hurst III",
+      "team": "TB",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 104,
+          "tier": 11,
+          "age": 22.2,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": "20.12",
+          "risk": 4.3,
+          "upside": 3.3,
+          "proj_pts": 71.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jahan-dotson-atl-wr",
+      "name": "Jahan Dotson",
+      "team": "ATL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 105,
+          "tier": 11,
+          "age": 26.5,
+          "exp": 5,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 3.5,
+          "upside": 2.5,
+          "proj_pts": 70.6,
+          "games_2025": 17,
+          "finish_2025": 112,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "christian-kirk-sf-wr",
+      "name": "Christian Kirk",
+      "team": "SF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 106,
+          "tier": 11,
+          "age": 29.8,
+          "exp": 9,
+          "bye": 8,
+          "adp_positional": "21.02",
+          "risk": 5.8,
+          "upside": 3.9,
+          "proj_pts": 66.8,
+          "games_2025": 13,
+          "finish_2025": 108,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kendrick-bourne-ari-wr",
+      "name": "Kendrick Bourne",
+      "team": "ARI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 107,
+          "tier": 11,
+          "age": 31.1,
+          "exp": 10,
+          "bye": 14,
+          "adp_positional": null,
+          "risk": 3.7,
+          "upside": 2.7,
+          "proj_pts": 64.8,
+          "games_2025": 16,
+          "finish_2025": 66,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "malik-benson-lv-wr",
+      "name": "Malik Benson",
+      "team": "LV",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 108,
+          "tier": 11,
+          "age": 23.9,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 5.5,
+          "upside": 3.5,
+          "proj_pts": 62.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "bryce-lance-no-wr",
+      "name": "Bryce Lance",
+      "team": "NO",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 109,
+          "tier": 11,
+          "age": 24.0,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 8.0,
+          "upside": 6.0,
+          "proj_pts": 62.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "kalif-raymond-chi-wr",
+      "name": "Kalif Raymond",
+      "team": "CHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 110,
+          "tier": 11,
+          "age": 32.1,
+          "exp": 10,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 3.3,
+          "proj_pts": 60.8,
+          "games_2025": 15,
+          "finish_2025": 93,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "roman-wilson-pit-wr",
+      "name": "Roman Wilson",
+      "team": "PIT",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 111,
+          "tier": 11,
+          "age": 25.2,
+          "exp": 3,
+          "bye": 9,
+          "adp_positional": null,
+          "risk": 5.1,
+          "upside": 2.7,
+          "proj_pts": 60.7,
+          "games_2025": 13,
+          "finish_2025": 122,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "olamide-zaccheaus-atl-wr",
+      "name": "Olamide Zaccheaus",
+      "team": "ATL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 112,
+          "tier": 11,
+          "age": 29.1,
+          "exp": 8,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 2.5,
+          "upside": 2.5,
+          "proj_pts": 59.6,
+          "games_2025": 16,
+          "finish_2025": 81,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "marvin-mims-jr-den-wr",
+      "name": "Marvin Mims Jr.",
+      "team": "DEN",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 113,
+          "tier": 11,
+          "age": 24.5,
+          "exp": 4,
+          "bye": 10,
+          "adp_positional": "19.04",
+          "risk": 4.7,
+          "upside": 2.3,
+          "proj_pts": 58.9,
+          "games_2025": 15,
+          "finish_2025": 70,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jordan-whittington-lar-wr",
+      "name": "Jordan Whittington",
+      "team": "LAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 114,
+          "tier": 11,
+          "age": 25.9,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 3.3,
+          "proj_pts": 57.9,
+          "games_2025": 17,
+          "finish_2025": 131,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "mack-hollins-ne-wr",
+      "name": "Mack Hollins",
+      "team": "NE",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 115,
+          "tier": 11,
+          "age": 33.0,
+          "exp": 10,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 5.3,
+          "upside": 3.4,
+          "proj_pts": 57.2,
+          "games_2025": 15,
+          "finish_2025": 58,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "treylon-burks-was-wr",
+      "name": "Treylon Burks",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 116,
+          "tier": 11,
+          "age": 26.5,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 5.7,
+          "upside": 3.6,
+          "proj_pts": 57.2,
+          "games_2025": 8,
+          "finish_2025": 139,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dont-e-thornton-jr-lv-wr",
+      "name": "Dont'e Thornton Jr.",
+      "team": "LV",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 117,
+          "tier": 11,
+          "age": 23.8,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 5.6,
+          "upside": 3.5,
+          "proj_pts": 53.1,
+          "games_2025": 15,
+          "finish_2025": 148,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brenen-thompson-lac-wr",
+      "name": "Brenen Thompson",
+      "team": "LAC",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 118,
+          "tier": 11,
+          "age": 23.1,
+          "exp": 0,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 5.6,
+          "upside": 3.8,
+          "proj_pts": 52.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "xavier-legette-car-wr",
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 119,
+          "tier": 11,
+          "age": 25.6,
+          "exp": 3,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 4.2,
+          "proj_pts": 51.0,
+          "games_2025": 15,
+          "finish_2025": 74,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "elijah-sarratt-bal-wr",
+      "name": "Elijah Sarratt",
+      "team": "BAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 120,
+          "tier": 11,
+          "age": 23.3,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "20.01",
+          "risk": 4.5,
+          "upside": 4.3,
+          "proj_pts": 49.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "skyler-bell-buf-wr",
+      "name": "Skyler Bell",
+      "team": "BUF",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 121,
+          "tier": 11,
+          "age": 24.2,
+          "exp": 0,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 3.5,
+          "upside": 3.0,
+          "proj_pts": 48.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "van-jefferson-was-wr",
+      "name": "Van Jefferson",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 122,
+          "tier": 11,
+          "age": 30.1,
+          "exp": 7,
+          "bye": 7,
+          "adp_positional": "50.04",
+          "risk": 4.0,
+          "upside": 2.0,
+          "proj_pts": 47.1,
+          "games_2025": 16,
+          "finish_2025": 89,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tutu-atwell-lar-wr",
+      "name": "Tutu Atwell",
+      "team": "LAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 123,
+          "tier": 11,
+          "age": 26.9,
+          "exp": 6,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 5.0,
+          "upside": 2.9,
+          "proj_pts": 46.1,
+          "games_2025": 10,
+          "finish_2025": 128,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "calvin-austin-iii-nyg-wr",
+      "name": "Calvin Austin III",
+      "team": "NYG",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 124,
+          "tier": 11,
+          "age": 27.5,
+          "exp": 5,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 5.0,
+          "upside": 2.9,
+          "proj_pts": 45.8,
+          "games_2025": 14,
+          "finish_2025": 77,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "devontez-walker-bal-wr",
+      "name": "Devontez Walker",
+      "team": "BAL",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 125,
+          "tier": 11,
+          "age": 25.2,
+          "exp": 3,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 4.3,
+          "upside": 3.0,
+          "proj_pts": 45.4,
+          "games_2025": 12,
+          "finish_2025": 120,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jaylin-lane-was-wr",
+      "name": "Jaylin Lane",
+      "team": "WAS",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 126,
+          "tier": 11,
+          "age": 24.3,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 4.0,
+          "upside": 3.0,
+          "proj_pts": 44.6,
+          "games_2025": 15,
+          "finish_2025": 113,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "hollywood-brown-phi-wr",
+      "name": "Hollywood Brown",
+      "team": "PHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 127,
+          "tier": 11,
+          "age": 29.3,
+          "exp": 8,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 5.1,
+          "upside": 3.7,
+          "proj_pts": 41.4,
+          "games_2025": 16,
+          "finish_2025": 45,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cedric-tillman-fa-wr",
+      "name": "Cedric Tillman",
+      "team": "FA",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 128,
+          "tier": 11,
+          "age": 26.4,
+          "exp": 4,
+          "bye": null,
+          "adp_positional": "56.07",
+          "risk": 4.5,
+          "upside": 3.6,
+          "proj_pts": 40.1,
+          "games_2025": 13,
+          "finish_2025": 99,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chris-brazzell-ii-car-wr",
+      "name": "Chris Brazzell II",
+      "team": "CAR",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 129,
+          "tier": 11,
+          "age": 22.9,
+          "exp": 0,
+          "bye": 5,
+          "adp_positional": "34.04",
+          "risk": 7.0,
+          "upside": 2.8,
+          "proj_pts": 36.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "zavion-thomas-chi-wr",
+      "name": "Zavion Thomas",
+      "team": "CHI",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 130,
+          "tier": 11,
+          "age": 22.6,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 6.3,
+          "upside": 4.3,
+          "proj_pts": 33.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "kendrick-law-det-wr",
+      "name": "Kendrick Law",
+      "team": "DET",
+      "position": "WR",
+      "sources": {
+        "udk": {
+          "rank": 131,
+          "tier": 11,
+          "age": 22.2,
+          "exp": 0,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 7.5,
+          "upside": 2.2,
+          "proj_pts": 17.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "brock-bowers-lv-te",
+      "name": "Brock Bowers",
+      "team": "LV",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 1,
+          "tier": 1,
+          "age": 23.7,
+          "exp": 3,
+          "bye": 13,
+          "adp_positional": "2.11",
+          "risk": 2.5,
+          "upside": 9.8,
+          "proj_pts": 259.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "trey-mcbride-ari-te",
+      "name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 2,
+          "tier": 1,
+          "age": 26.8,
+          "exp": 5,
+          "bye": 14,
+          "adp_positional": "2.11",
+          "risk": 4.2,
+          "upside": 8.3,
+          "proj_pts": 259.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tyler-warren-ind-te",
+      "name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 3,
+          "tier": 2,
+          "age": 24.3,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": "4.12",
+          "risk": 3.4,
+          "upside": 8.8,
+          "proj_pts": 216.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "colston-loveland-chi-te",
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 4,
+          "tier": 2,
+          "age": 22.4,
+          "exp": 2,
+          "bye": 10,
+          "adp_positional": "4.03",
+          "risk": 4.2,
+          "upside": 9.2,
+          "proj_pts": 215.7,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "harold-fannin-jr-cle-te",
+      "name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 5,
+          "tier": 3,
+          "age": 22.1,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "6.09",
+          "risk": 4.1,
+          "upside": 8.6,
+          "proj_pts": 201.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tucker-kraft-gb-te",
+      "name": "Tucker Kraft",
+      "team": "GB",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 6,
+          "tier": 3,
+          "age": 25.8,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": "6.03",
+          "risk": 5.5,
+          "upside": 8.2,
+          "proj_pts": 190.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "george-kittle-sf-te",
+      "name": "George Kittle",
+      "team": "SF",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 7,
+          "tier": 3,
+          "age": 32.9,
+          "exp": 10,
+          "bye": 8,
+          "adp_positional": "8.03",
+          "risk": 8.0,
+          "upside": 8.4,
+          "proj_pts": 188.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "sam-laporta-det-te",
+      "name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 8,
+          "tier": 4,
+          "age": 25.6,
+          "exp": 4,
+          "bye": 6,
+          "adp_positional": "5.12",
+          "risk": 4.4,
+          "upside": 6.2,
+          "proj_pts": 184.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kyle-pitts-sr-atl-te",
+      "name": "Kyle Pitts Sr.",
+      "team": "ATL",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 9,
+          "tier": 4,
+          "age": 25.9,
+          "exp": 6,
+          "bye": 11,
+          "adp_positional": "6.08",
+          "risk": 5.8,
+          "upside": 6.3,
+          "proj_pts": 176.7,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "juwan-johnson-no-te",
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 10,
+          "tier": 4,
+          "age": 30.0,
+          "exp": 7,
+          "bye": 8,
+          "adp_positional": "16.08",
+          "risk": 3.8,
+          "upside": 5.2,
+          "proj_pts": 167.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dalton-schultz-hou-te",
+      "name": "Dalton Schultz",
+      "team": "HOU",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 11,
+          "tier": 4,
+          "age": 30.2,
+          "exp": 9,
+          "bye": 8,
+          "adp_positional": "16.12",
+          "risk": 3.1,
+          "upside": 4.8,
+          "proj_pts": 166.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "travis-kelce-kc-te",
+      "name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 12,
+          "tier": 4,
+          "age": 36.9,
+          "exp": 14,
+          "bye": 5,
+          "adp_positional": "8.07",
+          "risk": 4.8,
+          "upside": 5.5,
+          "proj_pts": 165.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "jake-ferguson-dal-te",
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 13,
+          "tier": 4,
+          "age": 27.6,
+          "exp": 5,
+          "bye": 14,
+          "adp_positional": "9.02",
+          "risk": 5.3,
+          "upside": 6.4,
+          "proj_pts": 161.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "isaiah-likely-nyg-te",
+      "name": "Isaiah Likely",
+      "team": "NYG",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 14,
+          "tier": 4,
+          "age": 26.4,
+          "exp": 5,
+          "bye": 8,
+          "adp_positional": "9.11",
+          "risk": 3.8,
+          "upside": 5.8,
+          "proj_pts": 157.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dalton-kincaid-buf-te",
+      "name": "Dalton Kincaid",
+      "team": "BUF",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 15,
+          "tier": 4,
+          "age": 26.9,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "8.03",
+          "risk": 5.8,
+          "upside": 7.7,
+          "proj_pts": 157.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dallas-goedert-phi-te",
+      "name": "Dallas Goedert",
+      "team": "PHI",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 16,
+          "tier": 4,
+          "age": 31.7,
+          "exp": 9,
+          "bye": 10,
+          "adp_positional": "11.02",
+          "risk": 5.1,
+          "upside": 6.3,
+          "proj_pts": 156.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "brenton-strange-jax-te",
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 17,
+          "tier": 5,
+          "age": 25.7,
+          "exp": 4,
+          "bye": 7,
+          "adp_positional": "13.09",
+          "risk": 3.6,
+          "upside": 5.5,
+          "proj_pts": 155.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "mark-andrews-bal-te",
+      "name": "Mark Andrews",
+      "team": "BAL",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 18,
+          "tier": 5,
+          "age": 31.0,
+          "exp": 9,
+          "bye": 13,
+          "adp_positional": "11.08",
+          "risk": 4.0,
+          "upside": 5.5,
+          "proj_pts": 148.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "hunter-henry-ne-te",
+      "name": "Hunter Henry",
+      "team": "NE",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 19,
+          "tier": 5,
+          "age": 31.8,
+          "exp": 11,
+          "bye": 11,
+          "adp_positional": "12.11",
+          "risk": 3.4,
+          "upside": 5.9,
+          "proj_pts": 146.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "chig-okonkwo-was-te",
+      "name": "Chig Okonkwo",
+      "team": "WAS",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 20,
+          "tier": 6,
+          "age": 27.0,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": "16.12",
+          "risk": 3.8,
+          "upside": 5.2,
+          "proj_pts": 143.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "greg-dulcich-mia-te",
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 21,
+          "tier": 6,
+          "age": 26.4,
+          "exp": 5,
+          "bye": 6,
+          "adp_positional": "20.02",
+          "risk": 4.8,
+          "upside": 5.8,
+          "proj_pts": 130.4,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "t-j-hockenson-min-te",
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 22,
+          "tier": 6,
+          "age": 29.2,
+          "exp": 8,
+          "bye": 6,
+          "adp_positional": "14.08",
+          "risk": 4.1,
+          "upside": 5.2,
+          "proj_pts": 128.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "kenyon-sadiq-nyj-te",
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 23,
+          "tier": 6,
+          "age": 21.5,
+          "exp": 0,
+          "bye": 13,
+          "adp_positional": "14.08",
+          "risk": 4.6,
+          "upside": 5.4,
+          "proj_pts": 126.4,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "pat-freiermuth-pit-te",
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 24,
+          "tier": 6,
+          "age": 27.9,
+          "exp": 6,
+          "bye": 9,
+          "adp_positional": "20.12",
+          "risk": 4.2,
+          "upside": 3.8,
+          "proj_pts": 126.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cade-otton-tb-te",
+      "name": "Cade Otton",
+      "team": "TB",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 25,
+          "tier": 7,
+          "age": 27.4,
+          "exp": 5,
+          "bye": 10,
+          "adp_positional": "20.05",
+          "risk": 3.8,
+          "upside": 3.8,
+          "proj_pts": 123.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "aj-barner-sea-te",
+      "name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 26,
+          "tier": 7,
+          "age": 24.3,
+          "exp": 3,
+          "bye": 11,
+          "adp_positional": "16.04",
+          "risk": 3.9,
+          "upside": 4.2,
+          "proj_pts": 113.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "oronde-gadsden-lac-te",
+      "name": "Oronde Gadsden",
+      "team": "LAC",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 27,
+          "tier": 7,
+          "age": 23.2,
+          "exp": 2,
+          "bye": 7,
+          "adp_positional": "11.12",
+          "risk": 4.5,
+          "upside": 6.8,
+          "proj_pts": 108.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "colby-parkinson-lar-te",
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 28,
+          "tier": 7,
+          "age": 27.7,
+          "exp": 7,
+          "bye": 11,
+          "adp_positional": "21.11",
+          "risk": 4.1,
+          "upside": 4.8,
+          "proj_pts": 107.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "david-njoku-lac-te",
+      "name": "David Njoku",
+      "team": "LAC",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 29,
+          "tier": 7,
+          "age": 30.2,
+          "exp": 12,
+          "bye": 7,
+          "adp_positional": "18.03",
+          "risk": 5.3,
+          "upside": 3.9,
+          "proj_pts": 105.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "darren-waller-car-te",
+      "name": "Darren Waller",
+      "team": "CAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 30,
+          "tier": 7,
+          "age": 34.0,
+          "exp": 10,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 5.0,
+          "upside": 3.8,
+          "proj_pts": 104.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "mike-gesicki-cin-te",
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 31,
+          "tier": 7,
+          "age": 30.9,
+          "exp": 9,
+          "bye": 6,
+          "adp_positional": null,
+          "risk": 3.6,
+          "upside": 5.6,
+          "proj_pts": 102.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "cole-kmet-chi-te",
+      "name": "Cole Kmet",
+      "team": "CHI",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 32,
+          "tier": 7,
+          "age": 27.5,
+          "exp": 7,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 3.5,
+          "upside": 3.7,
+          "proj_pts": 99.5,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "gunnar-helm-ten-te",
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 33,
+          "tier": 7,
+          "age": 24.0,
+          "exp": 2,
+          "bye": 9,
+          "adp_positional": "20.05",
+          "risk": 4.2,
+          "upside": 4.3,
+          "proj_pts": 96.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "evan-engram-den-te",
+      "name": "Evan Engram",
+      "team": "DEN",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 34,
+          "tier": 7,
+          "age": 32.0,
+          "exp": 10,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 2.8,
+          "proj_pts": 94.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "terrance-ferguson-lar-te",
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 35,
+          "tier": 7,
+          "age": 23.5,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": "18.02",
+          "risk": 5.1,
+          "upside": 4.4,
+          "proj_pts": 85.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "mason-taylor-nyj-te",
+      "name": "Mason Taylor",
+      "team": "NYJ",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 36,
+          "tier": 8,
+          "age": 22.3,
+          "exp": 2,
+          "bye": 13,
+          "adp_positional": "19.08",
+          "risk": 4.1,
+          "upside": 3.6,
+          "proj_pts": 84.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "charlie-kolar-lac-te",
+      "name": "Charlie Kolar",
+      "team": "LAC",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 37,
+          "tier": 8,
+          "age": 27.6,
+          "exp": 5,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 4.3,
+          "upside": 2.7,
+          "proj_pts": 81.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "michael-mayer-lv-te",
+      "name": "Michael Mayer",
+      "team": "LV",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 38,
+          "tier": 8,
+          "age": 25.2,
+          "exp": 4,
+          "bye": 13,
+          "adp_positional": null,
+          "risk": 4.8,
+          "upside": 2.5,
+          "proj_pts": 80.6,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "dawson-knox-buf-te",
+      "name": "Dawson Knox",
+      "team": "BUF",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 39,
+          "tier": 8,
+          "age": 29.8,
+          "exp": 8,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 2.5,
+          "upside": 2.8,
+          "proj_pts": 79.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "eli-stowers-phi-te",
+      "name": "Eli Stowers",
+      "team": "PHI",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 40,
+          "tier": 8,
+          "age": 23.4,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": "20.11",
+          "risk": 6.3,
+          "upside": 5.3,
+          "proj_pts": 77.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "luke-musgrave-gb-te",
+      "name": "Luke Musgrave",
+      "team": "GB",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 41,
+          "tier": 8,
+          "age": 26.0,
+          "exp": 4,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.7,
+          "upside": 3.8,
+          "proj_pts": 74.7,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ja-tavion-sanders-car-te",
+      "name": "Ja'Tavion Sanders",
+      "team": "CAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 42,
+          "tier": 8,
+          "age": 23.4,
+          "exp": 3,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 4.0,
+          "upside": 3.9,
+          "proj_pts": 72.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "theo-johnson-nyg-te",
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 43,
+          "tier": 8,
+          "age": 25.5,
+          "exp": 3,
+          "bye": 8,
+          "adp_positional": "20.04",
+          "risk": 4.2,
+          "upside": 4.8,
+          "proj_pts": 72.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "noah-gray-kc-te",
+      "name": "Noah Gray",
+      "team": "KC",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 44,
+          "tier": 8,
+          "age": 27.4,
+          "exp": 6,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 4.3,
+          "upside": 2.3,
+          "proj_pts": 63.3,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "tommy-tremble-car-te",
+      "name": "Tommy Tremble",
+      "team": "CAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 45,
+          "tier": 8,
+          "age": 26.3,
+          "exp": 6,
+          "bye": 5,
+          "adp_positional": null,
+          "risk": 3.0,
+          "upside": 3.0,
+          "proj_pts": 60.0,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "elijah-arroyo-sea-te",
+      "name": "Elijah Arroyo",
+      "team": "SEA",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 46,
+          "tier": 8,
+          "age": 23.4,
+          "exp": 2,
+          "bye": 11,
+          "adp_positional": null,
+          "risk": 4.5,
+          "upside": 4.4,
+          "proj_pts": 57.4,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "darnell-washington-pit-te",
+      "name": "Darnell Washington",
+      "team": "PIT",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 47,
+          "tier": 8,
+          "age": 25.1,
+          "exp": 4,
+          "bye": 9,
+          "adp_positional": null,
+          "risk": 4.6,
+          "upside": 3.1,
+          "proj_pts": 57.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "max-klare-lar-te",
+      "name": "Max Klare",
+      "team": "LAR",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 48,
+          "tier": 8,
+          "age": 23.2,
+          "exp": 0,
+          "bye": 11,
+          "adp_positional": "21.09",
+          "risk": 5.4,
+          "upside": 4.6,
+          "proj_pts": 55.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "jake-tonges-sf-te",
+      "name": "Jake Tonges",
+      "team": "SF",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 49,
+          "tier": 8,
+          "age": 27.2,
+          "exp": 4,
+          "bye": 8,
+          "adp_positional": "21.01",
+          "risk": 4.0,
+          "upside": 2.5,
+          "proj_pts": 54.9,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "ben-sinnott-was-te",
+      "name": "Ben Sinnott",
+      "team": "WAS",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 50,
+          "tier": 8,
+          "age": 24.2,
+          "exp": 3,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 8.0,
+          "upside": 5.9,
+          "proj_pts": 49.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "noah-fant-no-te",
+      "name": "Noah Fant",
+      "team": "NO",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 51,
+          "tier": 8,
+          "age": 28.8,
+          "exp": 8,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 4.8,
+          "upside": 3.3,
+          "proj_pts": 43.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": []
+        }
+      }
+    },
+    {
+      "player_id": "justin-joly-den-te",
+      "name": "Justin Joly",
+      "team": "DEN",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 52,
+          "tier": 8,
+          "age": 22.2,
+          "exp": 0,
+          "bye": 10,
+          "adp_positional": null,
+          "risk": 3.0,
+          "upside": 2.0,
+          "proj_pts": 31.8,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "nate-boerkircher-jax-te",
+      "name": "Nate Boerkircher",
+      "team": "JAX",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 53,
+          "tier": 8,
+          "age": 25.0,
+          "exp": 0,
+          "bye": 7,
+          "adp_positional": null,
+          "risk": 1.0,
+          "upside": 1.0,
+          "proj_pts": 24.1,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    },
+    {
+      "player_id": "oscar-delp-no-te",
+      "name": "Oscar Delp",
+      "team": "NO",
+      "position": "TE",
+      "sources": {
+        "udk": {
+          "rank": 54,
+          "tier": 8,
+          "age": 23.1,
+          "exp": 0,
+          "bye": 8,
+          "adp_positional": null,
+          "risk": 6.9,
+          "upside": 3.8,
+          "proj_pts": 13.2,
+          "games_2025": null,
+          "finish_2025": null,
+          "tags": [
+            "Rookie"
+          ]
+        }
+      }
+    }
+  ]
+}

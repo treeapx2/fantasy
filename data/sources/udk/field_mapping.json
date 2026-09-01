@@ -1,0 +1,21 @@
+{
+  "source": "udk",
+  "_comment": "Maps this source's raw field names to canonical field names used in data/canonical/players.json. Any raw field NOT listed here is left unmapped: build_canonical.py will report it, and it will not appear in the canonical dataset or UI until deliberately added below.",
+  "mapping": {
+    "rank": "rank",
+    "tier": "tier",
+    "name": "name",
+    "team": "team",
+    "position": "position",
+    "age": "age",
+    "exp": "exp",
+    "bye": "bye",
+    "adp_positional": "adp_positional",
+    "risk": "risk",
+    "upside": "upside",
+    "proj_pts": "proj_pts",
+    "games": "games_2025",
+    "finish_2025": "finish_2025",
+    "tags": "tags"
+  }
+}
