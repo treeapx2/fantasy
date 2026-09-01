@@ -8,8 +8,9 @@ an in-season lineup management tool.
 
 **Phase 1 complete:** UDK mechanical extraction → canonical dataset.
 **Phase 2 complete:** 20 supplemental UDK reports ingested into per-report sources.
-**Not yet built:** derived metrics (Phase 3), refresh harness (6), notes synthesis (5),
-tag icons (4), app UI, ESPN comparison layer, draft strategy model, in-season tool.
+**Phase 3 complete:** derived metrics layer on every canonical player.
+**Not yet built:** refresh harness (6), notes synthesis (5), tag icons (4), app UI,
+ESPN comparison layer, draft strategy model, in-season tool.
 
 See `BUILD_SPEC.md` for the phase definitions.
 
@@ -60,6 +61,9 @@ build/
   build_canonical.py  Merges all data/sources/*/players_raw.json into data/canonical/players.json
                        via each source's field_mapping.json. Reports unmapped fields rather than
                        silently dropping them. Also scaffolds (never overwrites) data/user/*.
+  derive_metrics.py   Adds the `derived` block to each canonical player. Must run AFTER
+                       build_canonical.py, which regenerates players.json and drops the block
+                       by design. Idempotent.
 ```
 
 ## Adding a new source (e.g. ESPN) or a new field
@@ -114,8 +118,70 @@ Zone reports carry no position) that is ambiguous is refused rather than guessed
   looks like a gap in the Phase 1 hand-transcription, not a name-matching bug. Fixing it
   means adding his row to `build/extract_udk.py` from the PDF — do not hand-edit the
   generated JSON.
+- **Josh Jacobs adp_edge is -202 picks** (UDK rank RB28, projection 180.6, but TrueValue
+  round 21 against a round-4 ADP). This comes from UDK's own `Diff` column, not from our
+  arithmetic — the source disagrees with itself. Matthew Stafford (-70) is the next
+  largest. Worth an eyeball against the live site before acting on either.
 - **Risk/upside notes**: not yet synthesized. `data/user/risk_upside_notes.json` is scaffolded
   with empty lists for every player, ready for the next phase.
+
+## Derived metrics (Phase 3)
+
+`build/derive_metrics.py` turns raw source columns — which are not comparable across
+players — into ones that are, under `players[].derived`. **There is deliberately no
+composite score.** The dimensions stay separate and visible; the weighing is yours.
+
+Build order matters:
+
+```bash
+python3 build/extract_udk.py && python3 build/build_canonical.py && python3 build/derive_metrics.py
+```
+
+### Sample size is not optional
+
+`floor_rate` / `ceiling_rate` / `bust_rate` are rates over a 3-season window whose length
+ranges from 8 games to 51. `sample_confidence` (`high` >=34 GP, `medium` 17-33, `low` <17)
+is emitted alongside them for every player that has them, and a gate refuses to write the
+file if any player carries a rate without it. **Any UI that sorts on these must show it.**
+
+The live example: Cam Skattebo posts an 87.5% Top-24 rate on **8 GP**; Jonathan Taylor
+posts 80.5% on **41**. A naive sort puts Skattebo first. `derive_metrics.py` prints every
+player with a >=70% floor rate on a low sample at the end of each run, precisely so this
+cannot go unnoticed.
+
+### Reading the metrics
+
+- `trajectory_3yr` — least-squares slope of positional finish rank over the last 3 *played*
+  seasons, x = the real year. **Negative = improving.** Null under 3 seasons. A 3-point
+  slope is blind to a spike: CMC's 1 -> 72 -> 1 reads as a flat 0.0. `finish_volatility`
+  (31.88 for him) is what catches it. Read them together.
+- `peak_finish` / `years_since_peak` — best finish in the whole series; ties credit the most
+  recent year.
+- `opportunity_share` — RB = rush attempt share + target share; WR/TE = target share. QBs
+  have no value: UDK publishes no QB market-share file.
+- `td_dependency` — TD share minus yardage share for the position-appropriate block. Large
+  positive = TD-dependent, i.e. regression exposure. `td_dependency_rush` and
+  `_rec` stay exposed separately so a receiving back is not misread.
+- `rz_volume_i10` — the player's own inside-10 scoring touches (carries + targets).
+- `adp_edge` — see below.
+
+### adp_edge is on a 12-team board
+
+Value Scout's ADP is **12-team**, while the league is 10-team. Verified at ingest: pick
+numbers in the source run to 12, and under 12-team pick math `(ADP - TrueValue)` reproduces
+the source's own `Diff` column for all 246 rows carrying both values.
+
+Two consequences:
+
+1. `adp_edge` is `Average ADP - TrueValue`, **positive = market discount** — the sign
+   follows the source's `Diff`. (BUILD_SPEC Phase 3 writes the formula as
+   `TrueValue - Average ADP`, which contradicts its own "positive = market discount" label
+   and matches `Diff` for only 18 of 246 rows. The source's convention wins.)
+2. A "full round" of drift is **12 picks, not 10** — relevant to the Phase 6 change report.
+
+`adp_edge` is null where either value is `Undrafted` in the source (4 players);
+`adp_edge_status` says why. Edges on very deep players are noise in a 10-team league —
+only ~160 picks happen — so filter by `avg_adp_pick` before ranking on it.
 
 ## Validation
 
