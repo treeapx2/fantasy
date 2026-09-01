@@ -10,8 +10,10 @@ an in-season lineup management tool.
 **Phase 2 complete:** 20 supplemental UDK reports ingested into per-report sources.
 **Phase 3 complete:** derived metrics layer on every canonical player.
 **Phase 6 complete:** gated refresh harness with a change report.
-**Not yet built:** notes synthesis (5), tag icons (4), app UI, ESPN comparison layer,
-draft strategy model, in-season tool.
+**Phase 5 in progress:** blurb parser + notes pipeline built; top 15 by UDK overall value
+written, 197 of the top 200 remaining.
+**Not yet built:** tag icons (4), app UI, ESPN comparison layer, draft strategy model,
+in-season tool.
 
 See `BUILD_SPEC.md` for the phase definitions.
 
@@ -68,6 +70,11 @@ build/
   refresh.py          Safe daily re-ingest of the volatile tier (Value Scout ADP). Stages,
                        gates, prints a change report, and only then promotes and rebuilds.
                        See "Refreshing before the draft" below.
+  parse_blurbs.py     Extracts UDK analyst blurbs from the gitignored source PDF into a
+                       gitignored blurbs.json. Needs pypdf. Neither input nor output is
+                       ever committed — only the paraphrased notes are.
+  apply_notes.py      Merges an authored notes batch from build/notes/ into
+                       data/user/risk_upside_notes.json. Additive and idempotent.
 ```
 
 ## Adding a new source (e.g. ESPN) or a new field
@@ -233,6 +240,48 @@ explicitly rather than printing an empty section that reads like "no changes":
 - **Injury Concerns** — `tags` is empty for everyone until Phase 4, and Value Scout's
   `Markers` column is deliberately ignored (unclicked UI buttons on a shared account).
   A newly-flagged injury is not detectable here yet.
+
+## Risk/upside notes (Phase 5)
+
+Pros and cons per player, each carrying the source it came from:
+
+```json
+"kenneth-walker-kc-rb": {
+  "upside": { "udk": [
+    { "note": "TD share 26.6 pts below yardage share — biggest positive TD-regression case in this group",
+      "src": "udk_rankings", "src_label": "UDK Rankings 8/30",
+      "cites": ["td_dependency"] } ], "espn": [], "user": [] },
+  "risk": { "udk": [ ... ], "espn": [], "user": [] }
+}
+```
+
+Notes are **objects, not strings**, so each pro/con displays with its source beside it and
+later batches (UDK sleepers/busts/values, ESPN) drop in as entries with a different `src`
+rather than forcing a migration of notes already written. `cites` names the derived metrics
+backing the claim.
+
+Workflow:
+
+```bash
+.venv/bin/python build/parse_blurbs.py                          # PDF  -> blurbs.json (both gitignored)
+python3 build/apply_notes.py build/notes/<batch>.json --dry-run  # validate
+python3 build/apply_notes.py build/notes/<batch>.json            # merge
+```
+
+`apply_notes.py` may only ADD. It never rewrites an existing note, never touches the `user`
+sub-list, never drops a player, and de-duplicates on `(src, note)` so a batch can be
+corrected and re-run. Authored batches live in `build/notes/` so each is diffable.
+
+**The blurbs are never committed.** They are paid Fantasy Footballers content, read from
+`data/sources/_pdf/` (gitignored) and paraphrased — never quoted. Only the notes reach git.
+
+### Known blurb-extraction gap
+
+The PDF text layer drops prose at some column and section breaks. Four players parse with a
+missing or truncated blurb — **Trevor Lawrence, Garrett Wilson, Xavier Worthy** (all inside
+the top 200) and **Terrance Ferguson**. `parse_blurbs.py` reports them on every run. Notes
+for these must lean on the derived metrics and say so in the note text, as Chase Brown's
+batch-1 entry does.
 
 ## Validation
 

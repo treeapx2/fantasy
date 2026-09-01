@@ -278,7 +278,7 @@ def _scaffold_user_files(player_ids):
     for pid in player_ids:
         my_ranks.setdefault(pid, {"my_rank": None, "my_tier": None})
     with open(my_ranks_path, "w") as f:
-        json.dump(my_ranks, f, indent=2)
+        json.dump(my_ranks, f, indent=2, ensure_ascii=False)
 
     notes_path = os.path.join(USER_DIR, "risk_upside_notes.json")
     notes = json.load(open(notes_path)) if os.path.exists(notes_path) else {}
@@ -288,12 +288,15 @@ def _scaffold_user_files(player_ids):
             "upside": {"udk": [], "espn": [], "user": []},
         })
     with open(notes_path, "w") as f:
-        json.dump(notes, f, indent=2)
+        # ensure_ascii=False so authored notes round-trip byte-stable. Without it every
+        # rebuild re-escapes non-ASCII (em-dashes, accents) and the file churns — which
+        # would trip refresh.py's data/user hash assertion on every single run.
+        json.dump(notes, f, indent=2, ensure_ascii=False)
 
     staging_path = os.path.join(USER_DIR, "notes_staging.json")
     if not os.path.exists(staging_path):
         with open(staging_path, "w") as f:
-            json.dump([], f, indent=2)
+            json.dump([], f, indent=2, ensure_ascii=False)
 
     print(f"\nScaffolded/updated user files in {USER_DIR} (existing content preserved).")
 
