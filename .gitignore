@@ -5,3 +5,4 @@ __pycache__/
 # Transient refresh staging. Removed on success; kept on gate failure so a rejected
 # file can be inspected. Never belongs in a commit.
 data/sources/_staging/
+data/sources/_pdf/

@@ -207,6 +207,19 @@ a shared account, not the user's judgment.
 
 ## Phase 5 — Risk/upside notes synthesis
 
+### Input dependency — read this first
+
+The UDK analyst blurbs are not in the repo and never will be. Phase 1 extracted only the
+tabular columns; the prose was deliberately excluded. The blurbs exist only in the source
+PDF.
+
+The user places it at `data/sources/_pdf/UDK.pdf`, which is gitignored. It is paid
+subscription content from Fantasy Footballers — read it from disk, never commit it, never
+copy its text into any tracked file. Only the paraphrased derived notes get committed.
+
+If `data/sources/_pdf/UDK.pdf` is absent, stop and ask the user for it rather than
+attempting this phase from the tabular data alone.
+
 Scope: **top 200 players by UDK overall value**, not all 312.
 
 For each, produce two concise bullet lists in
