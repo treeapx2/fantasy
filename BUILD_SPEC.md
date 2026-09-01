@@ -3,9 +3,15 @@
 Read `README.md` first for schema and the source→canonical build pattern. Phase 1
 (mechanical UDK rankings extraction, 312 players) is complete and committed.
 
-League context that drives every scoping decision below: **10-team, PPR, 4pt passing TD,
-ESPN standard roster.** Draft is within days. Only ~200 players are realistically
-draftable or streamable; the tail exists in the data but is not worth analysis spend.
+League context that drives every scoping decision below: **12-team, PPR, 4pt passing TD,
+ESPN standard roster, user drafts at pick #5.** Draft is within days. Only ~200 players are
+realistically draftable or streamable; the tail exists in the data but is not worth
+analysis spend.
+
+> **Corrected 2026-09-01.** This line originally read "10-team". The league is 12-team.
+> Consequences: a full round of ADP drift is **12 picks** (Phase 6), and UDK's Value Scout
+> ADP board — which is also 12-team — aligns with the league exactly, so `adp_edge` needs
+> no conversion. Roughly 192 players go in a 16-round draft.
 
 ---
 
@@ -135,7 +141,7 @@ Delete `data/sources/_incoming/` once ingested; keep the originals in git histor
 
 Verified ~99% exact match against the existing canonical 312. Unmatched rows are genuinely
 deeper players not in UDK's top-312 rankings (Tyreek Hill, Amari Cooper, etc.) — **do not
-force-match them**; let them fall out, they aren't draftable in a 10-team league.
+force-match them**; let them fall out, they aren't draftable at this depth.
 
 One known alias needed in `NAME_ALIASES`: `Audric Estimé` → `Audric Estime`.
 

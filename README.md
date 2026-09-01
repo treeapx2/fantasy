@@ -9,8 +9,9 @@ an in-season lineup management tool.
 **Phase 1 complete:** UDK mechanical extraction → canonical dataset.
 **Phase 2 complete:** 20 supplemental UDK reports ingested into per-report sources.
 **Phase 3 complete:** derived metrics layer on every canonical player.
-**Not yet built:** refresh harness (6), notes synthesis (5), tag icons (4), app UI,
-ESPN comparison layer, draft strategy model, in-season tool.
+**Phase 6 complete:** gated refresh harness with a change report.
+**Not yet built:** notes synthesis (5), tag icons (4), app UI, ESPN comparison layer,
+draft strategy model, in-season tool.
 
 See `BUILD_SPEC.md` for the phase definitions.
 
@@ -64,6 +65,9 @@ build/
   derive_metrics.py   Adds the `derived` block to each canonical player. Must run AFTER
                        build_canonical.py, which regenerates players.json and drops the block
                        by design. Idempotent.
+  refresh.py          Safe daily re-ingest of the volatile tier (Value Scout ADP). Stages,
+                       gates, prints a change report, and only then promotes and rebuilds.
+                       See "Refreshing before the draft" below.
 ```
 
 ## Adding a new source (e.g. ESPN) or a new field
@@ -165,23 +169,70 @@ cannot go unnoticed.
 - `rz_volume_i10` — the player's own inside-10 scoring touches (carries + targets).
 - `adp_edge` — see below.
 
-### adp_edge is on a 12-team board
+### adp_edge
 
-Value Scout's ADP is **12-team**, while the league is 10-team. Verified at ingest: pick
-numbers in the source run to 12, and under 12-team pick math `(ADP - TrueValue)` reproduces
-the source's own `Diff` column for all 246 rows carrying both values.
+The league is **12-team, PPR, 4pt passing TD, ESPN standard roster**; the user drafts at
+**pick #5**. Value Scout's ADP board is also 12-team — verified at ingest: pick numbers in
+the source run to 12, and under 12-team pick math `(ADP - TrueValue)` reproduces the
+source's own `Diff` column for all 246 rows carrying both values.
 
-Two consequences:
+Because board and league match, `adp_edge` is directly actionable with no conversion, and
+a "full round" of drift is **12 picks** (which is what the Phase 6 change report uses).
 
-1. `adp_edge` is `Average ADP - TrueValue`, **positive = market discount** — the sign
-   follows the source's `Diff`. (BUILD_SPEC Phase 3 writes the formula as
-   `TrueValue - Average ADP`, which contradicts its own "positive = market discount" label
-   and matches `Diff` for only 18 of 246 rows. The source's convention wins.)
-2. A "full round" of drift is **12 picks, not 10** — relevant to the Phase 6 change report.
+`adp_edge` is `Average ADP - TrueValue`, **positive = market discount** — the sign follows
+the source's `Diff`. BUILD_SPEC Phase 3 writes the formula as `TrueValue - Average ADP`,
+which contradicts its own "positive = market discount" label and matches `Diff` for only 18
+of 246 rows; the source's convention wins.
 
 `adp_edge` is null where either value is `Undrafted` in the source (4 players);
-`adp_edge_status` says why. Edges on very deep players are noise in a 10-team league —
-only ~160 picks happen — so filter by `avg_adp_pick` before ranking on it.
+`adp_edge_status` says why. Roughly 192 players go in a 16-round draft, so edges on players
+far beyond that are noise — filter by `avg_adp_pick` before ranking on it.
+
+## Refreshing before the draft (Phase 6)
+
+```bash
+python3 build/refresh.py --source value_scout --file ~/Downloads/UDK_-_Value_Scout....csv
+```
+
+Add `--dry-run` to see the change report and promote nothing, or `--commit` to record the
+refresh as its own commit (`refresh: value_scout YYYY-MM-DD`) so pre-draft drift is
+reviewable in git history.
+
+**Two-speed by design.** Only the *volatile* tier goes through here — ADP, TrueValue,
+`adp_edge` — because it is a clean CSV re-ingest cheap enough to run daily. The *stable*
+tier (tiers, risk/upside scores, projections, blurb-derived notes) is hand-transcribed
+Python tuples in `extract_udk.py`, is expensive to redo, and is deliberately not coupled to
+this path. It changes only on a real UDK republish.
+
+**Nothing is promoted until it passes.** The incoming file is parsed into
+`data/sources/_staging/` and never touches the live source until every gate passes:
+
+- header signature matches the expected export exactly
+- row count within ±10% of the prior file
+- ≥95% of prior players still present
+- no field goes wholly null — *or collapses to a single constant*, which is the same
+  degradation wearing a disguise (every `TrueValue` arriving as `Undrafted` is not null,
+  but it is just as broken)
+
+On failure, staging is kept for inspection and the live source is untouched. On success the
+source is promoted, `build_canonical.py` and `derive_metrics.py` re-run, and `data/user/*`
+is hash-verified unchanged across the whole run — a mismatch fails the run loudly.
+
+### The change report is the point
+
+A silently updated file is worthless the week of a draft. The report names:
+
+- players whose ADP moved **≥ 12 picks** (one full round in a 12-team league)
+- entrants to / departures from the top 200 by TrueValue
+- rows added to or gone from the file
+
+Two dimensions BUILD_SPEC asks for cannot come from this source, and the report says so
+explicitly rather than printing an empty section that reads like "no changes":
+
+- **Tier changes** — Value Scout carries no tier column. Tiers are the stable tier.
+- **Injury Concerns** — `tags` is empty for everyone until Phase 4, and Value Scout's
+  `Markers` column is deliberately ignored (unclicked UI buttons on a shared account).
+  A newly-flagged injury is not detectable here yet.
 
 ## Validation
 

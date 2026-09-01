@@ -32887,7 +32887,7 @@
   "derived_notes": {
     "sample_confidence": "high >= 34 GP, medium 17-33, low < 17. Always present when a consistency rate is.",
     "trajectory_3yr": "Least-squares slope of positional finish rank over the last 3 PLAYED seasons, x = real year. NEGATIVE = improving.",
-    "adp_edge": "(Average ADP - TrueValue) in picks on the source's 12-team board. POSITIVE = market discount. NOTE the board is 12-team while the league is 10-team, so a 'full round' of drift here is 12 picks, not 10.",
+    "adp_edge": "(Average ADP - TrueValue) in picks on the source's 12-team board. POSITIVE = market discount. The board and the league are both 12-team, so this is directly actionable and a 'full round' of drift is 12 picks.",
     "td_dependency": "TD share minus yardage share, position-appropriate block. Large positive = TD-dependent, i.e. regression exposure.",
     "composite": "Deliberately absent. The dimensions stay separate and visible."
   }

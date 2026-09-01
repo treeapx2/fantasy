@@ -306,9 +306,9 @@ def main():
         "trajectory_3yr": "Least-squares slope of positional finish rank over the last 3 "
                           "PLAYED seasons, x = real year. NEGATIVE = improving.",
         "adp_edge": f"(Average ADP - TrueValue) in picks on the source's "
-                    f"{VALUE_SCOUT_TEAMS}-team board. POSITIVE = market discount. NOTE the "
-                    f"board is {VALUE_SCOUT_TEAMS}-team while the league is 10-team, so a "
-                    f"'full round' of drift here is {VALUE_SCOUT_TEAMS} picks, not 10.",
+                    f"{VALUE_SCOUT_TEAMS}-team board. POSITIVE = market discount. The board "
+                    f"and the league are both {VALUE_SCOUT_TEAMS}-team, so this is directly "
+                    f"actionable and a 'full round' of drift is {VALUE_SCOUT_TEAMS} picks.",
         "td_dependency": "TD share minus yardage share, position-appropriate block. Large "
                          "positive = TD-dependent, i.e. regression exposure.",
         "composite": "Deliberately absent. The dimensions stay separate and visible.",

@@ -18,8 +18,8 @@ source may only *attach* to a player the spine already knows about. A supplement
 row that matches nobody falls out and is reported — it is not promoted into the dataset.
 
 This is deliberate. The supplemental UDK reports cover the full statistical population
-(304 WRs in the consistency data vs 131 ranked WRs), and in a 10-team league the tail is
-not draftable. Letting any source mint players would quietly inflate the board with
+(304 WRs in the consistency data vs 131 ranked WRs), and even in a 12-team league the
+tail is not draftable. Letting any source mint players would quietly inflate the board with
 players UDK itself does not rank.
 
 ## Matching
