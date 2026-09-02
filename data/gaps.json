@@ -252,6 +252,84 @@
         }
       ]
     },
+    "blurb_integrity": {
+      "kind": "retrievable",
+      "why": "Structural checks on blurb boundaries. Spliced/truncated entries are detectable; MISATTRIBUTED ones are not, and are curated by hand as they are found while authoring notes. Any player listed here should get metrics-led notes that say so.",
+      "confirmed_misattributed": [
+        {
+          "name": "Ladd McConkey",
+          "detail": "blurb text is Sam LaPorta's, not his"
+        },
+        {
+          "name": "Breece Hall",
+          "detail": "blurb splices into Garrett Wilson's text partway through"
+        },
+        {
+          "name": "Alec Pierce",
+          "detail": "blurb text is Cade Otton's, not his"
+        },
+        {
+          "name": "TreVeyon Henderson",
+          "detail": "blurb splices into a receiver's text partway through"
+        },
+        {
+          "name": "Sam LaPorta",
+          "detail": "blurb tail contains kicker-table numbers from the next section"
+        }
+      ],
+      "begins_mid_sentence": [
+        {
+          "player_id": "jordyn-tyson-no-wr",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "value_rank": 137,
+          "in_top_200": true,
+          "detail": "blurb begins mid-sentence"
+        }
+      ],
+      "ends_mid_sentence": [
+        {
+          "player_id": "chase-brown-cin-rb",
+          "name": "Chase Brown",
+          "position": "RB",
+          "value_rank": 13,
+          "in_top_200": true,
+          "detail": "blurb ends mid-sentence"
+        },
+        {
+          "player_id": "terry-mclaurin-was-wr",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "value_rank": 47,
+          "in_top_200": true,
+          "detail": "blurb ends mid-sentence"
+        },
+        {
+          "player_id": "quentin-johnston-lac-wr",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "value_rank": 74,
+          "in_top_200": true,
+          "detail": "blurb ends mid-sentence"
+        },
+        {
+          "player_id": "sam-laporta-det-te",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "value_rank": 84,
+          "in_top_200": true,
+          "detail": "blurb ends mid-sentence"
+        },
+        {
+          "player_id": "jahan-dotson-atl-wr",
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "value_rank": 292,
+          "in_top_200": false,
+          "detail": "blurb ends mid-sentence"
+        }
+      ]
+    },
     "no_udk_consistency_pct": {
       "kind": "source_gap",
       "why": "Player has fewer than the reporting threshold of games in the 3-year window, or is absent from UDK's consistency report. Not retrievable from this source.",
@@ -1355,528 +1433,8 @@
     "notes_not_yet_written": {
       "kind": "retrievable",
       "why": "Phase 5 scope is the top 200 by UDK overall value. These remain.",
-      "count": 185,
+      "count": 120,
       "players": [
-        {
-          "player_id": "trey-mcbride-ari-te",
-          "name": "Trey McBride",
-          "position": "TE",
-          "value_rank": 16,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "a-j-brown-ne-wr",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "value_rank": 17,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "chris-olave-no-wr",
-          "name": "Chris Olave",
-          "position": "WR",
-          "value_rank": 18,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "nico-collins-hou-wr",
-          "name": "Nico Collins",
-          "position": "WR",
-          "value_rank": 19,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "josh-allen-buf-qb",
-          "name": "Josh Allen",
-          "position": "QB",
-          "value_rank": 20,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "garrett-wilson-nyj-wr",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "value_rank": 21,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "drake-london-atl-wr",
-          "name": "Drake London",
-          "position": "WR",
-          "value_rank": 22,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "omarion-hampton-lac-rb",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "value_rank": 23,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "george-pickens-dal-wr",
-          "name": "George Pickens",
-          "position": "WR",
-          "value_rank": 24,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "rashee-rice-kc-wr",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "value_rank": 25,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "malik-nabers-nyg-wr",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "value_rank": 26,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "ashton-jeanty-lv-rb",
-          "name": "Ashton Jeanty",
-          "position": "RB",
-          "value_rank": 27,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "saquon-barkley-phi-rb",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "value_rank": 28,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "zay-flowers-bal-wr",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "value_rank": 29,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "lamar-jackson-bal-qb",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "value_rank": 30,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "devonta-smith-phi-wr",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "value_rank": 31,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jaylen-waddle-den-wr",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "value_rank": 32,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "derrick-henry-bal-rb",
-          "name": "Derrick Henry",
-          "position": "RB",
-          "value_rank": 33,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "ladd-mcconkey-lac-wr",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "value_rank": 34,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "emeka-egbuka-tb-wr",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "value_rank": 35,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jeremiyah-love-ari-rb",
-          "name": "Jeremiyah Love",
-          "position": "RB",
-          "value_rank": 36,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "kyren-williams-lar-rb",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "value_rank": 37,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "tetairoa-mcmillan-car-wr",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "value_rank": 38,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "tee-higgins-cin-wr",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "value_rank": 39,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "breece-hall-nyj-rb",
-          "name": "Breece Hall",
-          "position": "RB",
-          "value_rank": 40,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "carnell-tate-ten-wr",
-          "name": "Carnell Tate",
-          "position": "WR",
-          "value_rank": 41,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "luther-burden-iii-chi-wr",
-          "name": "Luther Burden III",
-          "position": "WR",
-          "value_rank": 42,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "d-andre-swift-chi-rb",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "value_rank": 43,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jalen-hurts-phi-qb",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "value_rank": 44,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "christian-watson-gb-wr",
-          "name": "Christian Watson",
-          "position": "WR",
-          "value_rank": 45,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "parker-washington-jax-wr",
-          "name": "Parker Washington",
-          "position": "WR",
-          "value_rank": 46,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "terry-mclaurin-was-wr",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "value_rank": 47,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "javonte-williams-dal-rb",
-          "name": "Javonte Williams",
-          "position": "RB",
-          "value_rank": 48,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jameson-williams-det-wr",
-          "name": "Jameson Williams",
-          "position": "WR",
-          "value_rank": 49,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "dj-moore-buf-wr",
-          "name": "DJ Moore",
-          "position": "WR",
-          "value_rank": 50,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jayden-daniels-was-qb",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "value_rank": 51,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "davante-adams-lar-wr",
-          "name": "Davante Adams",
-          "position": "WR",
-          "value_rank": 52,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "travis-etienne-jr-no-rb",
-          "name": "Travis Etienne Jr.",
-          "position": "RB",
-          "value_rank": 53,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "joe-burrow-cin-qb",
-          "name": "Joe Burrow",
-          "position": "QB",
-          "value_rank": 54,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "tyler-warren-ind-te",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "value_rank": 55,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "mike-evans-sf-wr",
-          "name": "Mike Evans",
-          "position": "WR",
-          "value_rank": 56,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "drake-maye-ne-qb",
-          "name": "Drake Maye",
-          "position": "QB",
-          "value_rank": 57,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "colston-loveland-chi-te",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "value_rank": 58,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "rome-odunze-chi-wr",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "value_rank": 59,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "cam-skattebo-nyg-rb",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "value_rank": 60,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "bucky-irving-tb-rb",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "value_rank": 61,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "marvin-harrison-jr-ari-wr",
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "value_rank": 62,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "bhayshul-tuten-jax-rb",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "value_rank": 63,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "dk-metcalf-pit-wr",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "value_rank": 64,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "alec-pierce-ind-wr",
-          "name": "Alec Pierce",
-          "position": "WR",
-          "value_rank": 65,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "brian-thomas-jr-jax-wr",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "value_rank": 66,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "harold-fannin-jr-cle-te",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "value_rank": 67,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "quinshon-judkins-cle-rb",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "value_rank": 68,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jaxson-dart-nyg-qb",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "value_rank": 69,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "chris-godwin-jr-tb-wr",
-          "name": "Chris Godwin Jr.",
-          "position": "WR",
-          "value_rank": 70,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "treveyon-henderson-ne-rb",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "value_rank": 71,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "david-montgomery-hou-rb",
-          "name": "David Montgomery",
-          "position": "RB",
-          "value_rank": 72,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "jadarian-price-sea-rb",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "value_rank": 73,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "quentin-johnston-lac-wr",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "value_rank": 74,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "tucker-kraft-gb-te",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "value_rank": 75,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "caleb-williams-chi-qb",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "value_rank": 76,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "michael-pittman-jr-pit-wr",
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "value_rank": 77,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "marshawn-lloyd-gb-rb",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "value_rank": 78,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "rhamondre-stevenson-ne-rb",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "value_rank": 79,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
-        {
-          "player_id": "trevor-lawrence-jax-qb",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "value_rank": 80,
-          "in_top_200": true,
-          "detail": "no notes yet"
-        },
         {
           "player_id": "dak-prescott-dal-qb",
           "name": "Dak Prescott",

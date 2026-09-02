@@ -1,0 +1,1033 @@
+{
+  "source": "udk_rankings",
+  "source_label": "UDK Rankings 8/30",
+  "batch": "ranks_16_33",
+  "notes": {
+    "trey-mcbride-ari-te": {
+      "risk": [
+        {
+          "note": "TD share 9.4 pts above yardage share — 11 receiving TDs on a team projected for the fewest wins is the regression case",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish volatility 18.15",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "48.0% ceiling rate on 50 games — the positional edge an elite TE buys you",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Record reception volume on 696 routes; the target load is not TD-dependent",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "+5 picks of market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "a-j-brown-ne-wr": {
+      "risk": [
+        {
+          "note": "35.6% bust rate on 45 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "sample_gp"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Only declining trajectory here — finish slipping ~1.5 places a year, peak three years back",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr",
+            "years_since_peak"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "New team and an unproven QB pairing",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        },
+        {
+          "note": "5 inside-10 targets",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "Still finished WR10 in what was a down year by his standards",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Seven straight seasons above 2 yards per route run",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        }
+      ]
+    },
+    "chris-olave-no-wr": {
+      "risk": [
+        {
+          "note": "TD share 18.6 pts above yardage share — a career-high 9 TDs is the thing most likely to regress",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish volatility 38.98 with a concussion history behind it",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Rookie addition to the WR room takes target competition up",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        },
+        {
+          "note": "4 inside-10 targets",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "+11 picks of market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "30.2% target share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish rank improving ~6.5 places a year",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "nico-collins-hou-wr": {
+      "risk": [
+        {
+          "note": "Finish volatility 38.85 — QB play has swung his weekly outcomes hard",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "24.6% opportunity share is modest for a clear WR1",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "+7 picks of market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Target share locked in with the WR2 recovering and last year's rookies unproven",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "38.1% ceiling rate on 42 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate",
+            "sample_gp"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "josh-allen-buf-qb": {
+      "risk": [
+        {
+          "note": "QB is the cheapest position in a 1QB league — QB12 projects within ~60 points of him, so the pick costs more than it returns",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Age 30 with a head-coaching change",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        },
+        {
+          "note": "No market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "Finish volatility 1.3 — the single most stable player on the board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "68.6% top-12 rate with 11.8% bust on 51 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "floor_rate",
+            "bust_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "17 inside-10 rushing attempts; the scoring floor is his own legs",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "garrett-wilson-nyj-wr": {
+      "risk": [
+        {
+          "note": "No blurb — the PDF text layer dropped it, so this read is metrics-only and thinner than the rest",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        },
+        {
+          "note": "Trajectory +15.5, the steepest decline in the top 200",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "39.0% bust rate against a 17.1% ceiling rate on 41 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "ceiling_rate",
+            "sample_gp"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "1 inside-10 target, and TD share 14.3 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10",
+            "td_dependency"
+          ],
+          "severity": 2
+        }
+      ],
+      "upside": [
+        {
+          "note": "33.7% target share — among the highest on the board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "+20 picks of market discount, one of the largest anywhere in the top 200",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        }
+      ]
+    },
+    "drake-london-atl-wr": {
+      "risk": [
+        {
+          "note": "44.4% bust rate on 45 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "sample_gp"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "TD share 17.9 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "QB play is the binding constraint and has not been solved",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Market is charging a small premium",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "Finish rank improving ~12 places a year",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "30.4% target share with essentially no one behind him on the depth chart",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        }
+      ]
+    },
+    "omarion-hampton-lac-rb": {
+      "risk": [
+        {
+          "note": "9-game sample, LOW confidence — every rate on his line is close to meaningless",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "TD share 26.4 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Ankle fracture cost him half his rookie season",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Market is charging a premium",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "79.7% opportunity share while active",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Held a 30% share of team attempts plus targets as a rookie — a rare, elite marker",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        }
+      ]
+    },
+    "george-pickens-dal-wr": {
+      "risk": [
+        {
+          "note": "47.9% bust rate on 48 games — the worst in this tier",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "22.6% opportunity share, low for the draft cost",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "No discount left; his ADP has climbed on last season",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "Finish rank improving ~10.5 places a year",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "10 inside-10 targets",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "rashee-rice-kc-wr": {
+      "risk": [
+        {
+          "note": "UDK risk score 9.5 — suspension served, probation violation, jail time, and a knee procedure, all in one offseason",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "28-game sample, medium confidence",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "TD share 18.4 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish volatility 37.04",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "16 inside-10 targets — a genuine red-zone role, the stickiest kind of production",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Produces at a WR1 rate whenever he is actually on the field",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        }
+      ]
+    },
+    "malik-nabers-nyg-wr": {
+      "risk": [
+        {
+          "note": "ACL and meniscus recovery; a PUP start is live and he is projected limited early",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Finish volatility 64.35 — the highest on the entire board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "19-game sample, medium confidence",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "TD share 19.8 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "28.2% target share as an unquestioned WR1 when healthy",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "+5 picks of discount for a player this young",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "ashton-jeanty-lv-rb": {
+      "risk": [
+        {
+          "note": "UDK risk score 10.0 — the maximum on the board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Ankle injury in late August with no reported timeline; Week 1 usage is genuinely unclear",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Market premium of 11 picks",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "17-game sample, medium confidence",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "101.4% opportunity share — complete control of the backfield, the highest figure on the board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Line investment and a scheme change address exactly what suppressed him as a rookie",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Draft capital and age profile that historically translate",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        }
+      ]
+    },
+    "saquon-barkley-phi-rb": {
+      "risk": [
+        {
+          "note": "Market premium of 17 picks, the largest in this tier",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Explosive runs collapsed from 17 to 4 year over year",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Age 29.6 with TD share 12.3 pts above yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "73.9% floor, 52.2% ceiling, 10.9% bust on 46 games — the best complete profile outside the top 5",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "floor_rate",
+            "ceiling_rate",
+            "bust_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "92.3% opportunity share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "opportunity_share"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "One TD on 13 carries inside the 5 is not a repeatable rate; 16 inside-10 touches remain",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 2
+        }
+      ]
+    },
+    "zay-flowers-bal-wr": {
+      "risk": [
+        {
+          "note": "20.0% ceiling rate — the weekly top-end is capped",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Goal-line work belongs to the QB and the lead back, so the TD ceiling is structural, not luck",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "38.0% bust rate",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "+12 picks of market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish rank improving ~11.5 places a year",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "TD share 15.2 pts below yardage share — an outlier TD year would break the profile open",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "lamar-jackson-bal-qb": {
+      "risk": [
+        {
+          "note": "Trajectory +8.0, declining",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "trajectory_3yr"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Back injury cut his post-return scoring nearly in half",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "QB is the cheapest position in a 1QB league",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        }
+      ],
+      "upside": [
+        {
+          "note": "69.6% top-12 rate on 46 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "floor_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Highest end-zone attempt rate in the league; low volume, high value per throw",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        }
+      ]
+    },
+    "devonta-smith-phi-wr": {
+      "risk": [
+        {
+          "note": "17.4% ceiling rate — the lowest in this tier",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "43.5% bust rate on 46 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "sample_gp"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "3 inside-10 targets",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "The departure of the WR1 vacates target share directly to him",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Has averaged 14.5 PPR points per game in games without that WR1 since 2022",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "TD share 13.4 pts below yardage share",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "td_dependency"
+          ],
+          "severity": 1
+        }
+      ]
+    },
+    "jaylen-waddle-den-wr": {
+      "risk": [
+        {
+          "note": "53.3% bust rate on 45 games — the worst in the top 40",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "bust_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "13.3% ceiling rate",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "New play-caller historically spreads targets across many mouths",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        }
+      ],
+      "upside": [
+        {
+          "note": "+16 picks of market discount",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Clear scoring-environment upgrade at QB and scheme",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        }
+      ]
+    },
+    "derrick-henry-bal-rb": {
+      "risk": [
+        {
+          "note": "Age 32.7 — the age curve eventually wins",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 2
+        },
+        {
+          "note": "Market premium of 17 picks",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "adp_edge"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Almost no receiving work, which costs him in full PPR",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [],
+          "severity": 1
+        }
+      ],
+      "upside": [
+        {
+          "note": "27 inside-10 carries — the most of any player on the board",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "rz_volume_i10"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "56.9% RB1 rate on 51 games",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "ceiling_rate",
+            "sample_gp",
+            "sample_confidence"
+          ],
+          "severity": 2
+        },
+        {
+          "note": "Finish volatility 5.37; remarkably steady for his age",
+          "src": "udk_rankings",
+          "src_label": "UDK Rankings 8/30",
+          "cites": [
+            "finish_volatility"
+          ],
+          "severity": 1
+        }
+      ]
+    }
+  }
+}

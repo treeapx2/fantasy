@@ -71,6 +71,45 @@ def main():
                                  "why": "blurbs.json absent — run build/parse_blurbs.py",
                                  "players": []}
 
+    # --- blurb integrity --------------------------------------------------
+    # Two distinct failures. A MISSING blurb is obvious and safe. A MISATTRIBUTED one
+    # is dangerous: it reads as complete prose about the wrong player and would produce
+    # confidently wrong notes. Structural checks catch truncation and splicing; swaps
+    # are only found by reading, so confirmed ones are curated here as they turn up.
+    CONFIRMED_MISATTRIBUTED = {
+        "Ladd McConkey": "blurb text is Sam LaPorta's, not his",
+        "Breece Hall": "blurb splices into Garrett Wilson's text partway through",
+        "Alec Pierce": "blurb text is Cade Otton's, not his",
+        "TreVeyon Henderson": "blurb splices into a receiver's text partway through",
+        "Sam LaPorta": "blurb tail contains kicker-table numbers from the next section",
+    }
+    if os.path.exists(BLURBS):
+        import re as _re
+        entries = json.load(open(BLURBS))["entries"]
+        spliced, truncated = [], []
+        for e in entries:
+            if not e["player_id"]:
+                continue
+            b = e["blurb"].strip()
+            if len(b) < 120:
+                continue
+            p = by_id[e["player_id"]]
+            if b[0].islower():
+                spliced.append(entry(p, "blurb begins mid-sentence"))
+            if not _re.search(r'[.!?”"\')]$', b):
+                truncated.append(entry(p, "blurb ends mid-sentence"))
+        gaps["blurb_integrity"] = {
+            "kind": "retrievable",
+            "why": "Structural checks on blurb boundaries. Spliced/truncated entries are "
+                   "detectable; MISATTRIBUTED ones are not, and are curated by hand as "
+                   "they are found while authoring notes. Any player listed here should "
+                   "get metrics-led notes that say so.",
+            "confirmed_misattributed": [
+                {"name": n, "detail": d} for n, d in CONFIRMED_MISATTRIBUTED.items()],
+            "begins_mid_sentence": sorted(spliced, key=lambda e: e["value_rank"]),
+            "ends_mid_sentence": sorted(truncated, key=lambda e: e["value_rank"]),
+        }
+
     # --- per-source coverage ---------------------------------------------
     for src, label, kind, why in [
         ("udk_consistency_pct", "consistency percentages", "source_gap",
