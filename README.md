@@ -79,6 +79,9 @@ build/
                        Runs after derive_metrics.py. See "Claude Rank" below.
   report_gaps.py      Inventories every known data gap into data/gaps.json so nothing
                        missing is quietly lost. See "Tracking what's missing".
+  export_sheet.py     Writes a portable plain-text draft sheet. Artifact URLs are private
+                       and cannot be fetched by an external tool, so this is how the board
+                       travels — attach it to a chat, print it, read it offline.
 ```
 
 ## Adding a new source (e.g. ESPN) or a new field
