@@ -264,7 +264,7 @@ def main():
     shutil.rmtree(STAGING, ignore_errors=True)
     print(f"\nPromoted staging -> data/sources/{cfg['dir']}/players_raw.json")
 
-    for script in ("build_canonical.py", "derive_metrics.py"):
+    for script in ("build_canonical.py", "derive_metrics.py", "claude_rank.py"):
         r = subprocess.run([sys.executable, os.path.join(BASE, "build", script)],
                            capture_output=True, text=True)
         if r.returncode != 0:

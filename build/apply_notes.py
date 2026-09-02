@@ -29,7 +29,13 @@ NOTES = os.path.join(BASE, "data", "user", "risk_upside_notes.json")
 CANONICAL = os.path.join(BASE, "data", "canonical", "players.json")
 
 SIDES = ("risk", "upside")
-REQUIRED = {"note", "src", "src_label"}
+REQUIRED = {"note", "src", "src_label", "severity"}
+
+# How strongly the note moves the player's value. Direction comes from which side the
+# note sits on, so a severity-2 upside is a double green up-arrow and a severity-2 risk
+# is a double red down-arrow.
+ARROWS = {("upside", 1): "\u2191", ("upside", 2): "\u2191\u2191",
+          ("risk", 1): "\u2193", ("risk", 2): "\u2193\u2193"}
 
 
 class GateFailure(Exception):
@@ -55,12 +61,20 @@ def validate_batch(batch, valid_ids):
                     raise GateFailure(f"{pid}/{side}: note missing {REQUIRED - set(it)}")
                 if not it["note"].strip():
                     raise GateFailure(f"{pid}/{side}: empty note text")
+                if it["severity"] not in (1, 2):
+                    raise GateFailure(
+                        f"{pid}/{side}: severity {it['severity']!r} — must be 1 (secondary) "
+                        f"or 2 (materially moves draft value)")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("batches", nargs="+")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--reconcile", action="store_true",
+                    help="update metadata (severity, cites, src_label) on notes already "
+                         "present with the same (src, note). Never touches note text, "
+                         "never touches the 'user' sub-list.")
     args = ap.parse_args()
 
     valid_ids = {p["player_id"] for p in json.load(open(CANONICAL))["players"]}
@@ -70,7 +84,7 @@ def main():
     before_user = {pid: json.dumps(v["risk"]["user"]) + json.dumps(v["upside"]["user"])
                    for pid, v in notes.items()}
 
-    added = skipped = 0
+    added = skipped = updated = 0
     try:
         for path in args.batches:
             batch = json.load(open(path))
@@ -78,11 +92,19 @@ def main():
             for pid, blocks in batch["notes"].items():
                 for side, items in blocks.items():
                     bucket = notes[pid][side].setdefault("udk", [])
-                    have = {(n.get("src"), n.get("note")) for n in bucket
+                    have = {(n.get("src"), n.get("note")): n for n in bucket
                             if isinstance(n, dict)}
                     for it in items:
-                        if (it["src"], it["note"]) in have:
-                            skipped += 1
+                        existing = have.get((it["src"], it["note"]))
+                        if existing is not None:
+                            if args.reconcile:
+                                changed = False
+                                for k in ("severity", "cites", "src_label"):
+                                    if k in it and existing.get(k) != it[k]:
+                                        existing[k] = it[k]
+                                        changed = True
+                                updated += changed
+                            skipped += not args.reconcile
                             continue
                         bucket.append(it)
                         added += 1
@@ -103,7 +125,7 @@ def main():
             return 1
 
     if args.dry_run:
-        print(f"\n--dry-run: would add {added} notes, skip {skipped} already present. "
+        print(f"\n--dry-run: would add {added} notes, update {updated}, skip {skipped}. "
               f"Nothing written.")
         return 0
 
@@ -112,7 +134,7 @@ def main():
 
     covered = sum(1 for v in notes.values()
                   if v["risk"].get("udk") or v["upside"].get("udk"))
-    print(f"\nAdded {added} notes ({skipped} already present) -> "
+    print(f"\nAdded {added} notes, updated {updated}, skipped {skipped} -> "
           f"{os.path.relpath(NOTES, BASE)}")
     print(f"Players with notes: {covered} of {len(notes)}")
     return 0

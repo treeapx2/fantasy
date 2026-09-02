@@ -75,6 +75,10 @@ build/
                        ever committed — only the paraphrased notes are.
   apply_notes.py      Merges an authored notes batch from build/notes/ into
                        data/user/risk_upside_notes.json. Additive and idempotent.
+  claude_rank.py      Blends everything into one sortable evaluation per player.
+                       Runs after derive_metrics.py. See "Claude Rank" below.
+  report_gaps.py      Inventories every known data gap into data/gaps.json so nothing
+                       missing is quietly lost. See "Tracking what's missing".
 ```
 
 ## Adding a new source (e.g. ESPN) or a new field
@@ -145,7 +149,9 @@ composite score.** The dimensions stay separate and visible; the weighing is you
 Build order matters:
 
 ```bash
-python3 build/extract_udk.py && python3 build/build_canonical.py && python3 build/derive_metrics.py
+python3 build/extract_udk.py && python3 build/build_canonical.py \
+  && python3 build/derive_metrics.py && python3 build/claude_rank.py \
+  && python3 build/report_gaps.py
 ```
 
 ### Sample size is not optional
@@ -194,6 +200,81 @@ of 246 rows; the source's convention wins.
 `adp_edge` is null where either value is `Undrafted` in the source (4 players);
 `adp_edge_status` says why. Roughly 192 players go in a 16-round draft, so edges on players
 far beyond that are noise — filter by `avg_adp_pick` before ranking on it.
+
+## Claude Rank
+
+`build/claude_rank.py` writes `players[].evaluation` — one sortable number expressing an
+overall opinion of each player.
+
+BUILD_SPEC Phase 3 says not to blend the dimensions into a composite. This does **not**
+override that: every dimension stays in `derived`, untouched and separately visible. This
+is an additional, auditable opinion sitting beside them — `evaluation.parts` breaks out
+each pillar's contribution, so any ranking traces back to its inputs.
+
+### Sorting on it
+
+- **`claude_value`** — the sortable number, in projected points.
+- **`claude_rank`** / **`claude_pos_rank`** — the sort, overall and within position.
+- **`rank_delta`** — disagreement with the market. This is the actionable column: positive
+  means the board is cheaper than the player deserves.
+- **`rank_confidence`** — `solid` / `moderate` / `thin`. A rank built on a third of the
+  inputs is not the same claim as one built on all of them.
+
+### The formula
+
+Four pillars, each a weighted blend of **within-position** z-scores:
+
+| Pillar | Weight | Inputs |
+|---|---|---|
+| production | 35% | projected points, opportunity share, inside-10 volume |
+| reliability | 25% | shrunk floor rate, shrunk bust rate, finish volatility |
+| upside | 25% | shrunk ceiling rate, trajectory, UDK's upside score |
+| market | 15% | `adp_edge`, TD-regression exposure |
+
+Cross-position ordering is then done **in points**, not z-scores:
+
+```
+claude_value = vorp + claude_score * 20
+```
+
+`vorp` is projected points above replacement — the last startable player at that position
+in a 12-team ESPN lineup (QB12, RB30, WR36, TE12; RB and WR run deeper because the flex is
+filled from them). This is what lets an elite TE outrank a mid RB honestly: the TE12
+fallback is far worse than the RB30 fallback, so the same raw projection is worth more. It
+also correctly makes QBs cheap in a 1QB league, where QB12 projects within ~60 points of
+QB1. The opinion is a modest adjustment by design — median 9 points against a median VORP
+of 70.
+
+### Small samples cannot game it
+
+Every rate is shrunk toward its positional mean before use, weighted by games played:
+
+```
+shrunk = (rate * gp + positional_mean * K) / (gp + K),   K = 17
+```
+
+Cam Skattebo's 87.5% top-24 rate on 8 games shrinks to **52.6%**; Christian McCaffrey's
+91.9% on 37 games only falls to 74.4%. Skattebo lands at #41, Jonathan Taylor at #6. A gate
+in the script asserts that ordering directly and refuses to write if it ever inverts — the
+founding failure of this project, encoded as a test rather than a warning.
+
+Scores are additionally damped by `data_completeness`, so a thin profile moves less.
+
+## Tracking what's missing
+
+`build/report_gaps.py` writes `data/gaps.json`, splitting every known gap into two kinds,
+because the distinction decides what you do about it:
+
+- **`retrievable`** — the datum exists and can be fetched. Blurbs the PDF text layer
+  dropped, TE games/finish cropped from the source layout, Phase 4 tags, notes not yet
+  written. Worth a retrieval trip.
+- **`source_gap`** — the datum does not exist in the source. UDK publishes no QB market
+  share file, so all 36 QBs are structurally absent; Najee Harris has no rankings row at
+  all. No amount of re-parsing produces these.
+
+Each entry records names, positions, value rank, and whether the player is inside the top
+200, so retrieval can be prioritised. Names only — never source prose, so it is safe to
+commit.
 
 ## Refreshing before the draft (Phase 6)
 
@@ -259,6 +340,14 @@ Notes are **objects, not strings**, so each pro/con displays with its source bes
 later batches (UDK sleepers/busts/values, ESPN) drop in as entries with a different `src`
 rather than forcing a migration of notes already written. `cites` names the derived metrics
 backing the claim.
+
+`severity` is how hard the note moves the player's value — `2` materially, `1` secondary.
+Direction comes from the side it sits on, which gives four render states:
+
+| | severity 1 | severity 2 |
+|---|---|---|
+| **upside** | ↑ green | ↑↑ green |
+| **risk** | ↓ red | ↓↓ red |
 
 Workflow:
 
