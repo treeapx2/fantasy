@@ -1,0 +1,10 @@
+{
+  "source": "udk_tags",
+  "_comment": "Raw field -> canonical field.",
+  "mapping": {
+    "tags": "tags",
+    "injury": "injury",
+    "injury_timeline": "injury_timeline",
+    "injury_out": "injury_out"
+  }
+}

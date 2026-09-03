@@ -278,9 +278,39 @@ def gates(players):
 
 
 def coverage(players):
-    keys = ["floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
+    keys = ["weekly_start_pct", "floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
             "opportunity_share", "td_dependency", "rz_volume_i10", "adp_edge"]
     return {k: sum(1 for p in players if p["derived"][k] is not None) for k in keys}
+
+
+def adjust_rates(players):
+    """Sample-weight every consistency rate toward its positional mean, and expose the
+    result as a first-class field rather than leaving it implicit inside the ranking.
+
+    weekly_start_pct is the one a manager actually asks for: how often does this player
+    finish a week as someone you would have started. UDK's floor bucket already IS that
+    question — Top-12 for QB/TE (one starter each) and Top-24 for RB/WR (two each) — so
+    the adjusted floor rate is the answer, with one caveat recorded in the output: a
+    12-team lineup also has a flex, so roughly 30 RB/WR are startable in a given week and
+    Top-24 therefore understates RB and WR slightly.
+    """
+    for pos in sorted({p["position"] for p in players}):
+        grp = [p for p in players if p["position"] == pos]
+        for key in ("floor_rate", "ceiling_rate", "bust_rate"):
+            vals = [p["derived"][key] for p in grp if p["derived"][key] is not None]
+            prior = statistics.mean(vals) if vals else 0.0
+            for p in grp:
+                gp, r = p["derived"]["sample_gp"], p["derived"][key]
+                p["derived"][key + "_adj"] = (
+                    None if (r is None or gp is None)
+                    else round((r * gp + prior * CONF_MED) / (gp + CONF_MED), 1))
+                p["derived"][key + "_prior"] = round(prior, 1)
+    for p in players:
+        d = p["derived"]
+        d["weekly_start_pct"] = d["floor_rate_adj"]
+        d["weekly_start_pct_raw"] = d["floor_rate"]
+        d["sample_weight_own"] = (None if d["sample_gp"] is None
+                                  else round(100 * d["sample_gp"] / (d["sample_gp"] + CONF_MED)))
 
 
 def main():
@@ -290,6 +320,7 @@ def main():
 
     for p in players:
         p["derived"] = derive(p)
+    adjust_rates(players)
 
     try:
         gates(players)
@@ -311,6 +342,10 @@ def main():
                     f"actionable and a 'full round' of drift is {VALUE_SCOUT_TEAMS} picks.",
         "td_dependency": "TD share minus yardage share, position-appropriate block. Large "
                          "positive = TD-dependent, i.e. regression exposure.",
+        "weekly_start_pct": "How often he finishes a week as a startable player at his "
+                            "position, sample-adjusted. Derived from UDK's floor bucket "
+                            "(Top-12 QB/TE, Top-24 RB/WR). The Top-24 buckets slightly "
+                            "understate RB/WR because a 12-team lineup also starts a flex.",
         "composite": "Deliberately absent. The dimensions stay separate and visible.",
     }
 

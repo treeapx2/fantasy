@@ -1,0 +1,731 @@
+{
+  "source": "udk_tags",
+  "source_date": "2026-09-03",
+  "grain": "player",
+  "source_label": "UDK expert lists (My Guys / Values / Sleepers / Breakouts / Busts) and the UDK injury report",
+  "extracted": "read from the published list pages in the user's logged-in session; transcribed here as literals (build/extract_udk_tags.py)",
+  "notes": [
+    "UDK's Values and My Guys pages serve the identical 13 players — different titles and canonical URLs, same roster, verified by fetching each alone. Both tags are recorded because the source asserts both, but they are not two independent endorsements.",
+    "The Value Scout 'Markers' column stays ignored per BUILD_SPEC; these tags come from the editorial lists, which are the analysts' actual picks.",
+    "injury_out is true when the stated return timeline rules the player out of Week 1 or the season (IR, PUP, 'out for the year', 'may not play')."
+  ],
+  "players": [
+    {
+      "name": "Malik Willis",
+      "team": "MIA",
+      "position": "QB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Tyler Shough",
+      "team": "NO",
+      "position": "QB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Rico Dowdle",
+      "team": "PIT",
+      "position": "RB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "position": "RB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Blake Corum",
+      "team": "LAR",
+      "position": "RB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "position": "RB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "position": "RB",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Quentin Johnston",
+      "team": "LAC",
+      "position": "WR",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Josh Downs",
+      "team": "IND",
+      "position": "WR",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "De'Zhaun Stribling",
+      "team": "SF",
+      "position": "WR",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Isaiah Likely",
+      "team": "NYG",
+      "position": "TE",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Chig Okonkwo",
+      "team": "WAS",
+      "position": "TE",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "position": "TE",
+      "tags": [
+        "sleeper"
+      ]
+    },
+    {
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Trevor Lawrence",
+      "team": "JAX",
+      "position": "QB",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Kenneth Walker",
+      "team": "KC",
+      "position": "RB",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Omarion Hampton",
+      "team": "LAC",
+      "position": "RB",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Christian Watson",
+      "team": "GB",
+      "position": "WR",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Carnell Tate",
+      "team": "TEN",
+      "position": "WR",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "position": "WR",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "position": "TE",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Matthew Stafford",
+      "team": "LAR",
+      "position": "QB",
+      "tags": [
+        "bust"
+      ]
+    },
+    {
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "position": "QB",
+      "tags": [
+        "bust",
+        "injury_concern"
+      ],
+      "injury": "ACL + LCL",
+      "injury_timeline": "Limited throughout the offseason, Likely ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Chuba Hubbard",
+      "team": "CAR",
+      "position": "RB",
+      "tags": [
+        "bust",
+        "injury_concern"
+      ],
+      "injury": "Hamstring Strain",
+      "injury_timeline": "Week-to-week, Likely to play Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "RJ Harvey",
+      "team": "DEN",
+      "position": "RB",
+      "tags": [
+        "bust",
+        "injury_concern"
+      ],
+      "injury": "Shoulder Labrum Repair",
+      "injury_timeline": "Training Camp",
+      "injury_out": false
+    },
+    {
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "position": "WR",
+      "tags": [
+        "bust",
+        "injury_concern"
+      ],
+      "injury": "ACL + Meniscus",
+      "injury_timeline": "Limited in Training Camp, Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "DJ Moore",
+      "team": "BUF",
+      "position": "WR",
+      "tags": [
+        "bust"
+      ]
+    },
+    {
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "tags": [
+        "bust"
+      ]
+    },
+    {
+      "name": "Oronde Gadsden",
+      "team": "LAC",
+      "position": "TE",
+      "tags": [
+        "bust"
+      ]
+    },
+    {
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "position": "TE",
+      "tags": [
+        "bust"
+      ]
+    },
+    {
+      "name": "Brock Purdy",
+      "team": "SF",
+      "position": "QB",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Dak Prescott",
+      "team": "DAL",
+      "position": "QB",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "position": "RB",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Cam Skattebo",
+      "team": "NYG",
+      "position": "RB",
+      "tags": [
+        "value",
+        "my_guy",
+        "injury_concern"
+      ],
+      "injury": "Ankle Fracture-Dislocation",
+      "injury_timeline": "Limited early in the offseason; Ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "J.K. Dobbins",
+      "team": "DEN",
+      "position": "RB",
+      "tags": [
+        "value",
+        "my_guy",
+        "injury_concern"
+      ],
+      "injury": "Lisfranc Surgery",
+      "injury_timeline": "Limited in OTAs and Training Camp",
+      "injury_out": false
+    },
+    {
+      "name": "Jaylen Waddle",
+      "team": "DEN",
+      "position": "WR",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Parker Washington",
+      "team": "JAX",
+      "position": "WR",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "position": "WR",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Chris Godwin Jr.",
+      "team": "TB",
+      "position": "WR",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "tags": [
+        "value",
+        "my_guy"
+      ]
+    },
+    {
+      "name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "tags": [
+        "value",
+        "my_guy",
+        "injury_concern"
+      ],
+      "injury": "Low Back Surgery / Hip Injury",
+      "injury_timeline": "Likely to play Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Bo Nix",
+      "team": "DEN",
+      "position": "QB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Right Ankle Fracture",
+      "injury_timeline": "Cleared for Training Camp, Ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Daniel Jones",
+      "team": "IND",
+      "position": "QB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Achilles",
+      "injury_timeline": "Cleared for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "team": "ATL",
+      "position": "QB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "ACL",
+      "injury_timeline": "Limited throughout the offseason, Could be ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Right Ankle Sprain",
+      "injury_timeline": "Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Jeremiyah Love",
+      "team": "ARI",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Left High Ankle Sprain",
+      "injury_timeline": "Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Groin Strain",
+      "injury_timeline": "Likely out of practice 1-2 weeks; Probable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Zach Charbonnet",
+      "team": "SEA",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "ACL",
+      "injury_timeline": "Will begin regular season on PUP",
+      "injury_out": true
+    },
+    {
+      "name": "Quinshon Judkins",
+      "team": "CLE",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Ankle Fracture-Dislocation",
+      "injury_timeline": "Limited throughout the offseason, Likely ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "MCL Sprain",
+      "injury_timeline": "Doubtful for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Kyle Monangai",
+      "team": "CHI",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Hyperextended Right Knee",
+      "injury_timeline": "Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "MCL Sprain, Back Injury",
+      "injury_timeline": "Beginning Season on IR",
+      "injury_out": true
+    },
+    {
+      "name": "Josh Jacobs",
+      "team": "GB",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Groin Strain",
+      "injury_timeline": "Will be healthy for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Labrum Repair",
+      "injury_timeline": "Cleared for Training Camp",
+      "injury_out": false
+    },
+    {
+      "name": "Chris Rodriguez Jr.",
+      "team": "JAX",
+      "position": "RB",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Foot Surgery",
+      "injury_timeline": "Training Camp",
+      "injury_out": false
+    },
+    {
+      "name": "Jordyn Tyson",
+      "team": "NO",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Hamstring Strain",
+      "injury_timeline": "Likely to miss 3+ regular season games; Could begin season on IR",
+      "injury_out": true
+    },
+    {
+      "name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Hip Flexor Strain",
+      "injury_timeline": "Likely to play Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Mike Evans",
+      "team": "SF",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Groin Strain",
+      "injury_timeline": "Likely to play Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Rashee Rice",
+      "team": "KC",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Right Knee \"Clean up\" Procedure",
+      "injury_timeline": "Likely limited to begin Training Camp; Cleared for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Alec Pierce",
+      "team": "IND",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Left Ankle Surgery",
+      "injury_timeline": "Limited to begin the regular season",
+      "injury_out": false
+    },
+    {
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Turf Toe",
+      "injury_timeline": "Situation to Monitor; Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Makai Lemon",
+      "team": "PHI",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Hamstring Strain",
+      "injury_timeline": "Limited throughout Training Camp, Ready for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Groin Strain",
+      "injury_timeline": "Probable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Chris Bell",
+      "team": "MIA",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "ACL",
+      "injury_timeline": "Limited in Training Camp; Could be cleared for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Chris Brazzell II",
+      "team": "CAR",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "LCL Sprain",
+      "injury_timeline": "Out for the year",
+      "injury_out": true
+    },
+    {
+      "name": "Travis Hunter",
+      "team": "JAX",
+      "position": "WR",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "LCL",
+      "injury_timeline": "Cleared for Training Camp",
+      "injury_out": false
+    },
+    {
+      "name": "George Kittle",
+      "team": "SF",
+      "position": "TE",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Achilles",
+      "injury_timeline": "Limited throughout the offseason, Questionable for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Tucker Kraft",
+      "team": "GB",
+      "position": "TE",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "ACL",
+      "injury_timeline": "Limited in Training Camp, Likely cleared for Week 1",
+      "injury_out": false
+    },
+    {
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "position": "TE",
+      "tags": [
+        "injury_concern"
+      ],
+      "injury": "Core Muscle Repair",
+      "injury_timeline": "Questionable for Week 1",
+      "injury_out": false
+    }
+  ]
+}

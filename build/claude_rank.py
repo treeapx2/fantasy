@@ -123,12 +123,13 @@ def build_features(players):
                 "proj_pts": u.get("proj_pts"),
                 "opportunity_share": d["opportunity_share"],
                 "rz_volume_i10": d["rz_volume_i10"],
-                "floor_s": shrink(d["floor_rate"], gp, pf),
-                "bust_s_neg": (-shrink(d["bust_rate"], gp, pb)
+                "floor_s": d.get("floor_rate_adj", shrink(d["floor_rate"], gp, pf)),
+                "bust_s_neg": (-(d.get("bust_rate_adj") if d.get("bust_rate_adj") is not None
+                                 else shrink(d["bust_rate"], gp, pb))
                                if d["bust_rate"] is not None else None),
                 "volatility_neg": (-d["finish_volatility"]
                                    if d["finish_volatility"] is not None else None),
-                "ceiling_s": shrink(d["ceiling_rate"], gp, pc),
+                "ceiling_s": d.get("ceiling_rate_adj", shrink(d["ceiling_rate"], gp, pc)),
                 "trajectory_neg": (-d["trajectory_3yr"]
                                    if d["trajectory_3yr"] is not None else None),
                 "udk_upside": u.get("upside"),
