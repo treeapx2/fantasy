@@ -1,0 +1,8 @@
+{
+  "source": "espn_depth",
+  "_comment": "Raw ESPN field -> canonical field. Unlisted raw fields are reported by build_canonical.py and excluded.",
+  "mapping": {
+    "depth_slot": "depth_slot",
+    "depth_label": "depth_label"
+  }
+}

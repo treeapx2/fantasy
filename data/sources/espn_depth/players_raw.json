@@ -1,0 +1,2318 @@
+{
+  "source": "espn_depth",
+  "source_label": "ESPN 2026 fantasy-value depth charts",
+  "source_date": "2026-08-31",
+  "grain": "player",
+  "extracted": "mechanical PDF ingest (build/ingest_espn.py)",
+  "notes": [
+    "ESPN states these reflect FANTASY value, not a club's official depth chart — the field is named depth_slot for that reason.",
+    "The PDF has no team names in its text layer (they render as logos); the team comes from the canonical spine via the name match.",
+    "A slot of 3+ at RB or WR is a genuine opportunity risk signal."
+  ],
+  "players": [
+    {
+      "name": "Josh Allen",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 36
+    },
+    {
+      "name": "Malik Willis",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 150
+    },
+    {
+      "name": "Geno Smith",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 267
+    },
+    {
+      "name": "Drake Maye",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 57
+    },
+    {
+      "name": "Dak Prescott",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 83
+    },
+    {
+      "name": "Jalen Hurts",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 58
+    },
+    {
+      "name": "Jaxson Dart",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 75
+    },
+    {
+      "name": "Jayden Daniels",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 55
+    },
+    {
+      "name": "Tommy DeVito",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 340
+    },
+    {
+      "name": "Sam Howell",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 343
+    },
+    {
+      "name": "Tanner McKee",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 344
+    },
+    {
+      "name": "Jameis Winston",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 336
+    },
+    {
+      "name": "Marcus Mariota",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 341
+    },
+    {
+      "name": "James Cook III",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 12
+    },
+    {
+      "name": "De'Von Achane",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 11
+    },
+    {
+      "name": "Breece Hall",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 23
+    },
+    {
+      "name": "Rhamondre Stevenson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 63
+    },
+    {
+      "name": "Javonte Williams",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 30
+    },
+    {
+      "name": "Saquon Barkley",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 15
+    },
+    {
+      "name": "Cam Skattebo",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 39
+    },
+    {
+      "name": "Jacory Croskey-Merritt",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 108
+    },
+    {
+      "name": "Ray Davis",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 167
+    },
+    {
+      "name": "Jaylen Wright",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 214
+    },
+    {
+      "name": "Braelon Allen",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 158
+    },
+    {
+      "name": "TreVeyon Henderson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 97
+    },
+    {
+      "name": "Malik Davis",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 225
+    },
+    {
+      "name": "Tank Bigsby",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 166
+    },
+    {
+      "name": "Najee Harris",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 193
+    },
+    {
+      "name": "Rachaad White",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 120
+    },
+    {
+      "name": "Ty Johnson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 223
+    },
+    {
+      "name": "Ollie Gordon II",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 221
+    },
+    {
+      "name": "Isaiah Davis",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 241
+    },
+    {
+      "name": "Hunter Luepke",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 322
+    },
+    {
+      "name": "Will Shipley",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 248
+    },
+    {
+      "name": "Tyrone Tracy Jr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 244
+    },
+    {
+      "name": "Kaytron Allen",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 277
+    },
+    {
+      "name": "DJ Moore",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 52
+    },
+    {
+      "name": "Caleb Douglas",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 148
+    },
+    {
+      "name": "Garrett Wilson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 29
+    },
+    {
+      "name": "A.J. Brown",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 26
+    },
+    {
+      "name": "CeeDee Lamb",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 9
+    },
+    {
+      "name": "DeVonta Smith",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 35
+    },
+    {
+      "name": "Malik Nabers",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 28
+    },
+    {
+      "name": "Terry McLaurin",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 45
+    },
+    {
+      "name": "Khalil Shakir",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 91
+    },
+    {
+      "name": "Malik Washington",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 224
+    },
+    {
+      "name": "Adonai Mitchell",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 146
+    },
+    {
+      "name": "Romeo Doubs",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 129
+    },
+    {
+      "name": "George Pickens",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 31
+    },
+    {
+      "name": "Makai Lemon",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 126
+    },
+    {
+      "name": "Malachi Fields",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 203
+    },
+    {
+      "name": "Stefon Diggs",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 114
+    },
+    {
+      "name": "Keon Coleman",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 261
+    },
+    {
+      "name": "Jalen Tolbert",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 231
+    },
+    {
+      "name": "Omar Cooper Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 210
+    },
+    {
+      "name": "DeMario Douglas",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 233
+    },
+    {
+      "name": "Ryan Flournoy",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 208
+    },
+    {
+      "name": "Dontayvion Wicks",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 163
+    },
+    {
+      "name": "Darius Slayton",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 234
+    },
+    {
+      "name": "Antonio Williams",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 252
+    },
+    {
+      "name": "Chris Bell",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 232
+    },
+    {
+      "name": "Mack Hollins",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 295
+    },
+    {
+      "name": "KaVontae Turpin",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 273
+    },
+    {
+      "name": "Darnell Mooney",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 294
+    },
+    {
+      "name": "Dalton Kincaid",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 116
+    },
+    {
+      "name": "Greg Dulcich",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 258
+    },
+    {
+      "name": "Kenyon Sadiq",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 159
+    },
+    {
+      "name": "Hunter Henry",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 118
+    },
+    {
+      "name": "Jake Ferguson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 109
+    },
+    {
+      "name": "Dallas Goedert",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 103
+    },
+    {
+      "name": "Isaiah Likely",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 111
+    },
+    {
+      "name": "Chig Okonkwo",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 216
+    },
+    {
+      "name": "Dawson Knox",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 323
+    },
+    {
+      "name": "Mason Taylor",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 325
+    },
+    {
+      "name": "Eli Raridon",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 333
+    },
+    {
+      "name": "Eli Stowers",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 330
+    },
+    {
+      "name": "Theo Johnson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 326
+    },
+    {
+      "name": "Joe Burrow",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 74
+    },
+    {
+      "name": "Deshaun Watson",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 270
+    },
+    {
+      "name": "Lamar Jackson",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 56
+    },
+    {
+      "name": "Aaron Rodgers",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 269
+    },
+    {
+      "name": "Caleb Williams",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 87
+    },
+    {
+      "name": "Jared Goff",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 135
+    },
+    {
+      "name": "Jordan Love",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 198
+    },
+    {
+      "name": "Kyler Murray",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 133
+    },
+    {
+      "name": "Joe Flacco",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 318
+    },
+    {
+      "name": "Shedeur Sanders",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 301
+    },
+    {
+      "name": "Tyson Bagent",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 342
+    },
+    {
+      "name": "J.J. McCarthy",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 315
+    },
+    {
+      "name": "Chase Brown",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 19
+    },
+    {
+      "name": "Quinshon Judkins",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 38
+    },
+    {
+      "name": "Derrick Henry",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 16
+    },
+    {
+      "name": "Jaylen Warren",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 64
+    },
+    {
+      "name": "D'Andre Swift",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 41
+    },
+    {
+      "name": "Jahmyr Gibbs",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 1
+    },
+    {
+      "name": "Josh Jacobs",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 62
+    },
+    {
+      "name": "Aaron Jones Sr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 115
+    },
+    {
+      "name": "Samaje Perine",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 222
+    },
+    {
+      "name": "Dylan Sampson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 168
+    },
+    {
+      "name": "Justice Hill",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 196
+    },
+    {
+      "name": "Rico Dowdle",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 95
+    },
+    {
+      "name": "Kyle Monangai",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 107
+    },
+    {
+      "name": "Isiah Pacheco",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 155
+    },
+    {
+      "name": "MarShawn Lloyd",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 100
+    },
+    {
+      "name": "Jordan Mason",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 121
+    },
+    {
+      "name": "Tahj Brooks",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 265
+    },
+    {
+      "name": "Rasheen Ali",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 276
+    },
+    {
+      "name": "Eli Heidenreich",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 307
+    },
+    {
+      "name": "Jacob Saylors",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 249
+    },
+    {
+      "name": "Chris Brooks",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 239
+    },
+    {
+      "name": "Demond Claiborne",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 266
+    },
+    {
+      "name": "Ja'Marr Chase",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 3
+    },
+    {
+      "name": "KC Concepcion",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 125
+    },
+    {
+      "name": "Zay Flowers",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 33
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 66
+    },
+    {
+      "name": "Rome Odunze",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 48
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 8
+    },
+    {
+      "name": "Christian Watson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 76
+    },
+    {
+      "name": "Justin Jefferson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 10
+    },
+    {
+      "name": "Tee Higgins",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 46
+    },
+    {
+      "name": "Denzel Boston",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 143
+    },
+    {
+      "name": "Rashod Bateman",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 162
+    },
+    {
+      "name": "DK Metcalf",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 68
+    },
+    {
+      "name": "Luther Burden III",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 53
+    },
+    {
+      "name": "Jameson Williams",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 51
+    },
+    {
+      "name": "Matthew Golden",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 78
+    },
+    {
+      "name": "Jordan Addison",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 89
+    },
+    {
+      "name": "Andrei Iosivas",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 271
+    },
+    {
+      "name": "Jerry Jeudy",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 144
+    },
+    {
+      "name": "Ja'Kobi Lane",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 197
+    },
+    {
+      "name": "Germie Bernard",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 204
+    },
+    {
+      "name": "Isaac TeSlaa",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 262
+    },
+    {
+      "name": "Jayden Reed",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 92
+    },
+    {
+      "name": "Jauan Jennings",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 201
+    },
+    {
+      "name": "Mike Gesicki",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 292
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 72
+    },
+    {
+      "name": "Mark Andrews",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 110
+    },
+    {
+      "name": "Pat Freiermuth",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 206
+    },
+    {
+      "name": "Colston Loveland",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 49
+    },
+    {
+      "name": "Sam LaPorta",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 73
+    },
+    {
+      "name": "Tucker Kraft",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 102
+    },
+    {
+      "name": "T.J. Hockenson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 117
+    },
+    {
+      "name": "Erick All",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 313
+    },
+    {
+      "name": "Darnell Washington",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 314
+    },
+    {
+      "name": "Cole Kmet",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 327
+    },
+    {
+      "name": "Daniel Jones",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 136
+    },
+    {
+      "name": "Trevor Lawrence",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 82
+    },
+    {
+      "name": "C.J. Stroud",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 199
+    },
+    {
+      "name": "Cam Ward",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 219
+    },
+    {
+      "name": "Baker Mayfield",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 149
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 296
+    },
+    {
+      "name": "Bryce Young",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 218
+    },
+    {
+      "name": "Tyler Shough",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 134
+    },
+    {
+      "name": "Anthony Richardson",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 337
+    },
+    {
+      "name": "Jalon Daniels",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 338
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 310
+    },
+    {
+      "name": "Jonathan Taylor",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 7
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 59
+    },
+    {
+      "name": "David Montgomery",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 60
+    },
+    {
+      "name": "Tony Pollard",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 98
+    },
+    {
+      "name": "Bucky Irving",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 40
+    },
+    {
+      "name": "Bijan Robinson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 2
+    },
+    {
+      "name": "Jonathon Brooks",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 96
+    },
+    {
+      "name": "Travis Etienne Jr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 32
+    },
+    {
+      "name": "Seth McGowan",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 246
+    },
+    {
+      "name": "Chris Rodriguez Jr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 140
+    },
+    {
+      "name": "Woody Marks",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 137
+    },
+    {
+      "name": "Tyjae Spears",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 139
+    },
+    {
+      "name": "Kenny Gainwell",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 99
+    },
+    {
+      "name": "Brian Robinson Jr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 141
+    },
+    {
+      "name": "Chuba Hubbard",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 105
+    },
+    {
+      "name": "Alvin Kamara",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 195
+    },
+    {
+      "name": "DJ Giddens",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 278
+    },
+    {
+      "name": "LeQuint Allen",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 242
+    },
+    {
+      "name": "Nicholas Singleton",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 250
+    },
+    {
+      "name": "Sean Tucker",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 245
+    },
+    {
+      "name": "Kendre Miller",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 251
+    },
+    {
+      "name": "Alec Pierce",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 70
+    },
+    {
+      "name": "Parker Washington",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 69
+    },
+    {
+      "name": "Nico Collins",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 25
+    },
+    {
+      "name": "Carnell Tate",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 54
+    },
+    {
+      "name": "Emeka Egbuka",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 42
+    },
+    {
+      "name": "Drake London",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 14
+    },
+    {
+      "name": "Tetairoa McMillan",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 34
+    },
+    {
+      "name": "Chris Olave",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 27
+    },
+    {
+      "name": "Josh Downs",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 124
+    },
+    {
+      "name": "Brian Thomas Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 79
+    },
+    {
+      "name": "Jaylin Noel",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 165
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 88
+    },
+    {
+      "name": "Chris Godwin Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 127
+    },
+    {
+      "name": "Zachariah Branch",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 209
+    },
+    {
+      "name": "Jalen Coker",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 130
+    },
+    {
+      "name": "Jordyn Tyson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 151
+    },
+    {
+      "name": "Keenan Allen",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 161
+    },
+    {
+      "name": "Jakobi Meyers",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 81
+    },
+    {
+      "name": "Tank Dell",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 202
+    },
+    {
+      "name": "Calvin Ridley",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 145
+    },
+    {
+      "name": "Jalen McMillan",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 132
+    },
+    {
+      "name": "Jahan Dotson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 229
+    },
+    {
+      "name": "Xavier Legette",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 228
+    },
+    {
+      "name": "Devaughn Vele",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 164
+    },
+    {
+      "name": "Travis Hunter",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 147
+    },
+    {
+      "name": "Kayshon Boutte",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 211
+    },
+    {
+      "name": "Ted Hurst",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 284
+    },
+    {
+      "name": "Tyler Warren",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 50
+    },
+    {
+      "name": "Brenton Strange",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 194
+    },
+    {
+      "name": "Dalton Schultz",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 207
+    },
+    {
+      "name": "Gunnar Helm",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 215
+    },
+    {
+      "name": "Cade Otton",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 260
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 71
+    },
+    {
+      "name": "Darren Waller",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 259
+    },
+    {
+      "name": "Juwan Johnson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 160
+    },
+    {
+      "name": "Ja'Tavion Sanders",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 328
+    },
+    {
+      "name": "Bo Nix",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 84
+    },
+    {
+      "name": "Justin Herbert",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 93
+    },
+    {
+      "name": "Patrick Mahomes",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 94
+    },
+    {
+      "name": "Fernando Mendoza",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 268
+    },
+    {
+      "name": "Brock Purdy",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 85
+    },
+    {
+      "name": "Jacoby Brissett",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 220
+    },
+    {
+      "name": "Matthew Stafford",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 86
+    },
+    {
+      "name": "Sam Darnold",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 1,
+      "depth_label": "QB1",
+      "espn_rank_on_chart": 200
+    },
+    {
+      "name": "Jarrett Stidham",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 339
+    },
+    {
+      "name": "Justin Fields",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 317
+    },
+    {
+      "name": "Kirk Cousins",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 302
+    },
+    {
+      "name": "Mac Jones",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 319
+    },
+    {
+      "name": "Carson Beck",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 316
+    },
+    {
+      "name": "Ty Simpson",
+      "team": null,
+      "position": "QB",
+      "depth_slot": 2,
+      "depth_label": "QB2",
+      "espn_rank_on_chart": 335
+    },
+    {
+      "name": "J.K. Dobbins",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 106
+    },
+    {
+      "name": "Omarion Hampton",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 22
+    },
+    {
+      "name": "Kenneth Walker III",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 18
+    },
+    {
+      "name": "Ashton Jeanty",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 17
+    },
+    {
+      "name": "Christian McCaffrey",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 6
+    },
+    {
+      "name": "Jeremiyah Love",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 13
+    },
+    {
+      "name": "Kyren Williams",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 37
+    },
+    {
+      "name": "Jadarian Price",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 1,
+      "depth_label": "RB1",
+      "espn_rank_on_chart": 61
+    },
+    {
+      "name": "RJ Harvey",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 123
+    },
+    {
+      "name": "Keaton Mitchell",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 154
+    },
+    {
+      "name": "Brashard Smith",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 226
+    },
+    {
+      "name": "Mike Washington Jr.",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 157
+    },
+    {
+      "name": "Kaelon Black",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 212
+    },
+    {
+      "name": "Tyler Allgeier",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 142
+    },
+    {
+      "name": "Blake Corum",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 122
+    },
+    {
+      "name": "Zach Charbonnet",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 2,
+      "depth_label": "RB2",
+      "espn_rank_on_chart": 138
+    },
+    {
+      "name": "Jonah Coleman",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 156
+    },
+    {
+      "name": "Kimani Vidal",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 213
+    },
+    {
+      "name": "Emmett Johnson",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 240
+    },
+    {
+      "name": "Dylan Laube",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 303
+    },
+    {
+      "name": "Jordan James",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 247
+    },
+    {
+      "name": "Bam Knight",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 282
+    },
+    {
+      "name": "George Holani",
+      "team": null,
+      "position": "RB",
+      "depth_slot": 3,
+      "depth_label": "RB3",
+      "espn_rank_on_chart": 243
+    },
+    {
+      "name": "Jaylen Waddle",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 47
+    },
+    {
+      "name": "Ladd McConkey",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 44
+    },
+    {
+      "name": "Rashee Rice",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 24
+    },
+    {
+      "name": "Tre Tucker",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 152
+    },
+    {
+      "name": "Mike Evans",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 77
+    },
+    {
+      "name": "Marvin Harrison Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 67
+    },
+    {
+      "name": "Puka Nacua",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 4
+    },
+    {
+      "name": "Jaxon Smith-Njigba",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 1,
+      "depth_label": "WR1",
+      "espn_rank_on_chart": 5
+    },
+    {
+      "name": "Courtland Sutton",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 65
+    },
+    {
+      "name": "Quentin Johnston",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 113
+    },
+    {
+      "name": "Xavier Worthy",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 112
+    },
+    {
+      "name": "Jalen Nailor",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 153
+    },
+    {
+      "name": "De'Zhaun Stribling",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 90
+    },
+    {
+      "name": "Michael Wilson",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 80
+    },
+    {
+      "name": "Davante Adams",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 43
+    },
+    {
+      "name": "Rashid Shaheed",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 2,
+      "depth_label": "WR2",
+      "espn_rank_on_chart": 131
+    },
+    {
+      "name": "Pat Bryant",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 263
+    },
+    {
+      "name": "Tre Harris",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 205
+    },
+    {
+      "name": "Tyquan Thornton",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 253
+    },
+    {
+      "name": "Jack Bech",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 274
+    },
+    {
+      "name": "Deebo Samuel Sr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 128
+    },
+    {
+      "name": "Cooper Kupp",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 3,
+      "depth_label": "WR3",
+      "espn_rank_on_chart": 227
+    },
+    {
+      "name": "Marvin Mims Jr.",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 264
+    },
+    {
+      "name": "Tory Horton",
+      "team": null,
+      "position": "WR",
+      "depth_slot": 4,
+      "depth_label": "WR4",
+      "espn_rank_on_chart": 275
+    },
+    {
+      "name": "Evan Engram",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 289
+    },
+    {
+      "name": "David Njoku",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 290
+    },
+    {
+      "name": "Travis Kelce",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 104
+    },
+    {
+      "name": "Brock Bowers",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 21
+    },
+    {
+      "name": "George Kittle",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 101
+    },
+    {
+      "name": "Trey McBride",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 20
+    },
+    {
+      "name": "Terrance Ferguson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 119
+    },
+    {
+      "name": "AJ Barner",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 1,
+      "depth_label": "TE1",
+      "espn_rank_on_chart": 217
+    },
+    {
+      "name": "Oronde Gadsden",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 291
+    },
+    {
+      "name": "Noah Gray",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 329
+    },
+    {
+      "name": "Michael Mayer",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 293
+    },
+    {
+      "name": "Jake Tonges",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 311
+    },
+    {
+      "name": "Colby Parkinson",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 312
+    },
+    {
+      "name": "Elijah Arroyo",
+      "team": null,
+      "position": "TE",
+      "depth_slot": 2,
+      "depth_label": "TE2",
+      "espn_rank_on_chart": 324
+    }
+  ]
+}

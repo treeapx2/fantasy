@@ -1,0 +1,2354 @@
+{
+  "source": "espn_ppr300",
+  "source_label": "ESPN 2026 Top 300 PPR cheat sheet (rank, positional rank, auction value)",
+  "source_date": "2026-08-31",
+  "grain": "player",
+  "extracted": "mechanical PDF ingest (build/ingest_espn.py)",
+  "notes": [
+    "ESPN's own board — the independent cross-check on UDK's ranking.",
+    "auction_value is ESPN's suggested $ in a standard budget auction.",
+    "Kickers and team defenses appear on the sheet and are dropped here: the canonical universe is QB/RB/WR/TE only."
+  ],
+  "players": [
+    {
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "position": "RB",
+      "espn_rank": 1,
+      "espn_pos_rank": 1,
+      "auction_value": 57,
+      "bye": 6
+    },
+    {
+      "name": "Jakobi Meyers",
+      "team": "JAX",
+      "position": "WR",
+      "espn_rank": 81,
+      "espn_pos_rank": 40,
+      "auction_value": 4,
+      "bye": 7
+    },
+    {
+      "name": "Keenan Allen",
+      "team": "IND",
+      "position": "WR",
+      "espn_rank": 161,
+      "espn_pos_rank": 67,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Isaiah Davis",
+      "team": "NYJ",
+      "position": "RB",
+      "espn_rank": 241,
+      "espn_pos_rank": 70,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "espn_rank": 2,
+      "espn_pos_rank": 2,
+      "auction_value": 56,
+      "bye": 11
+    },
+    {
+      "name": "Trevor Lawrence",
+      "team": "JAX",
+      "position": "QB",
+      "espn_rank": 82,
+      "espn_pos_rank": 8,
+      "auction_value": 4,
+      "bye": 7
+    },
+    {
+      "name": "Rashod Bateman",
+      "team": "BAL",
+      "position": "WR",
+      "espn_rank": 162,
+      "espn_pos_rank": 68,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "LeQuint Allen",
+      "team": "JAX",
+      "position": "RB",
+      "espn_rank": 242,
+      "espn_pos_rank": 71,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "espn_rank": 3,
+      "espn_pos_rank": 1,
+      "auction_value": 56,
+      "bye": 6
+    },
+    {
+      "name": "Dak Prescott",
+      "team": "DAL",
+      "position": "QB",
+      "espn_rank": 83,
+      "espn_pos_rank": 9,
+      "auction_value": 4,
+      "bye": 14
+    },
+    {
+      "name": "Dontayvion Wicks",
+      "team": "PHI",
+      "position": "WR",
+      "espn_rank": 163,
+      "espn_pos_rank": 69,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "George Holani",
+      "team": "SEA",
+      "position": "RB",
+      "espn_rank": 243,
+      "espn_pos_rank": 72,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "espn_rank": 4,
+      "espn_pos_rank": 2,
+      "auction_value": 55,
+      "bye": 11
+    },
+    {
+      "name": "Bo Nix",
+      "team": "DEN",
+      "position": "QB",
+      "espn_rank": 84,
+      "espn_pos_rank": 10,
+      "auction_value": 4,
+      "bye": 10
+    },
+    {
+      "name": "Devaughn Vele",
+      "team": "NO",
+      "position": "WR",
+      "espn_rank": 164,
+      "espn_pos_rank": 70,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Tyrone Tracy Jr.",
+      "team": "NYG",
+      "position": "RB",
+      "espn_rank": 244,
+      "espn_pos_rank": 73,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "espn_rank": 5,
+      "espn_pos_rank": 3,
+      "auction_value": 54,
+      "bye": 11
+    },
+    {
+      "name": "Brock Purdy",
+      "team": "SF",
+      "position": "QB",
+      "espn_rank": 85,
+      "espn_pos_rank": 11,
+      "auction_value": 4,
+      "bye": 8
+    },
+    {
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "position": "WR",
+      "espn_rank": 165,
+      "espn_pos_rank": 71,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Sean Tucker",
+      "team": "TB",
+      "position": "RB",
+      "espn_rank": 245,
+      "espn_pos_rank": 74,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "espn_rank": 6,
+      "espn_pos_rank": 3,
+      "auction_value": 53,
+      "bye": 8
+    },
+    {
+      "name": "Matthew Stafford",
+      "team": "LAR",
+      "position": "QB",
+      "espn_rank": 86,
+      "espn_pos_rank": 12,
+      "auction_value": 4,
+      "bye": 11
+    },
+    {
+      "name": "Tank Bigsby",
+      "team": "PHI",
+      "position": "RB",
+      "espn_rank": 166,
+      "espn_pos_rank": 54,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Seth McGowan",
+      "team": "IND",
+      "position": "RB",
+      "espn_rank": 246,
+      "espn_pos_rank": 75,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Jonathan Taylor",
+      "team": "IND",
+      "position": "RB",
+      "espn_rank": 7,
+      "espn_pos_rank": 4,
+      "auction_value": 52,
+      "bye": 13
+    },
+    {
+      "name": "Caleb Williams",
+      "team": "CHI",
+      "position": "QB",
+      "espn_rank": 87,
+      "espn_pos_rank": 13,
+      "auction_value": 3,
+      "bye": 10
+    },
+    {
+      "name": "Ray Davis",
+      "team": "BUF",
+      "position": "RB",
+      "espn_rank": 167,
+      "espn_pos_rank": 55,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Jordan James",
+      "team": "SF",
+      "position": "RB",
+      "espn_rank": 247,
+      "espn_pos_rank": 76,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "team": "DET",
+      "position": "WR",
+      "espn_rank": 8,
+      "espn_pos_rank": 4,
+      "auction_value": 52,
+      "bye": 6
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "team": "TEN",
+      "position": "WR",
+      "espn_rank": 88,
+      "espn_pos_rank": 41,
+      "auction_value": 3,
+      "bye": 9
+    },
+    {
+      "name": "Dylan Sampson",
+      "team": "CLE",
+      "position": "RB",
+      "espn_rank": 168,
+      "espn_pos_rank": 56,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Will Shipley",
+      "team": "PHI",
+      "position": "RB",
+      "espn_rank": 248,
+      "espn_pos_rank": 77,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "espn_rank": 9,
+      "espn_pos_rank": 5,
+      "auction_value": 51,
+      "bye": 14
+    },
+    {
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "position": "WR",
+      "espn_rank": 89,
+      "espn_pos_rank": 42,
+      "auction_value": 3,
+      "bye": 6
+    },
+    {
+      "name": "Jacob Saylors",
+      "team": "DET",
+      "position": "RB",
+      "espn_rank": 249,
+      "espn_pos_rank": 78,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "espn_rank": 10,
+      "espn_pos_rank": 6,
+      "auction_value": 50,
+      "bye": 6
+    },
+    {
+      "name": "De'Zhaun Stribling",
+      "team": "SF",
+      "position": "WR",
+      "espn_rank": 90,
+      "espn_pos_rank": 43,
+      "auction_value": 3,
+      "bye": 8
+    },
+    {
+      "name": "Nicholas Singleton",
+      "team": "TEN",
+      "position": "RB",
+      "espn_rank": 250,
+      "espn_pos_rank": 79,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "De'Von Achane",
+      "team": "MIA",
+      "position": "RB",
+      "espn_rank": 11,
+      "espn_pos_rank": 5,
+      "auction_value": 48,
+      "bye": 6
+    },
+    {
+      "name": "Khalil Shakir",
+      "team": "BUF",
+      "position": "WR",
+      "espn_rank": 91,
+      "espn_pos_rank": 44,
+      "auction_value": 3,
+      "bye": 7
+    },
+    {
+      "name": "Kendre Miller",
+      "team": "NO",
+      "position": "RB",
+      "espn_rank": 251,
+      "espn_pos_rank": 80,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "James Cook III",
+      "team": "BUF",
+      "position": "RB",
+      "espn_rank": 12,
+      "espn_pos_rank": 6,
+      "auction_value": 46,
+      "bye": 7
+    },
+    {
+      "name": "Jayden Reed",
+      "team": "GB",
+      "position": "WR",
+      "espn_rank": 92,
+      "espn_pos_rank": 45,
+      "auction_value": 3,
+      "bye": 11
+    },
+    {
+      "name": "Antonio Williams",
+      "team": "WAS",
+      "position": "WR",
+      "espn_rank": 252,
+      "espn_pos_rank": 91,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Jeremiyah Love",
+      "team": "ARI",
+      "position": "RB",
+      "espn_rank": 13,
+      "espn_pos_rank": 7,
+      "auction_value": 45,
+      "bye": 14
+    },
+    {
+      "name": "Justin Herbert",
+      "team": "LAC",
+      "position": "QB",
+      "espn_rank": 93,
+      "espn_pos_rank": 14,
+      "auction_value": 3,
+      "bye": 7
+    },
+    {
+      "name": "Tyquan Thornton",
+      "team": "KC",
+      "position": "WR",
+      "espn_rank": 253,
+      "espn_pos_rank": 92,
+      "auction_value": 0,
+      "bye": 5
+    },
+    {
+      "name": "Drake London",
+      "team": "ATL",
+      "position": "WR",
+      "espn_rank": 14,
+      "espn_pos_rank": 7,
+      "auction_value": 43,
+      "bye": 11
+    },
+    {
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "position": "QB",
+      "espn_rank": 94,
+      "espn_pos_rank": 15,
+      "auction_value": 3,
+      "bye": 5
+    },
+    {
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "position": "RB",
+      "espn_rank": 15,
+      "espn_pos_rank": 8,
+      "auction_value": 42,
+      "bye": 10
+    },
+    {
+      "name": "Rico Dowdle",
+      "team": "PIT",
+      "position": "RB",
+      "espn_rank": 95,
+      "espn_pos_rank": 28,
+      "auction_value": 3,
+      "bye": 9
+    },
+    {
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "espn_rank": 16,
+      "espn_pos_rank": 9,
+      "auction_value": 40,
+      "bye": 13
+    },
+    {
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "position": "RB",
+      "espn_rank": 96,
+      "espn_pos_rank": 29,
+      "auction_value": 2,
+      "bye": 5
+    },
+    {
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "espn_rank": 17,
+      "espn_pos_rank": 10,
+      "auction_value": 38,
+      "bye": 13
+    },
+    {
+      "name": "TreVeyon Henderson",
+      "team": "NE",
+      "position": "RB",
+      "espn_rank": 97,
+      "espn_pos_rank": 30,
+      "auction_value": 2,
+      "bye": 11
+    },
+    {
+      "name": "Kenneth Walker III",
+      "team": "KC",
+      "position": "RB",
+      "espn_rank": 18,
+      "espn_pos_rank": 11,
+      "auction_value": 37,
+      "bye": 5
+    },
+    {
+      "name": "Tony Pollard",
+      "team": "TEN",
+      "position": "RB",
+      "espn_rank": 98,
+      "espn_pos_rank": 31,
+      "auction_value": 2,
+      "bye": 9
+    },
+    {
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "position": "TE",
+      "espn_rank": 258,
+      "espn_pos_rank": 27,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Chase Brown",
+      "team": "CIN",
+      "position": "RB",
+      "espn_rank": 19,
+      "espn_pos_rank": 12,
+      "auction_value": 36,
+      "bye": 6
+    },
+    {
+      "name": "Kenny Gainwell",
+      "team": "TB",
+      "position": "RB",
+      "espn_rank": 99,
+      "espn_pos_rank": 32,
+      "auction_value": 2,
+      "bye": 10
+    },
+    {
+      "name": "Darren Waller",
+      "team": "CAR",
+      "position": "TE",
+      "espn_rank": 259,
+      "espn_pos_rank": 28,
+      "auction_value": 0,
+      "bye": 5
+    },
+    {
+      "name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "espn_rank": 20,
+      "espn_pos_rank": 1,
+      "auction_value": 35,
+      "bye": 14
+    },
+    {
+      "name": "MarShawn Lloyd",
+      "team": "GB",
+      "position": "RB",
+      "espn_rank": 100,
+      "espn_pos_rank": 33,
+      "auction_value": 2,
+      "bye": 11
+    },
+    {
+      "name": "Cade Otton",
+      "team": "TB",
+      "position": "TE",
+      "espn_rank": 260,
+      "espn_pos_rank": 29,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Brock Bowers",
+      "team": "LV",
+      "position": "TE",
+      "espn_rank": 21,
+      "espn_pos_rank": 2,
+      "auction_value": 34,
+      "bye": 13
+    },
+    {
+      "name": "George Kittle",
+      "team": "SF",
+      "position": "TE",
+      "espn_rank": 101,
+      "espn_pos_rank": 8,
+      "auction_value": 2,
+      "bye": 8
+    },
+    {
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "position": "WR",
+      "espn_rank": 261,
+      "espn_pos_rank": 93,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Omarion Hampton",
+      "team": "LAC",
+      "position": "RB",
+      "espn_rank": 22,
+      "espn_pos_rank": 13,
+      "auction_value": 33,
+      "bye": 7
+    },
+    {
+      "name": "Tucker Kraft",
+      "team": "GB",
+      "position": "TE",
+      "espn_rank": 102,
+      "espn_pos_rank": 9,
+      "auction_value": 2,
+      "bye": 11
+    },
+    {
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "position": "WR",
+      "espn_rank": 262,
+      "espn_pos_rank": 94,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "espn_rank": 23,
+      "espn_pos_rank": 14,
+      "auction_value": 32,
+      "bye": 13
+    },
+    {
+      "name": "Dallas Goedert",
+      "team": "PHI",
+      "position": "TE",
+      "espn_rank": 103,
+      "espn_pos_rank": 10,
+      "auction_value": 2,
+      "bye": 10
+    },
+    {
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "position": "WR",
+      "espn_rank": 263,
+      "espn_pos_rank": 95,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Rashee Rice",
+      "team": "KC",
+      "position": "WR",
+      "espn_rank": 24,
+      "espn_pos_rank": 8,
+      "auction_value": 32,
+      "bye": 5
+    },
+    {
+      "name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "espn_rank": 104,
+      "espn_pos_rank": 11,
+      "auction_value": 2,
+      "bye": 5
+    },
+    {
+      "name": "Marvin Mims Jr.",
+      "team": "DEN",
+      "position": "WR",
+      "espn_rank": 264,
+      "espn_pos_rank": 96,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Nico Collins",
+      "team": "HOU",
+      "position": "WR",
+      "espn_rank": 25,
+      "espn_pos_rank": 9,
+      "auction_value": 31,
+      "bye": 8
+    },
+    {
+      "name": "Chuba Hubbard",
+      "team": "CAR",
+      "position": "RB",
+      "espn_rank": 105,
+      "espn_pos_rank": 34,
+      "auction_value": 2,
+      "bye": 5
+    },
+    {
+      "name": "Tahj Brooks",
+      "team": "CIN",
+      "position": "RB",
+      "espn_rank": 265,
+      "espn_pos_rank": 81,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "A.J. Brown",
+      "team": "NE",
+      "position": "WR",
+      "espn_rank": 26,
+      "espn_pos_rank": 10,
+      "auction_value": 30,
+      "bye": 11
+    },
+    {
+      "name": "J.K. Dobbins",
+      "team": "DEN",
+      "position": "RB",
+      "espn_rank": 106,
+      "espn_pos_rank": 35,
+      "auction_value": 2,
+      "bye": 10
+    },
+    {
+      "name": "Demond Claiborne",
+      "team": "MIN",
+      "position": "RB",
+      "espn_rank": 266,
+      "espn_pos_rank": 82,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Chris Olave",
+      "team": "NO",
+      "position": "WR",
+      "espn_rank": 27,
+      "espn_pos_rank": 11,
+      "auction_value": 30,
+      "bye": 8
+    },
+    {
+      "name": "Kyle Monangai",
+      "team": "CHI",
+      "position": "RB",
+      "espn_rank": 107,
+      "espn_pos_rank": 36,
+      "auction_value": 2,
+      "bye": 10
+    },
+    {
+      "name": "Geno Smith",
+      "team": "NYJ",
+      "position": "QB",
+      "espn_rank": 267,
+      "espn_pos_rank": 28,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "position": "WR",
+      "espn_rank": 28,
+      "espn_pos_rank": 12,
+      "auction_value": 29,
+      "bye": 8
+    },
+    {
+      "name": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "position": "RB",
+      "espn_rank": 108,
+      "espn_pos_rank": 37,
+      "auction_value": 2,
+      "bye": 7
+    },
+    {
+      "name": "Fernando Mendoza",
+      "team": "LV",
+      "position": "QB",
+      "espn_rank": 268,
+      "espn_pos_rank": 29,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Garrett Wilson",
+      "team": "NYJ",
+      "position": "WR",
+      "espn_rank": 29,
+      "espn_pos_rank": 13,
+      "auction_value": 28,
+      "bye": 13
+    },
+    {
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "position": "TE",
+      "espn_rank": 109,
+      "espn_pos_rank": 12,
+      "auction_value": 2,
+      "bye": 14
+    },
+    {
+      "name": "Aaron Rodgers",
+      "team": "PIT",
+      "position": "QB",
+      "espn_rank": 269,
+      "espn_pos_rank": 30,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "position": "RB",
+      "espn_rank": 30,
+      "espn_pos_rank": 15,
+      "auction_value": 27,
+      "bye": 14
+    },
+    {
+      "name": "Mark Andrews",
+      "team": "BAL",
+      "position": "TE",
+      "espn_rank": 110,
+      "espn_pos_rank": 13,
+      "auction_value": 2,
+      "bye": 13
+    },
+    {
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "position": "QB",
+      "espn_rank": 270,
+      "espn_pos_rank": 31,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "George Pickens",
+      "team": "DAL",
+      "position": "WR",
+      "espn_rank": 31,
+      "espn_pos_rank": 14,
+      "auction_value": 26,
+      "bye": 14
+    },
+    {
+      "name": "Isaiah Likely",
+      "team": "NYG",
+      "position": "TE",
+      "espn_rank": 111,
+      "espn_pos_rank": 14,
+      "auction_value": 2,
+      "bye": 8
+    },
+    {
+      "name": "Andrei Iosivas",
+      "team": "CIN",
+      "position": "WR",
+      "espn_rank": 271,
+      "espn_pos_rank": 97,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Travis Etienne Jr.",
+      "team": "NO",
+      "position": "RB",
+      "espn_rank": 32,
+      "espn_pos_rank": 16,
+      "auction_value": 25,
+      "bye": 8
+    },
+    {
+      "name": "Xavier Worthy",
+      "team": "KC",
+      "position": "WR",
+      "espn_rank": 112,
+      "espn_pos_rank": 46,
+      "auction_value": 2,
+      "bye": 5
+    },
+    {
+      "name": "Kevin Coleman Jr.",
+      "team": "MIA",
+      "position": "WR",
+      "espn_rank": 272,
+      "espn_pos_rank": 98,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Zay Flowers",
+      "team": "BAL",
+      "position": "WR",
+      "espn_rank": 33,
+      "espn_pos_rank": 15,
+      "auction_value": 24,
+      "bye": 13
+    },
+    {
+      "name": "Quentin Johnston",
+      "team": "LAC",
+      "position": "WR",
+      "espn_rank": 113,
+      "espn_pos_rank": 47,
+      "auction_value": 2,
+      "bye": 7
+    },
+    {
+      "name": "Najee Harris",
+      "team": "NYG",
+      "position": "RB",
+      "espn_rank": 193,
+      "espn_pos_rank": 57,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "KaVontae Turpin",
+      "team": "DAL",
+      "position": "WR",
+      "espn_rank": 273,
+      "espn_pos_rank": 99,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "position": "WR",
+      "espn_rank": 34,
+      "espn_pos_rank": 16,
+      "auction_value": 23,
+      "bye": 5
+    },
+    {
+      "name": "Stefon Diggs",
+      "team": "WAS",
+      "position": "WR",
+      "espn_rank": 114,
+      "espn_pos_rank": 48,
+      "auction_value": 2,
+      "bye": 7
+    },
+    {
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "espn_rank": 194,
+      "espn_pos_rank": 21,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Jack Bech",
+      "team": "LV",
+      "position": "WR",
+      "espn_rank": 274,
+      "espn_pos_rank": 100,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "DeVonta Smith",
+      "team": "PHI",
+      "position": "WR",
+      "espn_rank": 35,
+      "espn_pos_rank": 17,
+      "auction_value": 22,
+      "bye": 10
+    },
+    {
+      "name": "Aaron Jones Sr.",
+      "team": "MIN",
+      "position": "RB",
+      "espn_rank": 115,
+      "espn_pos_rank": 38,
+      "auction_value": 2,
+      "bye": 6
+    },
+    {
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "position": "RB",
+      "espn_rank": 195,
+      "espn_pos_rank": 58,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Tory Horton",
+      "team": "SEA",
+      "position": "WR",
+      "espn_rank": 275,
+      "espn_pos_rank": 101,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Josh Allen",
+      "team": "BUF",
+      "position": "QB",
+      "espn_rank": 36,
+      "espn_pos_rank": 1,
+      "auction_value": 22,
+      "bye": 7
+    },
+    {
+      "name": "Dalton Kincaid",
+      "team": "BUF",
+      "position": "TE",
+      "espn_rank": 116,
+      "espn_pos_rank": 15,
+      "auction_value": 2,
+      "bye": 7
+    },
+    {
+      "name": "Justice Hill",
+      "team": "BAL",
+      "position": "RB",
+      "espn_rank": 196,
+      "espn_pos_rank": 59,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Rasheen Ali",
+      "team": "BAL",
+      "position": "RB",
+      "espn_rank": 276,
+      "espn_pos_rank": 83,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Kyren Williams",
+      "team": "LAR",
+      "position": "RB",
+      "espn_rank": 37,
+      "espn_pos_rank": 17,
+      "auction_value": 22,
+      "bye": 11
+    },
+    {
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "position": "TE",
+      "espn_rank": 117,
+      "espn_pos_rank": 16,
+      "auction_value": 2,
+      "bye": 6
+    },
+    {
+      "name": "Ja'Kobi Lane",
+      "team": "BAL",
+      "position": "WR",
+      "espn_rank": 197,
+      "espn_pos_rank": 72,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Kaytron Allen",
+      "team": "WAS",
+      "position": "RB",
+      "espn_rank": 277,
+      "espn_pos_rank": 84,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Quinshon Judkins",
+      "team": "CLE",
+      "position": "RB",
+      "espn_rank": 38,
+      "espn_pos_rank": 18,
+      "auction_value": 21,
+      "bye": 11
+    },
+    {
+      "name": "Hunter Henry",
+      "team": "NE",
+      "position": "TE",
+      "espn_rank": 118,
+      "espn_pos_rank": 17,
+      "auction_value": 2,
+      "bye": 11
+    },
+    {
+      "name": "Jordan Love",
+      "team": "GB",
+      "position": "QB",
+      "espn_rank": 198,
+      "espn_pos_rank": 22,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "DJ Giddens",
+      "team": "IND",
+      "position": "RB",
+      "espn_rank": 278,
+      "espn_pos_rank": 85,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Cam Skattebo",
+      "team": "NYG",
+      "position": "RB",
+      "espn_rank": 39,
+      "espn_pos_rank": 19,
+      "auction_value": 21,
+      "bye": 8
+    },
+    {
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
+      "espn_rank": 119,
+      "espn_pos_rank": 18,
+      "auction_value": 2,
+      "bye": 11
+    },
+    {
+      "name": "C.J. Stroud",
+      "team": "HOU",
+      "position": "QB",
+      "espn_rank": 199,
+      "espn_pos_rank": 23,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Emanuel Wilson",
+      "team": "SEA",
+      "position": "RB",
+      "espn_rank": 279,
+      "espn_pos_rank": 86,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
+      "espn_rank": 40,
+      "espn_pos_rank": 20,
+      "auction_value": 20,
+      "bye": 10
+    },
+    {
+      "name": "Rachaad White",
+      "team": "WAS",
+      "position": "RB",
+      "espn_rank": 120,
+      "espn_pos_rank": 39,
+      "auction_value": 2,
+      "bye": 7
+    },
+    {
+      "name": "Sam Darnold",
+      "team": "SEA",
+      "position": "QB",
+      "espn_rank": 200,
+      "espn_pos_rank": 24,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Kaleb Johnson",
+      "team": "GB",
+      "position": "RB",
+      "espn_rank": 280,
+      "espn_pos_rank": 87,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "espn_rank": 41,
+      "espn_pos_rank": 21,
+      "auction_value": 19,
+      "bye": 10
+    },
+    {
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "position": "RB",
+      "espn_rank": 121,
+      "espn_pos_rank": 40,
+      "auction_value": 1,
+      "bye": 6
+    },
+    {
+      "name": "Jauan Jennings",
+      "team": "MIN",
+      "position": "WR",
+      "espn_rank": 201,
+      "espn_pos_rank": 73,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Kene Nwangwu",
+      "team": "NYJ",
+      "position": "RB",
+      "espn_rank": 281,
+      "espn_pos_rank": 88,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "position": "WR",
+      "espn_rank": 42,
+      "espn_pos_rank": 18,
+      "auction_value": 19,
+      "bye": 10
+    },
+    {
+      "name": "Blake Corum",
+      "team": "LAR",
+      "position": "RB",
+      "espn_rank": 122,
+      "espn_pos_rank": 41,
+      "auction_value": 1,
+      "bye": 11
+    },
+    {
+      "name": "Tank Dell",
+      "team": "HOU",
+      "position": "WR",
+      "espn_rank": 202,
+      "espn_pos_rank": 74,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Bam Knight",
+      "team": "ARI",
+      "position": "RB",
+      "espn_rank": 282,
+      "espn_pos_rank": 89,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Davante Adams",
+      "team": "LAR",
+      "position": "WR",
+      "espn_rank": 43,
+      "espn_pos_rank": 19,
+      "auction_value": 18,
+      "bye": 11
+    },
+    {
+      "name": "RJ Harvey",
+      "team": "DEN",
+      "position": "RB",
+      "espn_rank": 123,
+      "espn_pos_rank": 42,
+      "auction_value": 1,
+      "bye": 10
+    },
+    {
+      "name": "Malachi Fields",
+      "team": "NYG",
+      "position": "WR",
+      "espn_rank": 203,
+      "espn_pos_rank": 75,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Sione Vaki",
+      "team": "DET",
+      "position": "RB",
+      "espn_rank": 283,
+      "espn_pos_rank": 90,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "espn_rank": 44,
+      "espn_pos_rank": 20,
+      "auction_value": 17,
+      "bye": 7
+    },
+    {
+      "name": "Josh Downs",
+      "team": "IND",
+      "position": "WR",
+      "espn_rank": 124,
+      "espn_pos_rank": 49,
+      "auction_value": 1,
+      "bye": 13
+    },
+    {
+      "name": "Germie Bernard",
+      "team": "PIT",
+      "position": "WR",
+      "espn_rank": 204,
+      "espn_pos_rank": 76,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "Ted Hurst",
+      "team": "TB",
+      "position": "WR",
+      "espn_rank": 284,
+      "espn_pos_rank": 102,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "position": "WR",
+      "espn_rank": 45,
+      "espn_pos_rank": 21,
+      "auction_value": 17,
+      "bye": 7
+    },
+    {
+      "name": "KC Concepcion",
+      "team": "CLE",
+      "position": "WR",
+      "espn_rank": 125,
+      "espn_pos_rank": 50,
+      "auction_value": 1,
+      "bye": 11
+    },
+    {
+      "name": "Tre Harris",
+      "team": "LAC",
+      "position": "WR",
+      "espn_rank": 205,
+      "espn_pos_rank": 77,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Tee Higgins",
+      "team": "CIN",
+      "position": "WR",
+      "espn_rank": 46,
+      "espn_pos_rank": 22,
+      "auction_value": 15,
+      "bye": 6
+    },
+    {
+      "name": "Makai Lemon",
+      "team": "PHI",
+      "position": "WR",
+      "espn_rank": 126,
+      "espn_pos_rank": 51,
+      "auction_value": 1,
+      "bye": 10
+    },
+    {
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "position": "TE",
+      "espn_rank": 206,
+      "espn_pos_rank": 22,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "Jaylen Waddle",
+      "team": "DEN",
+      "position": "WR",
+      "espn_rank": 47,
+      "espn_pos_rank": 23,
+      "auction_value": 15,
+      "bye": 10
+    },
+    {
+      "name": "Chris Godwin Jr.",
+      "team": "TB",
+      "position": "WR",
+      "espn_rank": 127,
+      "espn_pos_rank": 52,
+      "auction_value": 1,
+      "bye": 10
+    },
+    {
+      "name": "Dalton Schultz",
+      "team": "HOU",
+      "position": "TE",
+      "espn_rank": 207,
+      "espn_pos_rank": 23,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Rome Odunze",
+      "team": "CHI",
+      "position": "WR",
+      "espn_rank": 48,
+      "espn_pos_rank": 24,
+      "auction_value": 14,
+      "bye": 10
+    },
+    {
+      "name": "Deebo Samuel Sr.",
+      "team": "SF",
+      "position": "WR",
+      "espn_rank": 128,
+      "espn_pos_rank": 53,
+      "auction_value": 1,
+      "bye": 8
+    },
+    {
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "position": "WR",
+      "espn_rank": 208,
+      "espn_pos_rank": 78,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "espn_rank": 49,
+      "espn_pos_rank": 3,
+      "auction_value": 13,
+      "bye": 10
+    },
+    {
+      "name": "Romeo Doubs",
+      "team": "NE",
+      "position": "WR",
+      "espn_rank": 129,
+      "espn_pos_rank": 54,
+      "auction_value": 1,
+      "bye": 11
+    },
+    {
+      "name": "Zachariah Branch",
+      "team": "ATL",
+      "position": "WR",
+      "espn_rank": 209,
+      "espn_pos_rank": 79,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Evan Engram",
+      "team": "DEN",
+      "position": "TE",
+      "espn_rank": 289,
+      "espn_pos_rank": 30,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "espn_rank": 50,
+      "espn_pos_rank": 4,
+      "auction_value": 13,
+      "bye": 13
+    },
+    {
+      "name": "Jalen Coker",
+      "team": "CAR",
+      "position": "WR",
+      "espn_rank": 130,
+      "espn_pos_rank": 55,
+      "auction_value": 1,
+      "bye": 5
+    },
+    {
+      "name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "position": "WR",
+      "espn_rank": 210,
+      "espn_pos_rank": 80,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "David Njoku",
+      "team": "LAC",
+      "position": "TE",
+      "espn_rank": 290,
+      "espn_pos_rank": 31,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Jameson Williams",
+      "team": "DET",
+      "position": "WR",
+      "espn_rank": 51,
+      "espn_pos_rank": 25,
+      "auction_value": 12,
+      "bye": 6
+    },
+    {
+      "name": "Rashid Shaheed",
+      "team": "SEA",
+      "position": "WR",
+      "espn_rank": 131,
+      "espn_pos_rank": 56,
+      "auction_value": 1,
+      "bye": 11
+    },
+    {
+      "name": "Kayshon Boutte",
+      "team": "HOU",
+      "position": "WR",
+      "espn_rank": 211,
+      "espn_pos_rank": 81,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Oronde Gadsden",
+      "team": "LAC",
+      "position": "TE",
+      "espn_rank": 291,
+      "espn_pos_rank": 32,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "DJ Moore",
+      "team": "BUF",
+      "position": "WR",
+      "espn_rank": 52,
+      "espn_pos_rank": 26,
+      "auction_value": 11,
+      "bye": 7
+    },
+    {
+      "name": "Jalen McMillan",
+      "team": "TB",
+      "position": "WR",
+      "espn_rank": 132,
+      "espn_pos_rank": 57,
+      "auction_value": 1,
+      "bye": 10
+    },
+    {
+      "name": "Kaelon Black",
+      "team": "SF",
+      "position": "RB",
+      "espn_rank": 212,
+      "espn_pos_rank": 60,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "position": "TE",
+      "espn_rank": 292,
+      "espn_pos_rank": 33,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "position": "WR",
+      "espn_rank": 53,
+      "espn_pos_rank": 27,
+      "auction_value": 11,
+      "bye": 10
+    },
+    {
+      "name": "Kyler Murray",
+      "team": "MIN",
+      "position": "QB",
+      "espn_rank": 133,
+      "espn_pos_rank": 16,
+      "auction_value": 1,
+      "bye": 6
+    },
+    {
+      "name": "Kimani Vidal",
+      "team": "LAC",
+      "position": "RB",
+      "espn_rank": 213,
+      "espn_pos_rank": 61,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Michael Mayer",
+      "team": "LV",
+      "position": "TE",
+      "espn_rank": 293,
+      "espn_pos_rank": 34,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Carnell Tate",
+      "team": "TEN",
+      "position": "WR",
+      "espn_rank": 54,
+      "espn_pos_rank": 28,
+      "auction_value": 10,
+      "bye": 9
+    },
+    {
+      "name": "Tyler Shough",
+      "team": "NO",
+      "position": "QB",
+      "espn_rank": 134,
+      "espn_pos_rank": 17,
+      "auction_value": 1,
+      "bye": 8
+    },
+    {
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "position": "RB",
+      "espn_rank": 214,
+      "espn_pos_rank": 62,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Darnell Mooney",
+      "team": "NYG",
+      "position": "WR",
+      "espn_rank": 294,
+      "espn_pos_rank": 103,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "espn_rank": 55,
+      "espn_pos_rank": 2,
+      "auction_value": 10,
+      "bye": 7
+    },
+    {
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "espn_rank": 135,
+      "espn_pos_rank": 18,
+      "auction_value": 1,
+      "bye": 6
+    },
+    {
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
+      "espn_rank": 215,
+      "espn_pos_rank": 24,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "Mack Hollins",
+      "team": "NE",
+      "position": "WR",
+      "espn_rank": 295,
+      "espn_pos_rank": 104,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "espn_rank": 56,
+      "espn_pos_rank": 3,
+      "auction_value": 10,
+      "bye": 13
+    },
+    {
+      "name": "Daniel Jones",
+      "team": "IND",
+      "position": "QB",
+      "espn_rank": 136,
+      "espn_pos_rank": 19,
+      "auction_value": 1,
+      "bye": 13
+    },
+    {
+      "name": "Chig Okonkwo",
+      "team": "WAS",
+      "position": "TE",
+      "espn_rank": 216,
+      "espn_pos_rank": 25,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "team": "ATL",
+      "position": "QB",
+      "espn_rank": 296,
+      "espn_pos_rank": 32,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Drake Maye",
+      "team": "NE",
+      "position": "QB",
+      "espn_rank": 57,
+      "espn_pos_rank": 4,
+      "auction_value": 10,
+      "bye": 11
+    },
+    {
+      "name": "Woody Marks",
+      "team": "HOU",
+      "position": "RB",
+      "espn_rank": 137,
+      "espn_pos_rank": 43,
+      "auction_value": 1,
+      "bye": 8
+    },
+    {
+      "name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "espn_rank": 217,
+      "espn_pos_rank": 26,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Jalen Hurts",
+      "team": "PHI",
+      "position": "QB",
+      "espn_rank": 58,
+      "espn_pos_rank": 5,
+      "auction_value": 9,
+      "bye": 10
+    },
+    {
+      "name": "Zach Charbonnet",
+      "team": "SEA",
+      "position": "RB",
+      "espn_rank": 138,
+      "espn_pos_rank": 44,
+      "auction_value": 1,
+      "bye": 11
+    },
+    {
+      "name": "Bryce Young",
+      "team": "CAR",
+      "position": "QB",
+      "espn_rank": 218,
+      "espn_pos_rank": 25,
+      "auction_value": 0,
+      "bye": 5
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "espn_rank": 59,
+      "espn_pos_rank": 22,
+      "auction_value": 9,
+      "bye": 7
+    },
+    {
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "position": "RB",
+      "espn_rank": 139,
+      "espn_pos_rank": 45,
+      "auction_value": 1,
+      "bye": 9
+    },
+    {
+      "name": "Cam Ward",
+      "team": "TEN",
+      "position": "QB",
+      "espn_rank": 219,
+      "espn_pos_rank": 26,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "David Montgomery",
+      "team": "HOU",
+      "position": "RB",
+      "espn_rank": 60,
+      "espn_pos_rank": 23,
+      "auction_value": 9,
+      "bye": 8
+    },
+    {
+      "name": "Chris Rodriguez Jr.",
+      "team": "JAX",
+      "position": "RB",
+      "espn_rank": 140,
+      "espn_pos_rank": 46,
+      "auction_value": 1,
+      "bye": 7
+    },
+    {
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "espn_rank": 220,
+      "espn_pos_rank": 27,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Jadarian Price",
+      "team": "SEA",
+      "position": "RB",
+      "espn_rank": 61,
+      "espn_pos_rank": 24,
+      "auction_value": 8,
+      "bye": 11
+    },
+    {
+      "name": "Brian Robinson Jr.",
+      "team": "ATL",
+      "position": "RB",
+      "espn_rank": 141,
+      "espn_pos_rank": 47,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Ollie Gordon II",
+      "team": "MIA",
+      "position": "RB",
+      "espn_rank": 221,
+      "espn_pos_rank": 63,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Josh Jacobs",
+      "team": "GB",
+      "position": "RB",
+      "espn_rank": 62,
+      "espn_pos_rank": 25,
+      "auction_value": 8,
+      "bye": 11
+    },
+    {
+      "name": "Tyler Allgeier",
+      "team": "ARI",
+      "position": "RB",
+      "espn_rank": 142,
+      "espn_pos_rank": 48,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "position": "RB",
+      "espn_rank": 222,
+      "espn_pos_rank": 64,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Rhamondre Stevenson",
+      "team": "NE",
+      "position": "RB",
+      "espn_rank": 63,
+      "espn_pos_rank": 26,
+      "auction_value": 8,
+      "bye": 11
+    },
+    {
+      "name": "Denzel Boston",
+      "team": "CLE",
+      "position": "WR",
+      "espn_rank": 143,
+      "espn_pos_rank": 58,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "position": "RB",
+      "espn_rank": 223,
+      "espn_pos_rank": 65,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "position": "RB",
+      "espn_rank": 64,
+      "espn_pos_rank": 27,
+      "auction_value": 7,
+      "bye": 9
+    },
+    {
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "espn_rank": 144,
+      "espn_pos_rank": 59,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Malik Washington",
+      "team": "MIA",
+      "position": "WR",
+      "espn_rank": 224,
+      "espn_pos_rank": 82,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "espn_rank": 65,
+      "espn_pos_rank": 29,
+      "auction_value": 7,
+      "bye": 10
+    },
+    {
+      "name": "Calvin Ridley",
+      "team": "TEN",
+      "position": "WR",
+      "espn_rank": 145,
+      "espn_pos_rank": 60,
+      "auction_value": 0,
+      "bye": 9
+    },
+    {
+      "name": "Malik Davis",
+      "team": "DAL",
+      "position": "RB",
+      "espn_rank": 225,
+      "espn_pos_rank": 66,
+      "auction_value": 0,
+      "bye": 14
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "team": "PIT",
+      "position": "WR",
+      "espn_rank": 66,
+      "espn_pos_rank": 30,
+      "auction_value": 7,
+      "bye": 9
+    },
+    {
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "position": "WR",
+      "espn_rank": 146,
+      "espn_pos_rank": 61,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Brashard Smith",
+      "team": "KC",
+      "position": "RB",
+      "espn_rank": 226,
+      "espn_pos_rank": 67,
+      "auction_value": 0,
+      "bye": 5
+    },
+    {
+      "name": "Marvin Harrison Jr.",
+      "team": "ARI",
+      "position": "WR",
+      "espn_rank": 67,
+      "espn_pos_rank": 31,
+      "auction_value": 7,
+      "bye": 14
+    },
+    {
+      "name": "Travis Hunter",
+      "team": "JAX",
+      "position": "WR",
+      "espn_rank": 147,
+      "espn_pos_rank": 62,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "position": "WR",
+      "espn_rank": 227,
+      "espn_pos_rank": 83,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "DK Metcalf",
+      "team": "PIT",
+      "position": "WR",
+      "espn_rank": 68,
+      "espn_pos_rank": 32,
+      "auction_value": 6,
+      "bye": 9
+    },
+    {
+      "name": "Caleb Douglas",
+      "team": "MIA",
+      "position": "WR",
+      "espn_rank": 148,
+      "espn_pos_rank": 63,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "position": "WR",
+      "espn_rank": 228,
+      "espn_pos_rank": 84,
+      "auction_value": 0,
+      "bye": 5
+    },
+    {
+      "name": "Parker Washington",
+      "team": "JAX",
+      "position": "WR",
+      "espn_rank": 69,
+      "espn_pos_rank": 33,
+      "auction_value": 6,
+      "bye": 7
+    },
+    {
+      "name": "Baker Mayfield",
+      "team": "TB",
+      "position": "QB",
+      "espn_rank": 149,
+      "espn_pos_rank": 20,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Jahan Dotson",
+      "team": "ATL",
+      "position": "WR",
+      "espn_rank": 229,
+      "espn_pos_rank": 85,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Alec Pierce",
+      "team": "IND",
+      "position": "WR",
+      "espn_rank": 70,
+      "espn_pos_rank": 34,
+      "auction_value": 6,
+      "bye": 13
+    },
+    {
+      "name": "Malik Willis",
+      "team": "MIA",
+      "position": "QB",
+      "espn_rank": 150,
+      "espn_pos_rank": 21,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Xavier Hutchinson",
+      "team": "HOU",
+      "position": "WR",
+      "espn_rank": 230,
+      "espn_pos_rank": 86,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "team": "ATL",
+      "position": "TE",
+      "espn_rank": 71,
+      "espn_pos_rank": 5,
+      "auction_value": 6,
+      "bye": 11
+    },
+    {
+      "name": "Jordyn Tyson",
+      "team": "NO",
+      "position": "WR",
+      "espn_rank": 151,
+      "espn_pos_rank": 64,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Jalen Tolbert",
+      "team": "MIA",
+      "position": "WR",
+      "espn_rank": 231,
+      "espn_pos_rank": 87,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "position": "TE",
+      "espn_rank": 72,
+      "espn_pos_rank": 6,
+      "auction_value": 6,
+      "bye": 11
+    },
+    {
+      "name": "Tre Tucker",
+      "team": "LV",
+      "position": "WR",
+      "espn_rank": 152,
+      "espn_pos_rank": 65,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Chris Bell",
+      "team": "MIA",
+      "position": "WR",
+      "espn_rank": 232,
+      "espn_pos_rank": 88,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "espn_rank": 73,
+      "espn_pos_rank": 7,
+      "auction_value": 6,
+      "bye": 6
+    },
+    {
+      "name": "Jalen Nailor",
+      "team": "LV",
+      "position": "WR",
+      "espn_rank": 153,
+      "espn_pos_rank": 66,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "DeMario Douglas",
+      "team": "NE",
+      "position": "WR",
+      "espn_rank": 233,
+      "espn_pos_rank": 89,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Joe Burrow",
+      "team": "CIN",
+      "position": "QB",
+      "espn_rank": 74,
+      "espn_pos_rank": 6,
+      "auction_value": 5,
+      "bye": 6
+    },
+    {
+      "name": "Keaton Mitchell",
+      "team": "LAC",
+      "position": "RB",
+      "espn_rank": 154,
+      "espn_pos_rank": 49,
+      "auction_value": 0,
+      "bye": 7
+    },
+    {
+      "name": "Darius Slayton",
+      "team": "NYG",
+      "position": "WR",
+      "espn_rank": 234,
+      "espn_pos_rank": 90,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "espn_rank": 75,
+      "espn_pos_rank": 7,
+      "auction_value": 5,
+      "bye": 8
+    },
+    {
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "position": "RB",
+      "espn_rank": 155,
+      "espn_pos_rank": 50,
+      "auction_value": 0,
+      "bye": 6
+    },
+    {
+      "name": "Christian Watson",
+      "team": "GB",
+      "position": "WR",
+      "espn_rank": 76,
+      "espn_pos_rank": 35,
+      "auction_value": 5,
+      "bye": 11
+    },
+    {
+      "name": "Jonah Coleman",
+      "team": "DEN",
+      "position": "RB",
+      "espn_rank": 156,
+      "espn_pos_rank": 51,
+      "auction_value": 0,
+      "bye": 10
+    },
+    {
+      "name": "Mike Evans",
+      "team": "SF",
+      "position": "WR",
+      "espn_rank": 77,
+      "espn_pos_rank": 36,
+      "auction_value": 5,
+      "bye": 8
+    },
+    {
+      "name": "Mike Washington Jr.",
+      "team": "LV",
+      "position": "RB",
+      "espn_rank": 157,
+      "espn_pos_rank": 52,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Matthew Golden",
+      "team": "GB",
+      "position": "WR",
+      "espn_rank": 78,
+      "espn_pos_rank": 37,
+      "auction_value": 4,
+      "bye": 11
+    },
+    {
+      "name": "Braelon Allen",
+      "team": "NYJ",
+      "position": "RB",
+      "espn_rank": 158,
+      "espn_pos_rank": 53,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Brian Thomas Jr.",
+      "team": "JAX",
+      "position": "WR",
+      "espn_rank": 79,
+      "espn_pos_rank": 38,
+      "auction_value": 4,
+      "bye": 7
+    },
+    {
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "position": "TE",
+      "espn_rank": 159,
+      "espn_pos_rank": 19,
+      "auction_value": 0,
+      "bye": 13
+    },
+    {
+      "name": "Chris Brooks",
+      "team": "GB",
+      "position": "RB",
+      "espn_rank": 239,
+      "espn_pos_rank": 68,
+      "auction_value": 0,
+      "bye": 11
+    },
+    {
+      "name": "Michael Wilson",
+      "team": "ARI",
+      "position": "WR",
+      "espn_rank": 80,
+      "espn_pos_rank": 39,
+      "auction_value": 4,
+      "bye": 14
+    },
+    {
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "position": "TE",
+      "espn_rank": 160,
+      "espn_pos_rank": 20,
+      "auction_value": 0,
+      "bye": 8
+    },
+    {
+      "name": "Emmett Johnson",
+      "team": "KC",
+      "position": "RB",
+      "espn_rank": 240,
+      "espn_pos_rank": 69,
+      "auction_value": 0,
+      "bye": 5
+    }
+  ]
+}

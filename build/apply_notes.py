@@ -71,6 +71,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("batches", nargs="+")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--cap", type=int, metavar="N",
+                    help="after merging, keep at most N notes per side. This is the one "
+                         "operation here that REMOVES notes, so it is opt-in and never "
+                         "touches the 'user' sub-list. Dropped notes stay in build/notes/, "
+                         "so re-running without --cap restores them.")
     ap.add_argument("--reconcile", action="store_true",
                     help="update metadata (severity, cites, src_label) on notes already "
                          "present with the same (src, note). Never touches note text, "
@@ -91,7 +96,7 @@ def main():
             validate_batch(batch, valid_ids)
             for pid, blocks in batch["notes"].items():
                 for side, items in blocks.items():
-                    bucket = notes[pid][side].setdefault("udk", [])
+                    bucket = notes[pid][side].setdefault(batch.get("source", "udk"), [])
                     have = {(n.get("src"), n.get("note")): n for n in bucket
                             if isinstance(n, dict)}
                     for it in items:
@@ -112,6 +117,33 @@ def main():
     except GateFailure as e:
         print(f"GATE FAILED — {NOTES} not modified.\n  {e}", file=sys.stderr)
         return 1
+
+    dropped = 0
+    if args.cap:
+        # Impact first (severity), then the priority board, then original order. If that
+        # selection would shut ESPN out entirely while ESPN has a severity-2 read, the
+        # weakest kept note gives up its slot — the point of ingesting a second source is
+        # that it gets heard, not that it queues behind the first.
+        order = {"udk": 0, "espn": 1}
+        for pid, v in notes.items():
+            for side in SIDES:
+                buckets = [b for b in v[side] if b != "user"]
+                pool = [(b, n) for b in buckets for n in v[side][b] if isinstance(n, dict)]
+                if len(pool) <= args.cap:
+                    continue
+                pool.sort(key=lambda t: (-t[1].get("severity", 1),
+                                         order.get(t[0], 9), t[1].get("note", "")))
+                keep = pool[:args.cap]
+                if not any(b == "espn" for b, _ in keep):
+                    best = next(((b, n) for b, n in pool
+                                 if b == "espn" and n.get("severity") == 2), None)
+                    if best:
+                        keep[-1] = best
+                kept = {id(n) for _, n in keep}
+                for b in buckets:
+                    before = len(v[side][b])
+                    v[side][b] = [n for n in v[side][b] if id(n) in kept]
+                    dropped += before - len(v[side][b])
 
     # Post-merge gates: nothing lost, user sub-lists untouched.
     if set(notes) != before_players:
@@ -134,8 +166,9 @@ def main():
 
     covered = sum(1 for v in notes.values()
                   if v["risk"].get("udk") or v["upside"].get("udk"))
-    print(f"\nAdded {added} notes, updated {updated}, skipped {skipped} -> "
-          f"{os.path.relpath(NOTES, BASE)}")
+    print(f"\nAdded {added} notes, updated {updated}, skipped {skipped}"
+          + (f", trimmed {dropped} over the cap of {args.cap}" if args.cap else "")
+          + f" -> {os.path.relpath(NOTES, BASE)}")
     print(f"Players with notes: {covered} of {len(notes)}")
     return 0
 

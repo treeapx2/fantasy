@@ -1,0 +1,10 @@
+{
+  "source": "espn_ppr300",
+  "_comment": "Raw ESPN field -> canonical field. Unlisted raw fields are reported by build_canonical.py and excluded.",
+  "mapping": {
+    "espn_rank": "espn_rank",
+    "espn_pos_rank": "espn_pos_rank",
+    "auction_value": "auction_value",
+    "bye": "bye"
+  }
+}

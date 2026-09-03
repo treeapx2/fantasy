@@ -196,6 +196,30 @@ def evaluate(players):
             "market_pick": tv(p),
         }
 
+    # --- the three published boards, as raw overall ranks -------------------
+    # UDK is the priority board (its own TrueValue ordering), ESPN is the independent
+    # cross-check, ADP is the market. Each is ranked over the players that actually
+    # appear on it, so a missing rank stays None rather than being invented.
+    def rank_by(key, players_):
+        have = [q for q in players_ if key(q) is not None]
+        have.sort(key=key)
+        return {q["player_id"]: i + 1 for i, q in enumerate(have)}
+
+    udk_r = rank_by(lambda q: q["derived"].get("true_value_pick"), players)
+    adp_r = rank_by(lambda q: q["derived"].get("avg_adp_pick"), players)
+    espn_r = {q["player_id"]: q["sources"]["espn_ppr300"]["espn_rank"]
+              for q in players if "espn_ppr300" in q["sources"]}
+
+    for p in players:
+        e = p["evaluation"]
+        e["udk_rank"] = udk_r.get(p["player_id"])
+        e["espn_rank"] = espn_r.get(p["player_id"])
+        e["adp_rank"] = adp_r.get(p["player_id"])
+        e["espn_pos_rank"] = p["sources"].get("espn_ppr300", {}).get("espn_pos_rank")
+        e["auction_value"] = p["sources"].get("espn_ppr300", {}).get("auction_value")
+        e["depth_label"] = p["sources"].get("espn_depth", {}).get("depth_label")
+        e["clay_proj_pts"] = p["sources"].get("espn_clay", {}).get("clay_proj_pts")
+
     # Cross-position ordering. Raw projected points are not comparable across positions,
     # so everything is measured against replacement level: how many points this player
     # gives you over the best guy you could have had for free at his position. Then the
@@ -233,6 +257,49 @@ def evaluate(players):
                      key=lambda p: p["evaluation"]["claude_rank"])
         for i, p in enumerate(grp):
             p["evaluation"]["claude_pos_rank"] = i + 1
+
+    _tag_against_consensus(players)
+
+
+# One round in a 12-team league. The tag thresholds are expressed in rounds because
+# that is the unit a draft is actually run in: "he'll last another round" is a decision,
+# "he is nine spots cheaper" is not.
+ROUND = 12
+TAGS = [(2.0, "strong value", "Both boards are leaving real value on the table here."),
+        (1.0, "undervalued", "Cheaper than his profile deserves on both boards."),
+        (-1.0, "consensus", "My read lines up with UDK and ESPN."),
+        (-2.0, "overvalued", "Priced above what his profile supports."),
+        (-99, "strong fade", "The boards are well ahead of what the profile justifies.")]
+
+
+def _tag_against_consensus(players):
+    """Claude's opinion expressed RELATIVE to the published boards, not as a raw rank.
+
+    A number like "Claude #37" invites a false precision — it reads as a competing board
+    when what it actually carries is a disagreement. The tag says only what is useful at
+    the table: relative to where UDK and ESPN have him, is this player cheap or dear.
+    """
+    for p in players:
+        e = p["evaluation"]
+        peers = [r for r in (e["udk_rank"], e["espn_rank"]) if r is not None]
+        if not peers:
+            e.update(consensus_rank=None, consensus_delta=None,
+                     claude_tag="unranked", claude_tag_why=
+                     "Neither UDK nor ESPN ranks him, so there is nothing to compare against.")
+            continue
+        consensus = sum(peers) / len(peers)
+        delta = consensus - e["claude_rank"]          # positive = I like him more
+        rounds = delta / ROUND
+        for thresh, tag, why in TAGS:
+            if rounds >= thresh or thresh == -99:
+                e["claude_tag"], e["claude_tag_why"] = tag, why
+                break
+        e["consensus_rank"] = round(consensus, 1)
+        e["consensus_delta"] = round(delta, 1)
+        e["consensus_of"] = "UDK + ESPN" if len(peers) == 2 else (
+            "UDK only" if e["udk_rank"] is not None else "ESPN only")
+        if e["rank_confidence"] == "thin":
+            e["claude_tag_why"] += " Thin data behind this — treat it as a lean, not a call."
 
 
 def gates(players):
@@ -288,17 +355,18 @@ def main():
         json.dump(doc, f, indent=2, ensure_ascii=False)
 
     print(f"Evaluated {len(players)} players -> {os.path.relpath(CANONICAL, BASE)}\n")
-    top = sorted(players, key=lambda p: p["evaluation"]["claude_rank"])[:15]
-    print("  Claude Rank top 15")
-    print(f"  {'#':>3} {'player':<24}{'pos':<4}{'value':>8}{'vorp':>8}{'opin':>7}"
-          f"{'mkt':>5}{'delta':>7}")
+    from collections import Counter
+    print("  tag distribution:", dict(Counter(p["evaluation"]["claude_tag"] for p in players)))
+    print()
+    top = sorted(players, key=lambda p: p["evaluation"]["udk_rank"] or 9e3)[:15]
+    print("  Board head, by UDK rank (the priority board)")
+    print(f"  {'UDK':>4}{'ESPN':>6}{'ADP':>5}  {'player':<24}{'pos':<5}{'tier':>5}  tag")
     for p in top:
         e = p["evaluation"]
-        mk = e["market_rank"] if e["market_rank"] is not None else "-"
-        dl = f"{e['rank_delta']:+d}" if e["rank_delta"] is not None else "-"
-        print(f"  {e['claude_rank']:>3} {p['name']:<24}{p['position']:<4}"
-              f"{e['claude_value']:>8.1f}{e['vorp']:>8.1f}{e['opinion_pts']:>7.1f}"
-              f"{str(mk):>5}{dl:>7}")
+        g = lambda v: "-" if v is None else str(v)
+        print(f"  {g(e['udk_rank']):>4}{g(e['espn_rank']):>6}{g(e['adp_rank']):>5}  "
+              f"{p['name']:<24}{p['position'] + str(e['claude_pos_rank']):<5}"
+              f"{g(p['sources']['udk'].get('tier')):>5}  {e['claude_tag']}")
     print("\n  replacement level (proj pts): " +
           ", ".join(f"{k} {v:.1f}" for k, v in sorted(repl_report(players).items())))
     return 0

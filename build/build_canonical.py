@@ -60,7 +60,25 @@ TEAM_GRAIN_DIRS = {"_team"}
 # folding is automatic and does NOT need an entry here; this is for real differences.
 # 'Audric Estimé' is listed because BUILD_SPEC calls for it explicitly, though folding
 # already resolves it — an entry here is harmless and self-documenting.
+# ESPN spells suffixes differently from UDK. Each pair below was verified to resolve to
+# an existing canonical player AT THE SAME POSITION before being added — a loose
+# last-name match proposes plenty of false pairs (ESPN's "Brian Robinson Jr." is not
+# Bijan Robinson; "Jalon Daniels" is not Jayden Daniels), and a wrong alias silently
+# welds two players together.
+_ESPN_ALIASES = {
+    "Kenneth Walker III": "Kenneth Walker", "Ken Walker III": "Kenneth Walker",
+    "James Cook": "James Cook III", "Travis Etienne": "Travis Etienne Jr.",
+    "Aaron Jones": "Aaron Jones Sr.", "Kenneth Gainwell": "Kenny Gainwell",
+    "Chris Rodriguez": "Chris Rodriguez Jr.", "LeQuint Allen": "LeQuint Allen Jr.",
+    "Chris Godwin": "Chris Godwin Jr.", "Deebo Samuel": "Deebo Samuel Sr.",
+    "Marvin Mims": "Marvin Mims Jr.", "Ted Hurst": "Ted Hurst III",
+    "Kyle Pitts": "Kyle Pitts Sr.", "Chigoziem Okonkwo": "Chig Okonkwo",
+    "Oronde Gadsden II": "Oronde Gadsden", "Cameron Ward": "Cam Ward",
+}
+
 NAME_ALIASES = {
+    **{(src, k): v for src in ("espn_ppr300", "espn_clay", "espn_depth")
+       for k, v in _ESPN_ALIASES.items()},
     ("udk_consistency_charts", "Audric Estimé"): "Audric Estime",
     ("udk_consistency_pct", "Audric Estimé"): "Audric Estime",
     ("udk_market_share", "Audric Estimé"): "Audric Estime",

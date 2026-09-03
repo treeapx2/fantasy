@@ -1,0 +1,24 @@
+{
+  "source": "espn_clay",
+  "_comment": "Raw ESPN field -> canonical field. Unlisted raw fields are reported by build_canonical.py and excluded.",
+  "mapping": {
+    "clay_pos_rank": "clay_pos_rank",
+    "proj_pts": "clay_proj_pts",
+    "proj_games": "clay_proj_games",
+    "pass_att": "clay_pass_att",
+    "completions": "clay_completions",
+    "pass_yds": "clay_pass_yds",
+    "pass_td": "clay_pass_td",
+    "int": "clay_int",
+    "sacks": "clay_sacks",
+    "carries": "clay_carries",
+    "rush_yds": "clay_rush_yds",
+    "rush_td": "clay_rush_td",
+    "targets": "clay_targets",
+    "receptions": "clay_receptions",
+    "rec_yds": "clay_rec_yds",
+    "rec_td": "clay_rec_td",
+    "carry_share": "clay_carry_share",
+    "target_share": "clay_target_share"
+  }
+}

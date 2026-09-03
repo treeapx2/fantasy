@@ -70,15 +70,6 @@
     "risk": {
       "udk": [
         {
-          "note": "Trajectory +8.0, declining",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 2
-        },
-        {
           "note": "Back injury cut his post-return scoring nearly in half",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -93,7 +84,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 26 spots below UDK (#56 vs #30) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -828,7 +829,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -865,7 +876,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 59 spots above UDK (#86 vs #145) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -891,7 +921,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 36 spots below UDK (#134 vs #98) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -913,20 +953,23 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "kyler-murray-min-qb": {
     "risk": {
       "udk": [
-        {
-          "note": "Blurb spliced with another player's text in extraction — this read leans on metrics",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
         {
           "note": "Trajectory +6.5 with his peak five years back",
           "src": "udk_rankings",
@@ -943,16 +986,19 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "UDK risk score 7.5",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 26 spots below UDK (#133 vs #107) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -977,7 +1023,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1010,7 +1066,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1060,7 +1126,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 42 spots above UDK (#94 vs #136) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1080,7 +1156,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 239 pts against UDK's 282.0 — 15% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1095,7 +1181,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1112,7 +1208,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 77 spots below UDK (#198 vs #121) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1137,7 +1243,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1155,7 +1271,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 66 spots below UDK (#219 vs #153) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 219 pts against UDK's 260.2 — 16% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1170,7 +1305,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1187,7 +1332,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 28 spots below UDK (#199 vs #171) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1203,7 +1358,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1242,7 +1407,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1286,7 +1461,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 45 spots above UDK (#136 vs #181) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1303,7 +1488,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 34 spots below UDK (#218 vs #184) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1318,7 +1513,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1336,7 +1541,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 78 spots below UDK (#269 vs #191) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1351,7 +1566,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1363,7 +1588,17 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1381,7 +1616,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 28 spots below UDK (#220 vs #192) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1394,7 +1639,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 9 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1411,7 +1666,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 102 spots below UDK (#296 vs #194) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 115 pts against UDK's 165.4 — 30% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1426,7 +1700,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 9 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1461,12 +1745,41 @@
   "fernando-mendoza-lv-qb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 56 spots below UDK (#268 vs #212) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 187 pts against UDK's 118.5 — 58% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 9 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -1485,7 +1798,17 @@
   "kirk-cousins-lv-qb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 46 pts against UDK's 100.0 — 54% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1497,19 +1820,49 @@
   "deshaun-watson-cle-qb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 78 pts against UDK's 90.9 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's QB1 despite a tier 9 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "carson-beck-ari-qb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 29 pts against UDK's 73.8 — 61% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -1654,15 +2007,6 @@
             "bust_rate"
           ],
           "severity": 2
-        },
-        {
-          "note": "TD share 8.1 pts above yardage share — mild TD-regression exposure",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 1
         },
         {
           "note": "Carries the highest UDK risk score of the elite RB tier",
@@ -1890,15 +2234,6 @@
           "severity": 2
         },
         {
-          "note": "TD share 12.9 pts below yardage share — positive regression candidate",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 1
-        },
-        {
           "note": "League-best yards per carry and explosive-run rate",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -2074,15 +2409,6 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "Market is charging a premium",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "adp_edge"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -2136,16 +2462,6 @@
             "adp_edge"
           ],
           "severity": 2
-        },
-        {
-          "note": "17-game sample, medium confidence",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "sample_gp",
-            "sample_confidence"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -2302,18 +2618,19 @@
             "sample_confidence"
           ],
           "severity": 2
-        },
-        {
-          "note": "Finish volatility 5.37; remarkably steady for his age",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "finish_volatility"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 278 pts against UDK's 239.7 — 16% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2342,15 +2659,6 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "Market premium of 16 picks",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "adp_edge"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -2373,7 +2681,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 276 pts against UDK's 233.3 — 18% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2474,15 +2792,6 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "Market premium of 8 picks",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "adp_edge"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -2509,7 +2818,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 274 pts against UDK's 228.8 — 20% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2621,18 +2940,19 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "Finish rank improving ~9.5 places a year",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 259 pts against UDK's 222.8 — 16% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2665,15 +2985,6 @@
             "adp_edge"
           ],
           "severity": 2
-        },
-        {
-          "note": "TD share 20.5 pts above yardage share",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 2
         }
       ],
       "espn": [],
@@ -2698,22 +3009,23 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "bucky-irving-tb-rb": {
     "risk": {
       "udk": [
-        {
-          "note": "Zero carries inside the 5 all season and just 1 inside-10 touch — the goal-line role is not his",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "rz_volume_i10"
-          ],
-          "severity": 2
-        },
         {
           "note": "Near the bottom of qualifying backs in both rush success and explosive rate",
           "src": "udk_rankings",
@@ -2762,7 +3074,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2817,18 +3139,19 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "18 inside-10 carries",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "rz_volume_i10"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 247 pts against UDK's 214.8 — 15% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2887,7 +3210,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2919,15 +3252,6 @@
             "sample_confidence"
           ],
           "severity": 2
-        },
-        {
-          "note": "TD share 20.6 pts above yardage share",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -2952,7 +3276,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 227 pts against UDK's 200.9 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -2974,18 +3308,19 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "Market premium of 10 picks",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "adp_edge"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 26 spots below UDK (#97 vs #71) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -3076,7 +3411,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3129,7 +3474,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3182,7 +3537,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3249,7 +3614,26 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 181 spots above UDK (#62 vs #243) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3306,7 +3690,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's RB1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3427,7 +3821,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 32 spots above UDK (#64 vs #96) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3533,20 +3937,19 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "22.0% bust rate on 50 games",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "bust_rate",
-            "sample_gp",
-            "sample_confidence"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 185 pts against UDK's 163.8 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3668,7 +4071,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 184 pts against UDK's 162.8 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -3935,13 +4348,6 @@
           "severity": 2
         },
         {
-          "note": "Soft-tissue injuries are the defining pattern of his career, not an incident",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 2
-        },
-        {
           "note": "Has standalone value only if the starter misses time",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -3949,7 +4355,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 24 spots below UDK (#100 vs #76) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4021,7 +4437,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 178 pts against UDK's 138.1 — 29% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4053,7 +4479,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 154 pts against UDK's 133.9 — 15% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4103,7 +4539,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 72 pts against UDK's 114.9 — 37% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4182,7 +4628,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 94 pts against UDK's 109.0 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4236,7 +4692,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 35 spots above UDK (#138 vs #173) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 134 pts against UDK's 107.3 — 25% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4253,7 +4728,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 93 pts against UDK's 106.4 — 13% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4268,7 +4753,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 32 spots above UDK (#142 vs #174) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4283,7 +4778,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 88 pts against UDK's 106.3 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4322,7 +4827,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 74 pts against UDK's 104.1 — 29% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4335,7 +4859,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 26 spots above UDK (#156 vs #182) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4352,7 +4886,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 67 pts against UDK's 103.5 — 35% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4365,7 +4909,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 28 spots above UDK (#157 vs #185) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4382,7 +4936,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 57 spots below UDK (#244 vs #187) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 41 pts against UDK's 102.5 — 60% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4421,7 +4994,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 64 pts against UDK's 99.0 — 35% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4479,7 +5062,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 113 pts against UDK's 98.2 — 15% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4519,7 +5112,26 @@
   "jordan-james-sf-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 29 pts against UDK's 84.8 — 66% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4531,7 +5143,26 @@
   "kimani-vidal-lac-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 36 pts against UDK's 84.3 — 57% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4548,7 +5179,17 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 120 pts against UDK's 83.6 — 44% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4560,14 +5201,52 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 100 pts against UDK's 80.0 — 25% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "emmett-johnson-kc-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 27 spots below UDK (#240 vs #213) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 54 pts against UDK's 79.1 — 32% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4579,7 +5258,35 @@
   "nicholas-singleton-ten-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 33 spots below UDK (#250 vs #217) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 20 pts against UDK's 76.3 — 74% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4591,19 +5298,58 @@
   "ty-johnson-buf-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 85 pts against UDK's 74.5 — 14% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "lequint-allen-jr-jax-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 47 pts against UDK's 73.2 — 36% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4615,7 +5361,17 @@
   "chris-brooks-gb-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4644,14 +5400,52 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 65 spots above UDK (#158 vs #223) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 77 pts against UDK's 63.8 — 21% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "george-holani-sea-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 41 pts against UDK's 63.6 — 36% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4663,7 +5457,26 @@
   "isaiah-davis-nyj-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 51 pts against UDK's 62.6 — 19% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4675,7 +5488,26 @@
   "dj-giddens-ind-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 15 pts against UDK's 61.9 — 76% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4735,12 +5567,32 @@
   "ray-davis-buf-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 38 pts against UDK's 54.6 — 30% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 67 spots above UDK (#167 vs #234) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -4759,7 +5611,26 @@
   "emanuel-wilson-sea-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 41 spots below UDK (#279 vs #238) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 10 pts against UDK's 48.1 — 79% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4776,14 +5647,52 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 25 spots above UDK (#214 vs #239) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "kaytron-allen-was-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 36 spots below UDK (#277 vs #241) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 16 pts against UDK's 45.4 — 65% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4795,7 +5704,17 @@
   "emari-demercado-kc-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 25 pts against UDK's 45.3 — 45% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4819,7 +5738,26 @@
   "sean-tucker-tb-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 37 pts against UDK's 42.6 — 13% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4831,7 +5769,26 @@
   "demond-claiborne-min-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 17 pts against UDK's 42.3 — 60% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4855,7 +5812,26 @@
   "ollie-gordon-ii-mia-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 34 pts against UDK's 38.8 — 12% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4867,7 +5843,26 @@
   "will-shipley-phi-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 28 pts against UDK's 33.3 — 16% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4903,7 +5898,26 @@
   "kaleb-johnson-pit-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 44 spots below UDK (#280 vs #236) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 8 pts against UDK's 30.6 — 74% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -4915,7 +5929,26 @@
   "tahj-brooks-cin-rb": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 18 pts against UDK's 27.1 — 34% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him RB3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -5209,15 +6242,6 @@
             "rz_volume_i10"
           ],
           "severity": 1
-        },
-        {
-          "note": "Peak finish two years back",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "years_since_peak"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -5303,13 +6327,6 @@
           "severity": 2
         },
         {
-          "note": "QB upgrade on a 2025 room that was among the league's worst",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
-        {
           "note": "30.1% target share undisturbed by the down year",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -5319,7 +6336,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 295 pts against UDK's 259.8 — 14% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -5345,13 +6372,6 @@
             "years_since_peak"
           ],
           "severity": 2
-        },
-        {
-          "note": "New team and an unproven QB pairing",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         },
         {
           "note": "5 inside-10 targets",
@@ -5407,13 +6427,6 @@
             "finish_volatility"
           ],
           "severity": 2
-        },
-        {
-          "note": "Rookie addition to the WR room takes target competition up",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         },
         {
           "note": "4 inside-10 targets",
@@ -5524,13 +6537,6 @@
     "risk": {
       "udk": [
         {
-          "note": "No blurb — the PDF text layer dropped it, so this read is metrics-only and thinner than the rest",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
-        {
           "note": "Trajectory +15.5, the steepest decline in the top 200",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -5617,15 +6623,6 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "Market is charging a small premium",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "adp_edge"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -5745,15 +6742,6 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "Finish volatility 37.04",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "finish_volatility"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -5810,15 +6798,6 @@
             "sample_confidence"
           ],
           "severity": 2
-        },
-        {
-          "note": "TD share 19.8 pts above yardage share",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -6293,7 +7272,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 202 pts against UDK's 231.6 — 13% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -6340,13 +7329,6 @@
           "cites": [
             "opportunity_share"
           ],
-          "severity": 2
-        },
-        {
-          "note": "Groin injury expected to cost him most of camp",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
           "severity": 2
         },
         {
@@ -6405,18 +7387,19 @@
             "ceiling_rate"
           ],
           "severity": 2
-        },
-        {
-          "note": "Role is genuinely unprojectable while the rest of the WR room is unsettled",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "opportunity_share"
-          ],
-          "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 187 pts against UDK's 224.0 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -6440,7 +7423,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -6463,18 +7456,19 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "TD share 13.4 pts above yardage share",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "td_dependency"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 189 pts against UDK's 223.6 — 15% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -6563,7 +7557,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -6685,7 +7689,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -6750,15 +7764,6 @@
     "risk": {
       "udk": [
         {
-          "note": "Trajectory +34.0 — the steepest decline on the entire board",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 2
-        },
-        {
           "note": "Age 33 changing teams, which historically goes badly for receivers at this stage",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -6773,7 +7778,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 180 pts against UDK's 216.7 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -6922,7 +7937,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -7035,7 +8060,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -7061,18 +8096,19 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "Finish volatility 28.28",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "finish_volatility"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 177 pts against UDK's 208.1 — 15% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7126,16 +8162,19 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "Age 30.5",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 157 pts against UDK's 199.8 — 21% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7184,18 +8223,19 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "19.2% opportunity share",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "opportunity_share"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 165 pts against UDK's 194.1 — 15% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7283,7 +8323,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 8 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -7422,15 +8472,6 @@
           "severity": 2
         },
         {
-          "note": "Trajectory +3.0",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 1
-        },
-        {
           "note": "Third team in three years",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -7438,7 +8479,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 26 spots below UDK (#114 vs #88) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7476,13 +8527,6 @@
   "courtland-sutton-den-wr": {
     "risk": {
       "udk": [
-        {
-          "note": "Blurb spliced with another player's text in extraction — this read leans on metrics",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
         {
           "note": "Target share directly threatened by a significant offseason arrival",
           "src": "udk_rankings",
@@ -7524,20 +8568,28 @@
             "trajectory_3yr"
           ],
           "severity": 2
-        },
-        {
-          "note": "44.0% floor rate on 50 games",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "floor_rate",
-            "sample_gp",
-            "sample_confidence"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 24 spots above UDK (#65 vs #89) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 204 pts against UDK's 180.6 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -7653,15 +8705,6 @@
     "risk": {
       "udk": [
         {
-          "note": "Trajectory +47.0 — the steepest decline on the entire board",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 2
-        },
-        {
           "note": "13.4% opportunity share and zero inside-10 targets",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -7681,7 +8724,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7727,19 +8780,19 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "59.6% bust rate on 47 games",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "bust_rate",
-            "sample_gp"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 24 spots below UDK (#124 vs #100) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -7776,15 +8829,6 @@
           "severity": 2
         },
         {
-          "note": "Trajectory +5.5",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "trajectory_3yr"
-          ],
-          "severity": 1
-        },
-        {
           "note": "No real week-winning ceiling",
           "src": "udk_rankings",
           "src_label": "UDK Rankings 8/30",
@@ -7794,7 +8838,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8044,7 +9098,17 @@
   "malik-washington-mia-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 114 pts against UDK's 159.3 — 28% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8179,7 +9243,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 89 spots below UDK (#211 vs #122) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8247,7 +9330,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 10 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -8264,7 +9357,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 35 spots below UDK (#161 vs #126) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 124 pts against UDK's 153.0 — 19% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8330,20 +9442,32 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 47 spots above UDK (#78 vs #125) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 189 pts against UDK's 152.4 — 24% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "jordyn-tyson-no-wr": {
     "risk": {
       "udk": [
-        {
-          "note": "Blurb misattributed in extraction — this read is metrics-only",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
         {
           "note": "No historical data at all",
           "src": "udk_rankings",
@@ -8363,7 +9487,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 100 pts against UDK's 146.0 — 32% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8418,7 +9552,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 10 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -8435,7 +9579,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 69 spots below UDK (#210 vs #141) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 88 pts against UDK's 133.8 — 34% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8475,7 +9638,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 59 spots below UDK (#201 vs #142) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 115 pts against UDK's 133.6 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8524,7 +9706,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8539,7 +9731,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 150 pts against UDK's 133.2 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -8576,7 +9778,26 @@
   "dontayvion-wicks-phi-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 109 pts against UDK's 127.9 — 15% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8653,7 +9874,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 103 pts against UDK's 119.4 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8681,16 +9912,28 @@
             "trajectory_3yr"
           ],
           "severity": 2
-        },
-        {
-          "note": "Blurb spliced with another player's text in extraction",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 69 spots below UDK (#227 vs #158) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 101 pts against UDK's 116.5 — 13% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8732,7 +9975,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8756,7 +10009,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 140 pts against UDK's 116.3 — 20% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -8776,7 +10039,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 111 spots below UDK (#263 vs #152) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 73 pts against UDK's 116.3 — 37% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8805,7 +10087,26 @@
   "demario-douglas-ne-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 82 pts against UDK's 115.4 — 29% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8827,7 +10128,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 37 spots below UDK (#197 vs #160) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8855,7 +10175,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 41 spots below UDK (#202 vs #161) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8912,7 +10251,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 128 pts against UDK's 112.0 — 14% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -8927,7 +10276,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 38 spots below UDK (#204 vs #166) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -8966,7 +10334,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 53 pts against UDK's 110.5 — 52% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9028,7 +10406,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9053,7 +10441,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 135 pts against UDK's 108.5 — 24% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -9073,7 +10471,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 30 spots below UDK (#205 vs #175) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 90 pts against UDK's 106.9 — 16% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9103,16 +10520,28 @@
             "opportunity_share"
           ],
           "severity": 2
-        },
-        {
-          "note": "Blurb spliced with another player's text in extraction",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 83 spots below UDK (#261 vs #178) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 76 pts against UDK's 105.9 — 28% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9153,7 +10582,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 25 spots below UDK (#208 vs #183) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 89 pts against UDK's 103.7 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9192,7 +10640,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 83 pts against UDK's 103.1 — 19% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9219,14 +10677,52 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 113 pts against UDK's 100.0 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's WR1 despite a tier 11 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "darius-slayton-nyg-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 80 pts against UDK's 96.1 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9248,7 +10744,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9263,7 +10769,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 32 spots above UDK (#164 vs #196) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 123 pts against UDK's 91.7 — 34% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -9295,7 +10820,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 33 spots above UDK (#165 vs #198) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 132 pts against UDK's 91.3 — 45% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -9314,7 +10858,35 @@
   "darnell-mooney-nyg-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 80 spots below UDK (#294 vs #214) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 64 pts against UDK's 90.1 — 29% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9326,7 +10898,17 @@
   "jalen-tolbert-mia-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9350,7 +10932,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 76 spots below UDK (#275 vs #199) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 65 pts against UDK's 89.7 — 28% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9399,14 +11000,61 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 38 spots above UDK (#162 vs #200) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 122 pts against UDK's 89.5 — 36% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "isaac-teslaa-det-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 61 spots below UDK (#262 vs #201) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 73 pts against UDK's 89.2 — 18% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9418,19 +11066,67 @@
   "jalen-mcmillan-tb-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 70 spots above UDK (#132 vs #202) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 133 pts against UDK's 89.2 — 49% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "antonio-williams-was-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 49 spots below UDK (#252 vs #203) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9442,7 +11138,35 @@
   "jack-bech-lv-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 70 spots below UDK (#274 vs #204) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 66 pts against UDK's 87.1 — 24% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9454,7 +11178,17 @@
   "troy-franklin-den-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 51 pts against UDK's 86.2 — 41% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9466,7 +11200,26 @@
   "chris-bell-mia-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 24 spots below UDK (#232 vs #208) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9478,7 +11231,17 @@
   "elic-ayomanor-ten-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 24 pts against UDK's 81.6 — 71% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9490,7 +11253,26 @@
   "andrei-iosivas-cin-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 68 pts against UDK's 80.6 — 16% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9502,7 +11284,17 @@
   "tyquan-thornton-kc-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9514,7 +11306,17 @@
   "tez-johnson-tb-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 22 pts against UDK's 79.0 — 72% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9526,7 +11328,17 @@
   "chimere-dike-ten-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 40 pts against UDK's 76.2 — 48% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9548,7 +11360,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 40 spots below UDK (#203 vs #163) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9563,14 +11385,43 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 86 pts against UDK's 76.1 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "ted-hurst-iii-tb-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 62 spots below UDK (#284 vs #222) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9582,12 +11433,32 @@
   "jahan-dotson-atl-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 93 pts against UDK's 70.6 — 32% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -9606,7 +11477,17 @@
   "kendrick-bourne-ari-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 50 pts against UDK's 64.8 — 23% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9630,7 +11511,17 @@
   "bryce-lance-no-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 43 pts against UDK's 62.8 — 32% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9642,7 +11533,17 @@
   "kalif-raymond-chi-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 48 pts against UDK's 60.8 — 21% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9654,7 +11555,17 @@
   "roman-wilson-pit-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 29 pts against UDK's 60.7 — 52% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9666,7 +11577,17 @@
   "olamide-zaccheaus-atl-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 32 pts against UDK's 59.6 — 46% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9678,19 +11599,58 @@
   "marvin-mims-jr-den-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 35 spots below UDK (#264 vs #229) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 70 pts against UDK's 58.9 — 19% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "jordan-whittington-lar-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 22 pts against UDK's 57.9 — 62% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9702,7 +11662,17 @@
   "mack-hollins-ne-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR4 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9714,7 +11684,17 @@
   "treylon-burks-was-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 45 pts against UDK's 57.2 — 21% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9738,7 +11718,17 @@
   "brenen-thompson-lac-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 28 pts against UDK's 52.1 — 46% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9750,19 +11740,49 @@
   "xavier-legette-car-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN slots him WR3 — third or deeper in his own room, so the touches have to come from someone else's injury",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 94 pts against UDK's 51.0 — 84% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "elijah-sarratt-bal-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 25 pts against UDK's 49.1 — 49% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9774,7 +11794,17 @@
   "skyler-bell-buf-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 34 pts against UDK's 48.1 — 29% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9798,7 +11828,17 @@
   "tutu-atwell-lar-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 31 pts against UDK's 46.1 — 33% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9834,7 +11874,17 @@
   "jaylin-lane-was-wr": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 29 pts against UDK's 44.6 — 35% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -9933,13 +11983,6 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "QB situation unresolved",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -10249,18 +12292,19 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "14.3% ceiling rate",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "ceiling_rate"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 24 spots below UDK (#102 vs #78) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -10352,13 +12396,6 @@
   "sam-laporta-det-te": {
     "risk": {
       "udk": [
-        {
-          "note": "Blurb corrupted by a table bleeding in during extraction — this read leans on metrics",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
-        },
         {
           "note": "Trajectory +13.0, declining",
           "src": "udk_rankings",
@@ -10505,7 +12542,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 147 pts against UDK's 167.6 — 12% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -10556,16 +12603,19 @@
             "ceiling_rate"
           ],
           "severity": 2
-        },
-        {
-          "note": "Needs the QB to rebound to matter at all",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 133 pts against UDK's 166.0 — 20% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -10876,13 +12926,6 @@
             "adp_edge"
           ],
           "severity": 2
-        },
-        {
-          "note": "Blurb spliced with another player's text in extraction",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
       "espn": [],
@@ -10910,7 +12953,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 177 pts against UDK's 156.8 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -10928,7 +12981,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 70 spots below UDK (#194 vs #124) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11000,7 +13063,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 169 pts against UDK's 148.9 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11054,7 +13127,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 77 spots below UDK (#216 vs #139) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 121 pts against UDK's 143.3 — 16% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11076,7 +13168,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11105,7 +13207,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 112 spots below UDK (#258 vs #146) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11125,7 +13237,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11153,19 +13275,28 @@
           "src_label": "UDK Rankings 8/30",
           "cites": [],
           "severity": 2
-        },
-        {
-          "note": "27.5% bust rate is low for the position",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [
-            "bust_rate",
-            "sample_gp"
-          ],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 30 spots above UDK (#117 vs #147) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 159 pts against UDK's 128.2 — 24% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11195,7 +13326,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 146 pts against UDK's 126.4 — 16% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11212,7 +13362,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 57 spots below UDK (#206 vs #149) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11225,7 +13385,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 6 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11240,16 +13410,28 @@
             "td_dependency"
           ],
           "severity": 2
-        },
-        {
-          "note": "Blurb spliced with another player's text in extraction",
-          "src": "udk_rankings",
-          "src_label": "UDK Rankings 8/30",
-          "cites": [],
-          "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 96 spots below UDK (#260 vs #164) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 102 pts against UDK's 123.1 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11273,7 +13455,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11290,7 +13482,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 52 spots below UDK (#217 vs #165) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11305,7 +13507,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11322,7 +13534,26 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 119 spots below UDK (#291 vs #172) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects only 77 pts against UDK's 108.1 — 29% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11361,7 +13592,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 75 pts against UDK's 107.9 — 30% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11402,7 +13643,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 111 spots below UDK (#290 vs #179) — the two boards do not agree he is this good",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11429,7 +13680,17 @@
           "severity": 1
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11441,7 +13702,17 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11453,7 +13724,17 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11470,7 +13751,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 54 pts against UDK's 99.5 — 46% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11524,7 +13815,17 @@
           "severity": 2
         }
       ],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 127 pts against UDK's 96.9 — 31% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11536,7 +13837,26 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 106 pts against UDK's 94.2 — 13% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
@@ -11548,14 +13868,52 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "ESPN ranks him 87 spots above UDK (#119 vs #206) — a two-board disagreement in his favour",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "espn_rank"
+          ]
+        },
+        {
+          "note": "Clay projects 136 pts against UDK's 85.9 — 58% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        },
+        {
+          "note": "ESPN has him as his team's TE1 despite a tier 7 UDK grade — the role is better than the ranking implies",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 1,
+          "cites": [
+            "depth_slot"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "mason-taylor-nyj-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 70 pts against UDK's 84.2 — 17% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11567,7 +13925,17 @@
   "charlie-kolar-lac-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 36 pts against UDK's 81.3 — 56% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11591,7 +13959,17 @@
   "dawson-knox-buf-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 68 pts against UDK's 79.3 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11603,7 +13981,17 @@
   "eli-stowers-phi-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 29 pts against UDK's 77.2 — 62% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11627,7 +14015,17 @@
   "ja-tavion-sanders-car-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 42 pts against UDK's 72.8 — 42% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11639,7 +14037,17 @@
   "theo-johnson-nyg-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 62 pts against UDK's 72.0 — 14% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11663,7 +14071,17 @@
   "tommy-tremble-car-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 44 pts against UDK's 60.0 — 27% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11692,14 +14110,34 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 72 pts against UDK's 57.2 — 26% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   },
   "max-klare-lar-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 10 pts against UDK's 55.8 — 82% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11711,7 +14149,17 @@
   "jake-tonges-sf-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 20 pts against UDK's 54.9 — 64% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11723,7 +14171,17 @@
   "ben-sinnott-was-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 27 pts against UDK's 49.1 — 45% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11759,7 +14217,17 @@
   "nate-boerkircher-jax-te": {
     "risk": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects only 18 pts against UDK's 24.1 — 25% less, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     },
     "upside": {
@@ -11776,7 +14244,17 @@
     },
     "upside": {
       "udk": [],
-      "espn": [],
+      "espn": [
+        {
+          "note": "Clay projects 18 pts against UDK's 13.2 — 36% more, from an independent model",
+          "src": "espn",
+          "src_label": "ESPN 8/31",
+          "severity": 2,
+          "cites": [
+            "clay_proj_pts"
+          ]
+        }
+      ],
       "user": []
     }
   }
