@@ -79,6 +79,8 @@ build/
                        Runs after derive_metrics.py. See "Claude Rank" below.
   report_gaps.py      Inventories every known data gap into data/gaps.json so nothing
                        missing is quietly lost. See "Tracking what's missing".
+  export_board.py     Builds data/app/board.json, the payload the board reads. Also decides
+                       which deeper stats are significant enough for the UI to colour.
   export_sheet.py     Writes a portable plain-text draft sheet. Artifact URLs are private
                        and cannot be fetched by an external tool, so this is how the board
                        travels — attach it to a chat, print it, read it offline.
@@ -278,6 +280,28 @@ because the distinction decides what you do about it:
 Each entry records names, positions, value rank, and whether the player is inside the top
 200, so retrieval can be prioritised. Names only — never source prose, so it is safe to
 commit.
+
+## The board app
+
+Source lives in `app/`, versioned like everything else:
+
+```
+app/head.html   <title>, fonts, the whole stylesheet
+app/body.html   markup and application script
+app/build.py    inlines data/app/board.json and writes app/draft-board.html
+```
+
+```bash
+python3 build/export_board.py && python3 app/build.py
+```
+
+The output is one self-contained file — no external requests beyond Google Fonts — so it
+works offline and can be published as-is.
+
+**No native `title` tooltips anywhere.** The browser's own tooltip forces a help cursor it
+will not let you override, which made every clickable row read as inert text. A single
+floating element handles tooltips instead, so cursors stay honest: pointer on what you can
+click, default on what you cannot.
 
 ## Refreshing before the draft (Phase 6)
 

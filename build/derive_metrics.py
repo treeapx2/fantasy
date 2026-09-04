@@ -278,7 +278,7 @@ def gates(players):
 
 
 def coverage(players):
-    keys = ["adj_risk", "adj_upside", "weekly_start_pct", "floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
+    keys = ["adj_risk", "adj_upside", "games_available_pct", "weekly_start_pct", "floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
             "opportunity_share", "td_dependency", "rz_volume_i10", "adp_edge"]
     return {k: sum(1 for p in players if p["derived"][k] is not None) for k in keys}
 
@@ -307,6 +307,14 @@ def adjust_rates(players):
                 p["derived"][key + "_prior"] = round(prior, 1)
     for p in players:
         d = p["derived"]
+        # Share of the games he was eligible for that he actually played. Expected games
+        # are capped at the 3-season window and floored at one season, so a rookie is not
+        # punished for not yet having a history — only for missing what he could have played.
+        gp, exp = d["sample_gp"], p["sources"]["udk"].get("exp")
+        seasons = min(max(exp if exp else 1, 1), 3)
+        d["games_expected"] = 17 * seasons
+        d["games_available_pct"] = (None if gp is None
+                                    else round(min(100 * gp / (17 * seasons), 100), 1))
         d["weekly_start_pct"] = d["floor_rate_adj"]
         d["weekly_start_pct_raw"] = d["floor_rate"]
         d["sample_weight_own"] = (None if d["sample_gp"] is None
@@ -317,7 +325,12 @@ def adjust_rates(players):
 # predate the consistency data, the injury report and the second source — so these blend
 # UDK's read with everything the project has since gathered, and are scored as a
 # percentile WITHIN POSITION so a 7.5 means the same thing for a TE as for a WR.
-RISK_W = {"bust": .30, "injury": .25, "volatility": .15, "sample": .15, "udk": .15}
+# 'sample' is statistical confidence — how much evidence there is. 'availability' is
+# durability — what share of the games he was eligible for he actually played. They are
+# different questions and were previously conflated: a player clearing the 34-game
+# confidence bar scored zero risk even if he had missed a quarter of the window.
+RISK_W = {"bust": .24, "injury": .21, "availability": .20,
+          "volatility": .13, "sample": .12, "udk": .10}
 UPSIDE_W = {"ceiling": .35, "udk": .25, "trajectory": .20, "opportunity": .20}
 
 
@@ -367,6 +380,9 @@ def score_risk_upside(players):
 
         zr = {
             "bust": _z({i: d[i].get("bust_rate_adj") for i in ids}),
+            # more missed games = more risk, so flip it
+            "availability": _z({i: (None if d[i].get("games_available_pct") is None
+                                    else -d[i]["games_available_pct"]) for i in ids}),
             "volatility": _z({i: d[i].get("finish_volatility") for i in ids}),
             "injury": _z({i: injury_load(i) for i in ids}),
             "sample": _z({i: sample_load(i) for i in ids}),
