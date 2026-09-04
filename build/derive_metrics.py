@@ -278,7 +278,7 @@ def gates(players):
 
 
 def coverage(players):
-    keys = ["weekly_start_pct", "floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
+    keys = ["adj_risk", "adj_upside", "weekly_start_pct", "floor_rate", "trajectory_3yr", "peak_finish", "finish_volatility",
             "opportunity_share", "td_dependency", "rz_volume_i10", "adp_edge"]
     return {k: sum(1 for p in players if p["derived"][k] is not None) for k in keys}
 
@@ -313,6 +313,100 @@ def adjust_rates(players):
                                   else round(100 * d["sample_gp"] / (d["sample_gp"] + CONF_MED)))
 
 
+# Adjusted risk / upside. UDK publishes its own 0-10 risk and upside scores, but they
+# predate the consistency data, the injury report and the second source — so these blend
+# UDK's read with everything the project has since gathered, and are scored as a
+# percentile WITHIN POSITION so a 7.5 means the same thing for a TE as for a WR.
+RISK_W = {"bust": .30, "injury": .25, "volatility": .15, "sample": .15, "udk": .15}
+UPSIDE_W = {"ceiling": .35, "udk": .25, "trajectory": .20, "opportunity": .20}
+
+
+def _z(vals):
+    good = [v for v in vals.values() if v is not None]
+    if len(good) < 2:
+        return {k: 0.0 for k in vals}
+    mu = statistics.mean(good)
+    sd = statistics.pstdev(good)
+    if sd == 0:
+        return {k: 0.0 for k in vals}
+    return {k: (None if v is None else (v - mu) / sd) for k, v in vals.items()}
+
+
+def _blend(feats, weights):
+    num = den = 0.0
+    parts = {}
+    for name, w in weights.items():
+        z = feats.get(name)
+        if z is None:
+            continue
+        num += z * w
+        den += w
+        parts[name] = round(z, 2)
+    return (num / den if den else None), parts, den
+
+
+def score_risk_upside(players):
+    for pos in sorted({p["position"] for p in players}):
+        grp = [p for p in players if p["position"] == pos]
+        ids = [p["player_id"] for p in grp]
+        d = {p["player_id"]: p["derived"] for p in grp}
+        u = {p["player_id"]: p["sources"]["udk"] for p in grp}
+        tags = {p["player_id"]: p["sources"].get("udk_tags", {}) for p in grp}
+
+        def injury_load(pid):
+            t = tags[pid]
+            if t.get("injury_out"):
+                return 1.0
+            if "injury_concern" in (t.get("tags") or []):
+                return 0.55
+            return 0.0
+
+        def sample_load(pid):
+            c = d[pid]["sample_confidence"]
+            return {"low": 1.0, "medium": 0.45, "high": 0.0}.get(c, 0.8)
+
+        zr = {
+            "bust": _z({i: d[i].get("bust_rate_adj") for i in ids}),
+            "volatility": _z({i: d[i].get("finish_volatility") for i in ids}),
+            "injury": _z({i: injury_load(i) for i in ids}),
+            "sample": _z({i: sample_load(i) for i in ids}),
+            "udk": _z({i: u[i].get("risk") for i in ids}),
+        }
+        zu = {
+            "ceiling": _z({i: d[i].get("ceiling_rate_adj") for i in ids}),
+            # negative slope = improving, so flip it to make "more is better"
+            "trajectory": _z({i: (None if d[i].get("trajectory_3yr") is None
+                                  else -d[i]["trajectory_3yr"]) for i in ids}),
+            "opportunity": _z({i: d[i].get("opportunity_share") for i in ids}),
+            "udk": _z({i: u[i].get("upside") for i in ids}),
+        }
+
+        raw = {}
+        for i in ids:
+            r, rp, rden = _blend({k: zr[k][i] for k in zr}, RISK_W)
+            up, upp, uden = _blend({k: zu[k][i] for k in zu}, UPSIDE_W)
+            raw[i] = (r, rp, rden, up, upp, uden)
+
+        # Percentile within position -> 0-10, so the number is readable without a scale.
+        def pct(vals):
+            have = sorted([(v, i) for i, v in vals.items() if v is not None])
+            out = {}
+            for rank, (_, i) in enumerate(have):
+                out[i] = round(10 * rank / max(len(have) - 1, 1), 1)
+            return out
+
+        pr = pct({i: raw[i][0] for i in ids})
+        pu = pct({i: raw[i][3] for i in ids})
+        for i in ids:
+            r, rp, rden, up, upp, uden = raw[i]
+            d[i]["adj_risk"] = pr.get(i)
+            d[i]["adj_risk_parts"] = rp
+            d[i]["adj_risk_coverage"] = round(rden, 2)
+            d[i]["adj_upside"] = pu.get(i)
+            d[i]["adj_upside_parts"] = upp
+            d[i]["adj_upside_coverage"] = round(uden, 2)
+
+
 def main():
     with open(CANONICAL) as f:
         doc = json.load(f)
@@ -321,6 +415,7 @@ def main():
     for p in players:
         p["derived"] = derive(p)
     adjust_rates(players)
+    score_risk_upside(players)
 
     try:
         gates(players)
