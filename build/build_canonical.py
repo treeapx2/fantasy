@@ -95,8 +95,10 @@ def fold(name):
 
 
 def slugify(name, team, position):
+    # A player can reach the board before a team is known for him. Slug him as "fa"
+    # rather than crashing the build; report_gaps.py surfaces the missing team.
     s = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-    return f"{s}-{team.lower()}-{position.lower()}"
+    return f"{s}-{(team or 'fa').lower()}-{position.lower()}"
 
 
 def load_source(source_name):

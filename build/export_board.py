@@ -81,6 +81,8 @@ def main():
         out.append({
             "id": p["player_id"], "n": p["name"], "p": p["position"], "tm": p["team"],
             "bye": u.get("bye"), "tier": u.get("tier"),
+            "br": e.get("board_rank"), "bpr": e.get("board_pos_rank"),
+            "bs": e.get("board_score"),
             "udk": e.get("udk_rank"), "espn": e.get("espn_rank"), "adp": e.get("adp_rank"),
             "epr": e.get("espn_pos_rank"), "auc": e.get("auction_value"), "dep": e.get("depth_label"),
             "cr": e["claude_rank"], "cpr": e["claude_pos_rank"], "cv": e["claude_value"],
@@ -95,7 +97,7 @@ def main():
             "lb": BUCKETS[p["position"]], "gp": d["sample_gp"], "sc": d["sample_confidence"],
             "os": d["opportunity_share"], "td": d["td_dependency"], "rz": d["rz_volume_i10"],
             "tj": d["trajectory_3yr"], "vol": d["finish_volatility"], "ed": d["adp_edge"],
-            "pk": d.get("peak_finish"), "ysp": d.get("years_since_peak"),
+            "trend": d.get("trend_label"), "tdir": d.get("trend_dir"),
             "sig": sig.get(p["player_id"], {}),
             "sr": [[y, ch.get(f"finish_{y}")] for y in range(2016, 2026)
                    if ch.get(f"finish_{y}") is not None],
@@ -104,7 +106,7 @@ def main():
             "up": side("upside"), "rk": side("risk"),
         })
 
-    out.sort(key=lambda x: (x["udk"] is None, x["udk"] or 9e3, x["cr"]))
+    out.sort(key=lambda x: x["br"])
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(OUT, "w") as f:
         json.dump({"players": out}, f, separators=(",", ":"), ensure_ascii=False)

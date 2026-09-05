@@ -241,10 +241,23 @@ def derive(p):
     return d
 
 
+SPINE_RAW = os.path.join(BASE, "data", "sources", "udk", "players_raw.json")
+
+
+def spine_count():
+    """The expected player count is whatever the spine source currently holds — not a
+    number frozen in the code. The board grew from 312 to 316 when UDK added players,
+    and a hardcoded gate turns that into a false failure."""
+    with open(SPINE_RAW) as f:
+        return len(json.load(f)["players"])
+
+
 def gates(players):
     """Validate before writing (Global rule 1)."""
-    if len(players) != 312:
-        raise GateFailure(f"expected 312 canonical players, got {len(players)}")
+    expected = spine_count()
+    if len(players) != expected:
+        raise GateFailure(f"expected {expected} canonical players (the spine's count), "
+                          f"got {len(players)}")
 
     for p in players:
         d = p["derived"]
@@ -307,6 +320,17 @@ def adjust_rates(players):
                 p["derived"][key + "_prior"] = round(prior, 1)
     for p in players:
         d = p["derived"]
+        # Trajectory as a word, because a slope of -3.0 means nothing at a glance and
+        # "Rising" does. Thresholds are in finish-places per year.
+        tj = d.get("trajectory_3yr")
+        if tj is None:
+            d["trend_label"], d["trend_dir"] = ("No history", "flat")
+        elif tj <= -2:
+            d["trend_label"], d["trend_dir"] = ("Rising", "good")
+        elif tj >= 2:
+            d["trend_label"], d["trend_dir"] = ("Falling", "bad")
+        else:
+            d["trend_label"], d["trend_dir"] = ("Steady", "flat")
         # Share of the games he was eligible for that he actually played. Expected games
         # are capped at the 3-season window and floored at one season, so a rookie is not
         # punished for not yet having a history — only for missing what he could have played.

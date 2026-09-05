@@ -1,27 +1,25 @@
 <div class="app">
   <div class="top">
     <h1>Fantasy Football Draft Board</h1>
-    <span class="hint">Four independent panes — filter or sort each one, click a player to open him in place, compare up to four at once. <b>Esc</b> closes open profiles.</span>
+    <span class="hint">Add a pane per position to compare up to four at once. Click a player to open him in place; <b>Esc</b> closes open profiles.</span>
     <span class="tierkey" id="tierkey"></span>
   </div>
+  <div class="addbar" id="addbar"></div>
   <div class="quads" id="quads"></div>
 </div>
 <script>
 const P = window.__BOARD__.players;
-const KEY = "ffdb.quads.v1";
+const KEY = "ffdb.quads.v2";
 const FLEX = ["RB","WR","TE"];
 const TAGCLS = { "strong value":"g", "undervalued":"g", "overvalued":"b", "strong fade":"b" };
 const LBL = { my_guy:"My Guy", value:"Value", sleeper:"Sleeper", breakout:"Breakout", bust:"Bust", injury_concern:"Injury" };
 const LBLCLS = { my_guy:"g", value:"g", sleeper:"g", breakout:"g", bust:"b", injury_concern:"b" };
 const TREND_CAP = { QB:24, TE:24, RB:48, WR:48 };
 
-let Q = [
-  {pos:"ALL",  sort:"udk",   tag:"ALL", label:"ALL", q:"", open:null},
-  {pos:"RB",   sort:"tier",  tag:"ALL", label:"ALL", q:"", open:null},
-  {pos:"WR",   sort:"tier",  tag:"ALL", label:"ALL", q:"", open:null},
-  {pos:"FLEX", sort:"start", tag:"ALL", label:"ALL", q:"", open:null},
-];
-try { const r = localStorage.getItem(KEY); if (r) { const p = JSON.parse(r); if (Array.isArray(p) && p.length === 4) Q = p; } } catch(e){}
+const pane = (pos) => ({pos, sort:"rank", tag:"ALL", label:"ALL", q:"", open:null});
+let Q = [pane("ALL")];
+try { const r = localStorage.getItem(KEY); if (r) { const p = JSON.parse(r);
+  if (Array.isArray(p) && p.length >= 1 && p.length <= 4) Q = p; } } catch(e){}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(Q)); } catch(e){} };
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -52,9 +50,10 @@ function trendSvg(p, w, h){
 }
 
 const SORTS = {
+  rank:(a,b)=>a.br-b.br,
   udk:(a,b)=>(a.udk??9e3)-(b.udk??9e3), espn:(a,b)=>(a.espn??9e3)-(b.espn??9e3),
   adp:(a,b)=>(a.adp??9e3)-(b.adp??9e3), claude:(a,b)=>a.cr-b.cr,
-  tier:(a,b)=>(a.tier??99)-(b.tier??99)||(a.udk??9e3)-(b.udk??9e3),
+  tier:(a,b)=>(a.tier??99)-(b.tier??99)||a.br-b.br,
   start:(a,b)=>(b.sp??-1)-(a.sp??-1),
   upside:(a,b)=>(b.au??-1)-(a.au??-1), risk:(a,b)=>(a.ar??99)-(b.ar??99),
   disagree:(a,b)=>Math.abs(b.cdl??0)-Math.abs(a.cdl??0),
@@ -69,7 +68,7 @@ function filtered(s){
     if (s.label !== "ALL" && !p.tags.includes(s.label)) return false;
     if (q && !(p.n.toLowerCase().includes(q) || p.tm.toLowerCase().includes(q))) return false;
     return true;
-  }).slice().sort(SORTS[s.sort] || SORTS.udk);
+  }).slice().sort(SORTS[s.sort] || SORTS.rank);
 }
 
 function rowHtml(p){
@@ -79,11 +78,12 @@ function rowHtml(p){
     ...p.tags.filter(t => t !== "injury_concern" || !p.injo)
              .map(t => `<span class="fl ${LBLCLS[t]||"m"}" data-tip="On UDK's ${LBL[t]} expert list">${LBL[t]}</span>`),
   ].join("");
-  const oth = `<span class="oth" data-tip="ESPN / ADP / Claude overall ranks">E${n_(p.espn)} A${n_(p.adp)} C${p.cr}</span>`;
+  const oth = `<span class="oth" data-tip="UDK / ESPN / ADP / Claude overall ranks">U${n_(p.udk)} E${n_(p.espn)} A${n_(p.adp)} C${p.cr}</span>`;
+  const tdir = {good:"g", bad:"b", flat:"f"}[p.tdir] || "f";
   return `<li class="r" data-id="${p.id}" tabindex="0" role="button" style="--tier:${tierVar(p.tier)}">
-    <span class="udk" data-tip="UDK overall rank">${n_(p.udk)}</span>
+    <span class="udk" data-tip="Board rank — UDK 50%, ESPN 25%, Claude 25%">${n_(p.br)}</span>
     <span class="who"><span class="nm">${esc(p.n)}</span><span class="sub2">
-      <span class="pos ${p.p}">${p.p}${p.cpr}</span><span class="tch">T${p.tier??"?"}</span>
+      <span class="pos ${p.p}">${p.p}${p.bpr}</span><span class="tch">T${p.tier??"?"}</span>
       <span class="oth">${esc(p.tm)}</span>${oth}${flags}</span></span>
     <span class="meter" style="color:${startCol(p.sp)}" data-tip="Weekly start rate — how often he finishes a week as a startable ${p.p}">
       ${p.sp === null ? "—" : p.sp + "%"}<u><i style="width:${Math.min(p.sp??0,100)}%"></i></u></span>
@@ -92,6 +92,8 @@ function rowHtml(p){
     <span class="ru" style="color:${heat(p.au)};background:${p.au===null?"transparent":"color-mix(in srgb,"+heat(p.au)+" 14%,transparent)"}"
       data-tip="Adjusted upside, 0–10 within position. Blends ceiling rate, trajectory, opportunity share and UDK's upside score.">${n_(p.au)}</span>
     <span class="meter">${trendSvg(p, 32, 15)}</span>
+    <span class="pill ${TAGCLS[p.tag]||"f"}" data-tip="${esc(p.why||"")}">${esc(p.tag||"—")}</span>
+    <span class="pill ${tdir}" data-tip="Positional finish across played seasons. ${p.tj===null?"Fewer than three seasons, so no slope.":"Slope "+p.tj+" places per year; negative is improving."}">${esc(p.trend||"—")}</span>
   </li>`;
 }
 
@@ -127,39 +129,43 @@ function profileHtml(p){
   const notes = [...p.up.map(x=>({...x,d:"u"})), ...p.rk.map(x=>({...x,d:"d"}))];
   return `<div class="pf">
     <div class="pfh"><span class="nm2">${esc(p.n)}</span>
-      <span class="pos ${p.p}">${p.p}${p.cpr}</span>
+      <span class="pos ${p.p}">${p.p}${p.bpr}</span>
       <span class="tch" style="--tier:${tierVar(p.tier)};background:${tierVar(p.tier)}">T${p.tier??"?"}</span>
-      <span class="oth">${esc(p.tm)} · bye ${n_(p.bye)}</span>
+      <span class="oth">${esc(p.tm||"FA")}</span>
       <span class="fl ${TAGCLS[p.tag]||"m"}" data-tip="${esc(p.why||"")}">${esc(p.tag||"—")}</span>
       <button class="back" data-back="1" data-tip="Close this profile (Esc)"><span>&times;</span>Close</button></div>
+    <p class="rowlbl">Ranks</p>
     <div class="mstrip">
-      ${m("UDK",p.udk,"UDK overall rank — the priority board")}
+      ${m("Rank",p.br,"Board rank — UDK 50%, ESPN 25%, Claude 25%. Blended score "+(p.bs??"—")+".")}
+      ${m("UDK",p.udk,"UDK overall rank — the priority board, live as of the 9/5 scan")}
       ${m("ESPN",p.espn,"ESPN overall rank")}
       ${m("ADP",p.adp,"Market ADP rank")}
       ${m("Claude",p.cr,"Claude overall rank: value over positional replacement, adjusted for production, reliability, upside and market. "+(p.why||""))}
-      ${m("Cons",p.cons,"Midpoint of the UDK and ESPN ranks — what the verdict is measured against")}
-      ${m("Start %",p.sp===null?null:p.sp+"%","How often he finishes a week as a startable "+p.p+" — the adjusted "+p.lb[0]+" rate.",startCol(p.sp),p.sp,true)}
-      ${m("Avail",p.av===null||p.av===undefined?null:p.av+"%","Share of the games he was eligible for that he actually played, over a "+(p.ge/17)+"-season window. Feeds risk.",heat(p.av===null?null:p.av/10),p.av)}
+    </div>
+    <p class="rowlbl">Risk and upside</p>
+    <div class="mstrip">
       ${m("Risk",p.ar,"Adjusted risk 0–10 within position: bust rate, injury status, availability, volatility, sample size, UDK's risk score.",heat(p.ar,true),p.ar===null?null:p.ar*10)}
       ${m("Upside",p.au,"Adjusted upside 0–10 within position: ceiling rate, trajectory, opportunity share, UDK's upside score.",heat(p.au),p.au===null?null:p.au*10)}
-      ${p.fl===null?"":m("Floor",p.fa===null?null:p.fa+"%","Adjusted "+p.lb[0]+" rate. UDK has him at "+p.fl+"%; his "+p.gp+" games carry "+p.sw+"% of the weight, the "+p.p+" average the rest.",startCol(p.fa),p.fa,true)}
+      ${m("Trend",p.trend,p.tj===null?"Fewer than three played seasons, so no slope is drawn.":"Positional finish moving "+p.tj+" places a year; negative is improving.",{good:"var(--good)",bad:"var(--bad)"}[p.tdir]||"var(--flat)")}
+      ${m("Start %",p.sp===null?null:p.sp+"%","How often he finishes a week as a startable "+p.p+" — the adjusted "+p.lb[0]+" rate.",startCol(p.sp),p.sp)}
+      ${m("Avail",p.av===null||p.av===undefined?null:p.av+"%","Share of the games he was eligible for that he actually played, over a "+(p.ge/17)+"-season window. Feeds risk.",heat(p.av===null?null:p.av/10),p.av)}
+      ${p.fl===null?"":m("Floor",p.fa===null?null:p.fa+"%","Adjusted "+p.lb[0]+" rate. UDK has him at "+p.fl+"%; his "+p.gp+" games carry "+p.sw+"% of the weight, the "+p.p+" average the rest.",startCol(p.fa),p.fa)}
       ${p.ce===null?"":m("Ceiling",p.ca===null?null:p.ca+"%","Adjusted "+p.lb[1]+" rate. UDK has him at "+p.ce+"%.",heat(p.ca===null?null:p.ca/6),p.ca)}
       ${p.bu===null?"":m("Bust",p.ba===null?null:p.ba+"%","Adjusted "+p.lb[2]+" rate. UDK has him at "+p.bu+"%. Lower is better.",heat(p.ba===null?null:10-p.ba/7),p.ba)}
     </div>
+    <p class="rowlbl">Everything else</p>
     <div class="sgrid">
       ${sc("_","UDK proj",p.proj,"UDK projected points")}
       ${sc("clay","Clay proj",p.clay,"Mike Clay projected points. Coloured when the two projections disagree by 12% or more.")}
-      ${sc("_","Auction",p.auc===null||p.auc===undefined?null:"$"+p.auc,"ESPN suggested auction value")}
       ${sc("_","Depth",p.dep,"ESPN fantasy depth slot")}
       ${sc("os","Opp share",p.os===null?null:p.os+"%","Share of team opportunity. Coloured when a standard deviation or more from the "+p.p+" average.")}
       ${sc("rz","Inside 10",p.rz,"Scoring touches inside the 10. Coloured when a standard deviation or more from the "+p.p+" average.")}
       ${sc("td","TD dep",p.td===null?null:(p.td>0?"+":"")+p.td,"TD share minus yardage share. Large positive means TD-dependent and exposed to regression.")}
       ${sc("ed","ADP edge",p.ed===null?null:(p.ed>0?"+":"")+p.ed,"Picks between UDK TrueValue and market ADP. Positive is a market discount.")}
-      ${sc("tj","Trajectory",p.tj,"Slope of positional finish across the last three played seasons. Negative is improving.")}
       ${sc("vol","Volatility",p.vol,"Standard deviation of the last five played finishes.")}
-      ${sc("_","Peak",p.pk===null||p.pk===undefined?null:p.pk+(p.ysp?" ("+p.ysp+"y)":""),"Best positional finish, and how long ago")}
-      ${sc("_","Sample",p.gp===null?null:p.gp+"g","Games behind the consistency rates")}</div>
-    ${p.tags.length ? `<div class="labs">${p.tags.map(t=>`<span class="fl ${LBLCLS[t]||"m"}" data-tip="On UDK's ${LBL[t]} expert list">${LBL[t]}</span>`).join("")}</div>` : ""}
+      ${sc("_","Sample",p.gp===null?null:p.gp+"g","Games behind the consistency rates")}
+      ${sc("_","Bye",p.bye,"Bye week")}</div>
+    ${p.tags.length ? `<p class="rowlbl">UDK labels</p><div class="labs">${p.tags.map(t=>`<span class="fl ${LBLCLS[t]||"m"}" data-tip="On UDK's ${LBL[t]} expert list">${LBL[t]}</span>`).join("")}</div>` : ""}
     ${p.inj ? `<div class="injp"><b>${esc(p.inj)}</b> — ${esc(p.injt||"")}</div>` : ""}
     <div class="cases">${notes.length ? notes.map(cs).join("") : `<p class="none">No notes for this player.</p>`}</div>
   </div>`;
@@ -167,8 +173,9 @@ function profileHtml(p){
 
 const OPTS = {
   pos:  [["ALL","All"],["FLEX","FLEX"],["QB","QB"],["RB","RB"],["WR","WR"],["TE","TE"]],
-  sort: [["udk","UDK"],["espn","ESPN"],["adp","ADP"],["claude","Claude"],["tier","Tier"],
-         ["start","Start %"],["upside","Upside"],["risk","Risk"],["disagree","Disagreement"]],
+  sort: [["rank","Rank"],["udk","UDK"],["espn","ESPN"],["adp","ADP"],["claude","Claude"],
+         ["tier","Tier"],["start","Start %"],["upside","Upside"],["risk","Risk"],
+         ["disagree","Disagreement"]],
   tag:  [["ALL","Verdict"],["strong value","Strong value"],["undervalued","Undervalued"],
          ["consensus","Consensus"],["overvalued","Overvalued"],["strong fade","Strong fade"]],
   label:[["ALL","Label"],["my_guy","My Guy"],["value","Value"],["sleeper","Sleeper"],
@@ -177,19 +184,39 @@ const OPTS = {
 const sel = (k,v,i) => `<select data-k="${k}" data-i="${i}" aria-label="${k}">` +
   OPTS[k].map(([val,lab]) => `<option value="${val}"${val===v?" selected":""}>${lab}</option>`).join("") + `</select>`;
 
+function renderAddBar(){
+  const full = Q.length >= 4;
+  const btn = (pos,lab) => `<button class="add" data-add="${pos}"${full?" disabled":""}
+    data-tip="${full?"Four panes is the maximum":"Open another pane filtered to "+lab}">+ ${lab}</button>`;
+  document.getElementById("addbar").innerHTML =
+    btn("ALL","All") + btn("QB","QB") + btn("RB","RB") + btn("WR","WR") + btn("TE","TE") + btn("FLEX","FLEX")
+    + `<span class="oth" style="margin-left:6px">${Q.length} of 4 panes</span>`;
+}
+
 function render(){
-  document.getElementById("quads").innerHTML = Q.map((s,i) => {
+  const quads = document.getElementById("quads");
+  quads.dataset.n = Q.length;
+  quads.style.setProperty("--n", Q.length);
+  renderAddBar();
+  quads.innerHTML = Q.map((s,i) => {
     const open = s.open ? P.find(p => p.id === s.open) : null;
     const count = filtered(s).length;
     return `<section class="quad">
       <div class="qbar">${sel("pos",s.pos,i)}${sel("sort",s.sort,i)}${sel("tag",s.tag,i)}${sel("label",s.label,i)}
         <input data-i="${i}" placeholder="search" value="${esc(s.q)}" aria-label="Search pane ${i+1}">
-        <span class="oth">${count}</span></div>
+        <span class="oth">${count}</span>
+        ${Q.length>1?`<button class="add close" data-del="${i}" data-tip="Close this pane">&times;</button>`:""}</div>
       <div class="body">${open ? profileHtml(open) : listHtml(s)}</div></section>`;
   }).join("");
 }
 
+document.getElementById("addbar").addEventListener("click", e => {
+  const b = e.target.closest("[data-add]");
+  if (b && !b.disabled && Q.length < 4){ Q.push(pane(b.dataset.add)); save(); render(); }
+});
 document.getElementById("quads").addEventListener("click", e => {
+  const del = e.target.closest("[data-del]");
+  if (del){ Q.splice(+del.dataset.del, 1); save(); render(); return; }
   const back = e.target.closest("[data-back]");
   if (back){ const i = [...document.querySelectorAll(".quad")].indexOf(back.closest(".quad")); Q[i].open = null; save(); render(); return; }
   const row = e.target.closest(".r");

@@ -410,7 +410,9 @@ is itself a validation. After any change, a quick sanity check:
 ```python
 import json
 d = json.load(open("data/canonical/players.json"))
-assert d["player_count"] == 312  # 36 QB + 91 RB + 131 WR + 54 TE as of the 8/30/2026 UDK
+# the count tracks the live UDK board — 316 as of the 9/5/2026 scan
+# (36 QB + 95 RB + 131 WR + 54 TE). The build gates against the spine, not a constant.
+assert d["player_count"] == len(json.load(open("data/sources/udk/players_raw.json"))["players"])
 ```
 
 ## GitHub

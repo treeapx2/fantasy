@@ -259,7 +259,43 @@ def evaluate(players):
         for i, p in enumerate(grp):
             p["evaluation"]["claude_pos_rank"] = i + 1
 
+    _board_rank(players)
     _tag_against_consensus(players)
+
+
+# The single rank the board sorts on. UDK is the priority board and carries half the
+# weight; ESPN and this model split the rest. A player missing one input is scored on
+# the others reweighted, rather than being pushed down for an absent source.
+BOARD_W = {"udk_rank": 0.50, "espn_rank": 0.25, "claude_rank": 0.25}
+
+
+def _board_rank(players):
+    for p in players:
+        e = p["evaluation"]
+        num = den = 0.0
+        parts = {}
+        for key, w in BOARD_W.items():
+            v = e.get(key)
+            if v is None:
+                continue
+            num += v * w
+            den += w
+            parts[key.replace("_rank", "")] = v
+        e["board_score"] = round(num / den, 2) if den else None
+        e["board_parts"] = parts
+    ranked = [p for p in players if p["evaluation"]["board_score"] is not None]
+    ranked.sort(key=lambda p: (p["evaluation"]["board_score"], p["evaluation"]["claude_rank"]))
+    for i, p in enumerate(ranked):
+        p["evaluation"]["board_rank"] = i + 1
+    rest = [p for p in players if p["evaluation"]["board_score"] is None]
+    rest.sort(key=lambda p: p["evaluation"]["claude_rank"])
+    for j, p in enumerate(rest):
+        p["evaluation"]["board_rank"] = len(ranked) + j + 1
+    for pos in sorted({p["position"] for p in players}):
+        grp = sorted([p for p in players if p["position"] == pos],
+                     key=lambda p: p["evaluation"]["board_rank"])
+        for i, p in enumerate(grp):
+            p["evaluation"]["board_pos_rank"] = i + 1
 
 
 # One round in a 12-team league. The tag thresholds are expressed in rounds because
@@ -304,8 +340,11 @@ def _tag_against_consensus(players):
 
 
 def gates(players):
-    if len(players) != 312:
-        raise GateFailure(f"expected 312 players, got {len(players)}")
+    with open(os.path.join(BASE, "data", "sources", "udk", "players_raw.json")) as f:
+        expected = len(json.load(f)["players"])
+    if len(players) != expected:
+        raise GateFailure(f"expected {expected} players (the spine's count), "
+                          f"got {len(players)}")
     ranks = [p["evaluation"]["claude_rank"] for p in players]
     if sorted(ranks) != list(range(1, len(players) + 1)):
         raise GateFailure("claude_rank is not a clean 1..N permutation")
@@ -359,15 +398,18 @@ def main():
     from collections import Counter
     print("  tag distribution:", dict(Counter(p["evaluation"]["claude_tag"] for p in players)))
     print()
-    top = sorted(players, key=lambda p: p["evaluation"]["udk_rank"] or 9e3)[:15]
-    print("  Board head, by UDK rank (the priority board)")
-    print(f"  {'UDK':>4}{'ESPN':>6}{'ADP':>5}  {'player':<24}{'pos':<5}{'tier':>5}  tag")
+    top = sorted(players, key=lambda p: p["evaluation"]["board_rank"])[:15]
+    print("  Board head, by the blended RANK (UDK 50% / ESPN 25% / Claude 25%)")
+    print(f"  {'RANK':>5}{'UDK':>5}{'ESPN':>6}{'CL':>5}  {'player':<24}{'pos':<6}"
+          f"{'tier':>5}  {'trend':<10}tag")
     for p in top:
         e = p["evaluation"]
         g = lambda v: "-" if v is None else str(v)
-        print(f"  {g(e['udk_rank']):>4}{g(e['espn_rank']):>6}{g(e['adp_rank']):>5}  "
-              f"{p['name']:<24}{p['position'] + str(e['claude_pos_rank']):<5}"
-              f"{g(p['sources']['udk'].get('tier')):>5}  {e['claude_tag']}")
+        print(f"  {e['board_rank']:>5}{g(e['udk_rank']):>5}{g(e['espn_rank']):>6}"
+              f"{e['claude_rank']:>5}  {p['name']:<24}"
+              f"{p['position'] + str(e['board_pos_rank']):<6}"
+              f"{g(p['sources']['udk'].get('tier')):>5}  "
+              f"{p['derived'].get('trend_label',''):<10}{e['claude_tag']}")
     print("\n  replacement level (proj pts): " +
           ", ".join(f"{k} {v:.1f}" for k, v in sorted(repl_report(players).items())))
     return 0

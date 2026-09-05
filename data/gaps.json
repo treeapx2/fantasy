@@ -1,6 +1,6 @@
 {
   "generated_from": {
-    "player_count": 312,
+    "player_count": 316,
     "blurbs_present": true
   },
   "legend": {
@@ -40,7 +40,7 @@
           "player_id": "terrance-ferguson-lar-te",
           "name": "Terrance Ferguson",
           "position": "TE",
-          "value_rank": 204,
+          "value_rank": 205,
           "in_top_200": false,
           "detail": "no usable blurb"
         }
@@ -102,7 +102,7 @@
           "player_id": "ja-kobi-lane-bal-wr",
           "name": "Ja'Kobi Lane",
           "position": "WR",
-          "value_rank": 162,
+          "value_rank": 163,
           "in_top_200": true,
           "detail": "short blurb, verify"
         },
@@ -134,7 +134,7 @@
           "player_id": "tory-horton-sea-wr",
           "name": "Tory Horton",
           "position": "WR",
-          "value_rank": 199,
+          "value_rank": 200,
           "in_top_200": true,
           "detail": "short blurb, verify"
         },
@@ -142,7 +142,7 @@
           "player_id": "isaac-teslaa-det-wr",
           "name": "Isaac TeSlaa",
           "position": "WR",
-          "value_rank": 201,
+          "value_rank": 202,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -150,7 +150,7 @@
           "player_id": "elic-ayomanor-ten-wr",
           "name": "Elic Ayomanor",
           "position": "WR",
-          "value_rank": 211,
+          "value_rank": 212,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -158,7 +158,7 @@
           "player_id": "dawson-knox-buf-te",
           "name": "Dawson Knox",
           "position": "TE",
-          "value_rank": 213,
+          "value_rank": 214,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -166,7 +166,7 @@
           "player_id": "ja-tavion-sanders-car-te",
           "name": "Ja'Tavion Sanders",
           "position": "TE",
-          "value_rank": 218,
+          "value_rank": 219,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -174,7 +174,7 @@
           "player_id": "marvin-mims-jr-den-wr",
           "name": "Marvin Mims Jr.",
           "position": "WR",
-          "value_rank": 229,
+          "value_rank": 230,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -182,7 +182,7 @@
           "player_id": "samaje-perine-cin-rb",
           "name": "Samaje Perine",
           "position": "RB",
-          "value_rank": 265,
+          "value_rank": 268,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -190,7 +190,7 @@
           "player_id": "lequint-allen-jr-jax-rb",
           "name": "LeQuint Allen Jr.",
           "position": "RB",
-          "value_rank": 267,
+          "value_rank": 271,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -198,7 +198,7 @@
           "player_id": "demario-douglas-ne-wr",
           "name": "DeMario Douglas",
           "position": "WR",
-          "value_rank": 273,
+          "value_rank": 274,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -206,7 +206,7 @@
           "player_id": "jerome-ford-fa-rb",
           "name": "Jerome Ford",
           "position": "RB",
-          "value_rank": 274,
+          "value_rank": 275,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -214,7 +214,7 @@
           "player_id": "emari-demercado-kc-rb",
           "name": "Emari Demercado",
           "position": "RB",
-          "value_rank": 276,
+          "value_rank": 277,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -222,7 +222,7 @@
           "player_id": "devin-singletary-nyg-rb",
           "name": "Devin Singletary",
           "position": "RB",
-          "value_rank": 277,
+          "value_rank": 278,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -238,7 +238,7 @@
           "player_id": "jalen-tolbert-mia-wr",
           "name": "Jalen Tolbert",
           "position": "WR",
-          "value_rank": 286,
+          "value_rank": 288,
           "in_top_200": false,
           "detail": "short blurb, verify"
         },
@@ -246,7 +246,7 @@
           "player_id": "tahj-brooks-cin-rb",
           "name": "Tahj Brooks",
           "position": "RB",
-          "value_rank": 287,
+          "value_rank": 291,
           "in_top_200": false,
           "detail": "short blurb, verify"
         }
@@ -324,7 +324,7 @@
           "player_id": "jahan-dotson-atl-wr",
           "name": "Jahan Dotson",
           "position": "WR",
-          "value_rank": 292,
+          "value_rank": 296,
           "in_top_200": false,
           "detail": "blurb ends mid-sentence"
         }
@@ -333,7 +333,7 @@
     "no_udk_consistency_pct": {
       "kind": "source_gap",
       "why": "Player has fewer than the reporting threshold of games in the 3-year window, or is absent from UDK's consistency report. Not retrievable from this source.",
-      "count": 45,
+      "count": 47,
       "in_top_200": 19,
       "players": [
         {
@@ -356,7 +356,7 @@
           "player_id": "jadarian-price-sea-rb",
           "name": "Jadarian Price",
           "position": "RB",
-          "value_rank": 73,
+          "value_rank": 72,
           "in_top_200": true,
           "detail": "no consistency percentages data"
         },
@@ -364,7 +364,7 @@
           "player_id": "marshawn-lloyd-gb-rb",
           "name": "MarShawn Lloyd",
           "position": "RB",
-          "value_rank": 78,
+          "value_rank": 77,
           "in_top_200": true,
           "detail": "no consistency percentages data"
         },
@@ -396,7 +396,7 @@
           "player_id": "kc-concepcion-cle-wr",
           "name": "KC Concepcion",
           "position": "WR",
-          "value_rank": 123,
+          "value_rank": 122,
           "in_top_200": true,
           "detail": "no consistency percentages data"
         },
@@ -433,18 +433,18 @@
           "detail": "no consistency percentages data"
         },
         {
-          "player_id": "ja-kobi-lane-bal-wr",
-          "name": "Ja'Kobi Lane",
+          "player_id": "malachi-fields-nyg-wr",
+          "name": "Malachi Fields",
           "position": "WR",
           "value_rank": 162,
           "in_top_200": true,
           "detail": "no consistency percentages data"
         },
         {
-          "player_id": "malachi-fields-nyg-wr",
-          "name": "Malachi Fields",
+          "player_id": "ja-kobi-lane-bal-wr",
+          "name": "Ja'Kobi Lane",
           "position": "WR",
-          "value_rank": 165,
+          "value_rank": 163,
           "in_top_200": true,
           "detail": "no consistency percentages data"
         },
@@ -493,7 +493,7 @@
     "no_udk_consistency_charts": {
       "kind": "source_gap",
       "why": "Absent from UDK's historical finish table.",
-      "count": 43,
+      "count": 45,
       "in_top_200": 17,
       "players": [
         {
@@ -516,7 +516,7 @@
           "player_id": "jadarian-price-sea-rb",
           "name": "Jadarian Price",
           "position": "RB",
-          "value_rank": 73,
+          "value_rank": 72,
           "in_top_200": true,
           "detail": "no consistency charts data"
         },
@@ -540,7 +540,7 @@
           "player_id": "kc-concepcion-cle-wr",
           "name": "KC Concepcion",
           "position": "WR",
-          "value_rank": 123,
+          "value_rank": 122,
           "in_top_200": true,
           "detail": "no consistency charts data"
         },
@@ -577,18 +577,18 @@
           "detail": "no consistency charts data"
         },
         {
-          "player_id": "ja-kobi-lane-bal-wr",
-          "name": "Ja'Kobi Lane",
+          "player_id": "malachi-fields-nyg-wr",
+          "name": "Malachi Fields",
           "position": "WR",
           "value_rank": 162,
           "in_top_200": true,
           "detail": "no consistency charts data"
         },
         {
-          "player_id": "malachi-fields-nyg-wr",
-          "name": "Malachi Fields",
+          "player_id": "ja-kobi-lane-bal-wr",
+          "name": "Ja'Kobi Lane",
           "position": "WR",
-          "value_rank": 165,
+          "value_rank": 163,
           "in_top_200": true,
           "detail": "no consistency charts data"
         },
@@ -637,7 +637,7 @@
     "no_udk_market_share": {
       "kind": "source_gap",
       "why": "UDK publishes NO QB market share file, so all 36 QBs are structurally absent. Non-QBs here are simply outside the report.",
-      "count": 81,
+      "count": 83,
       "in_top_200": 50,
       "players": [
         {
@@ -716,7 +716,7 @@
           "player_id": "jadarian-price-sea-rb",
           "name": "Jadarian Price",
           "position": "RB",
-          "value_rank": 73,
+          "value_rank": 72,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -732,7 +732,7 @@
           "player_id": "marshawn-lloyd-gb-rb",
           "name": "MarShawn Lloyd",
           "position": "RB",
-          "value_rank": 78,
+          "value_rank": 77,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -828,7 +828,7 @@
           "player_id": "kc-concepcion-cle-wr",
           "name": "KC Concepcion",
           "position": "WR",
-          "value_rank": 123,
+          "value_rank": 122,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -913,10 +913,18 @@
           "detail": "no market share data"
         },
         {
+          "player_id": "malachi-fields-nyg-wr",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "value_rank": 162,
+          "in_top_200": true,
+          "detail": "no market share data"
+        },
+        {
           "player_id": "ja-kobi-lane-bal-wr",
           "name": "Ja'Kobi Lane",
           "position": "WR",
-          "value_rank": 162,
+          "value_rank": 163,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -924,15 +932,7 @@
           "player_id": "tank-dell-hou-wr",
           "name": "Tank Dell",
           "position": "WR",
-          "value_rank": 163,
-          "in_top_200": true,
-          "detail": "no market share data"
-        },
-        {
-          "player_id": "malachi-fields-nyg-wr",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "value_rank": 165,
+          "value_rank": 164,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -1028,7 +1028,7 @@
           "player_id": "tua-tagovailoa-atl-qb",
           "name": "Tua Tagovailoa",
           "position": "QB",
-          "value_rank": 194,
+          "value_rank": 195,
           "in_top_200": true,
           "detail": "no market share data"
         },
@@ -1036,7 +1036,7 @@
           "player_id": "shedeur-sanders-cle-qb",
           "name": "Shedeur Sanders",
           "position": "QB",
-          "value_rank": 195,
+          "value_rank": 196,
           "in_top_200": true,
           "detail": "no market share data"
         }
@@ -1045,8 +1045,8 @@
     "no_udk_red_zone": {
       "kind": "source_gap",
       "why": "No red-zone usage recorded in the source.",
-      "count": 57,
-      "in_top_200": 22,
+      "count": 60,
+      "in_top_200": 23,
       "players": [
         {
           "player_id": "jeremiyah-love-ari-rb",
@@ -1068,7 +1068,7 @@
           "player_id": "jadarian-price-sea-rb",
           "name": "Jadarian Price",
           "position": "RB",
-          "value_rank": 73,
+          "value_rank": 72,
           "in_top_200": true,
           "detail": "no red zone data"
         },
@@ -1076,7 +1076,7 @@
           "player_id": "marshawn-lloyd-gb-rb",
           "name": "MarShawn Lloyd",
           "position": "RB",
-          "value_rank": 78,
+          "value_rank": 77,
           "in_top_200": true,
           "detail": "no red zone data"
         },
@@ -1108,7 +1108,7 @@
           "player_id": "kc-concepcion-cle-wr",
           "name": "KC Concepcion",
           "position": "WR",
-          "value_rank": 123,
+          "value_rank": 122,
           "in_top_200": true,
           "detail": "no red zone data"
         },
@@ -1145,10 +1145,18 @@
           "detail": "no red zone data"
         },
         {
+          "player_id": "malachi-fields-nyg-wr",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "value_rank": 162,
+          "in_top_200": true,
+          "detail": "no red zone data"
+        },
+        {
           "player_id": "ja-kobi-lane-bal-wr",
           "name": "Ja'Kobi Lane",
           "position": "WR",
-          "value_rank": 162,
+          "value_rank": 163,
           "in_top_200": true,
           "detail": "no red zone data"
         },
@@ -1156,15 +1164,7 @@
           "player_id": "tank-dell-hou-wr",
           "name": "Tank Dell",
           "position": "WR",
-          "value_rank": 163,
-          "in_top_200": true,
-          "detail": "no red zone data"
-        },
-        {
-          "player_id": "malachi-fields-nyg-wr",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "value_rank": 165,
+          "value_rank": 164,
           "in_top_200": true,
           "detail": "no red zone data"
         },
@@ -1223,20 +1223,28 @@
           "value_rank": 186,
           "in_top_200": true,
           "detail": "no red zone data"
+        },
+        {
+          "player_id": "najee-harris-nyg-rb",
+          "name": "Najee Harris",
+          "position": "RB",
+          "value_rank": 194,
+          "in_top_200": true,
+          "detail": "no red zone data"
         }
       ]
     },
     "no_udk_value_scout": {
       "kind": "source_gap",
       "why": "Outside UDK's top-250 value list.",
-      "count": 63,
+      "count": 66,
       "in_top_200": 0,
       "players": []
     },
     "tags_unpopulated": {
       "kind": "retrievable",
       "why": "My Guy / Value / Sleeper / Breakout / Bust / Injury Concerns render as glyphs the text layer drops. Only Rookie is derived (from exp == 0). This is Phase 4.",
-      "count": 270,
+      "count": 274,
       "players": []
     },
     "te_games_and_finish_null": {
@@ -1325,14 +1333,6 @@
           "detail": "games_2025 / finish_2025 null"
         },
         {
-          "player_id": "dalton-schultz-hou-te",
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "value_rank": 113,
-          "in_top_200": true,
-          "detail": "games_2025 / finish_2025 null"
-        },
-        {
           "player_id": "travis-kelce-kc-te",
           "name": "Travis Kelce",
           "position": "TE",
@@ -1349,18 +1349,26 @@
           "detail": "games_2025 / finish_2025 null"
         },
         {
-          "player_id": "isaiah-likely-nyg-te",
-          "name": "Isaiah Likely",
+          "player_id": "dalton-schultz-hou-te",
+          "name": "Dalton Schultz",
           "position": "TE",
-          "value_rank": 114,
+          "value_rank": 113,
           "in_top_200": true,
           "detail": "games_2025 / finish_2025 null"
         },
         {
-          "player_id": "dalton-kincaid-buf-te",
-          "name": "Dalton Kincaid",
+          "player_id": "dallas-goedert-phi-te",
+          "name": "Dallas Goedert",
           "position": "TE",
-          "value_rank": 116,
+          "value_rank": 118,
+          "in_top_200": true,
+          "detail": "games_2025 / finish_2025 null"
+        },
+        {
+          "player_id": "isaiah-likely-nyg-te",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "value_rank": 114,
           "in_top_200": true,
           "detail": "games_2025 / finish_2025 null"
         }
@@ -1400,7 +1408,7 @@
           "player_id": "kaelon-black-sf-rb",
           "name": "Kaelon Black",
           "position": "RB",
-          "value_rank": 227,
+          "value_rank": 228,
           "in_top_200": false,
           "detail": "Undrafted in one ADP column"
         },
@@ -1408,7 +1416,7 @@
           "player_id": "jaydon-blue-dal-rb",
           "name": "Jaydon Blue",
           "position": "RB",
-          "value_rank": 275,
+          "value_rank": 287,
           "in_top_200": false,
           "detail": "Undrafted in one ADP column"
         },
@@ -1416,7 +1424,7 @@
           "player_id": "audric-estime-no-rb",
           "name": "Audric Estime",
           "position": "RB",
-          "value_rank": 288,
+          "value_rank": 292,
           "in_top_200": false,
           "detail": "Undrafted in one ADP column"
         },
@@ -1433,8 +1441,17 @@
     "notes_not_yet_written": {
       "kind": "retrievable",
       "why": "Phase 5 scope is the top 200 by UDK overall value. These remain.",
-      "count": 0,
-      "players": []
+      "count": 1,
+      "players": [
+        {
+          "player_id": "najee-harris-nyg-rb",
+          "name": "Najee Harris",
+          "position": "RB",
+          "value_rank": 194,
+          "in_top_200": true,
+          "detail": "no notes yet"
+        }
+      ]
     }
   }
 }
