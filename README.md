@@ -79,6 +79,8 @@ build/
                        Runs after derive_metrics.py. See "Claude Rank" below.
   report_gaps.py      Inventories every known data gap into data/gaps.json so nothing
                        missing is quietly lost. See "Tracking what's missing".
+  espn_ranking.py     One ordered list for ESPN's custom pre-draft rankings: value with
+                       risk priced in, plus an upside-ordered bench board for the tail.
   draft_strategy.py   Positional scarcity, tier cliffs and fungibility — the reference
                        for in-draft "which position next" advice. Not player-specific.
   export_board.py     Builds data/app/board.json, the payload the board reads. Also decides
